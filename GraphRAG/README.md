@@ -6,9 +6,8 @@ These different query engines :
 
 - Knowledge Graph
 - Graph RAG
-
-* Vector RAG
-* Graph Vector RAG
+- Vector RAG
+- Graph Vector RAG
 
 RAG + LLM and Knowledge Graph a
 
