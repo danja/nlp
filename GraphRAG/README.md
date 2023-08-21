@@ -2,21 +2,21 @@
 
 I reckon there's enormous potential in wiring (bits of) the Web to LLMs. I found an insight into a way of doing that in this [Notebook](https://www.siwei.io/en/demos/graph-rag/) from [Wey Gu](https://siwei.io/en/).
 
-These different query engines :
+In there he demonstrates and compares augmenting an LLM with different query engines :
 
 - Knowledge Graph
 - Graph RAG
 - Vector RAG
 - Graph Vector RAG
 
-RAG + LLM and Knowledge Graph a
-
-In that he augments a
-
-QueryEngine query engine query engine Vector RAG query engine Graph Vector RAG query engine
-Mechanism 1. Text-to-GraphQuery based on KG 2. Query KG with the result 3. Answer synthesis based on query result 1. Get related entities of the question 2. Get n-depth SubGraphs of related entities from KG 3. Answer synthesis based on related SubGraphs 1. Create embedding of question 2. Semantic search top-k related doc chunks 3. Answer synthesis based on related doc chunks 1. Do retrieval as Vector and Graph RAG 2. Answer synthesis based on both related chunks and SubGraphs
+groundwork for applying the same approach to Linked Data and the Web.
 
 that should be doable, hopefully
+
+Graph DB ... SPARQL Store ... Graph DB + SPARQL + Web
+These different query engines :
+
+RAG + LLM and Knowledge Graph a
 
 https://www.nebula-graph.io/
 
