@@ -14,9 +14,8 @@ groundwork for applying the same approach to Linked Data and the Web.
 that should be doable, hopefully
 
 Graph DB ... SPARQL Store ... Graph DB + SPARQL + Web
-These different query engines :
 
-RAG + LLM and Knowledge Graph a
+https://github.com/todomd/todo.md
 
 https://www.nebula-graph.io/
 
