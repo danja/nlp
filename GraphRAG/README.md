@@ -1,8 +1,8 @@
 # GraphRAG with SPARQL
 
-**Status 2023-08-22 : ** local environment set up for experimentation, initial spike plan drawn up (below)
+**Status 2023-08-22:** local environment set up for experimentation, initial spike plan drawn up (below)
 
-I reckon there's enormous potential in wiring (bits of) the Web and [Linked Data](https://en.wikipedia.org/wiki/Linked_data) to LLMs. I found an insight into a way of doing that in this [Notebook](https://www.siwei.io/en/demos/graph-rag/) from [Wey Gu](https://siwei.io/en/). ([Note](dfgdfgdfgdfg) below about what I was looking at beforehand).
+I reckon there's enormous potential in wiring (bits of) the Web and [Linked Data](https://en.wikipedia.org/wiki/Linked_data) to LLMs. I found an insight into a way of doing that in this [Notebook](https://www.siwei.io/en/demos/graph-rag/) from [Wey Gu](https://siwei.io/en/). ([Note](https://github.com/danja/nlp/tree/main/GraphRAG#where-was-i) below about what I was looking at beforehand).
 
 In there he demonstrates and compares augmenting an LLM with different data structures/query engines :
 
