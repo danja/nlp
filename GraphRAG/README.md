@@ -28,7 +28,7 @@ Below I'd written a [spike](http://www.extremeprogramming.org/rules/spike.html) 
 
 ## Plan
 
-### Phase 1
+### Milestone 1 : recreate Notebook with SPARQL store graph
 
 - [x] set up suitable dev environment locally + GitHub repo (this)
 - [x] run Wey Gu's notebook locally
@@ -48,7 +48,7 @@ _progress notes in [devlog_00.md](docs/devlog_00.md)_
 - [ ] 40 GOTO 10
 - [ ] tidy, document, play, look at submitting to llama_index
 
-### Phase 2
+### Milestone : apply techniques in Notebook to existing RDF data
 
 The RDF data I'll be using in the above will be shaped to replicate with what Wey Gu has in his notebook, with a SPARQL service as graph store. But for `sparql.py` to work with arbitrary Linked Data sources it'll likely need a fair amount of modification/extension. So this a spike to look at that:
 
