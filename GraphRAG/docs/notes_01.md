@@ -1,3 +1,5 @@
+**2023-08-22**
+
 The notebook was mostly working before, but the final comparison failed. I thought it was something silly I'd done, but, going back to :
 
 sudo /usr/local/nebula/scripts/nebula.service start all

@@ -1,8 +1,11 @@
 # GraphRAG with SPARQL
 
-**Status 2023-08-22:** local environment set up for experimentation, initial spike plan drawn up (below)
+### Status
 
-I reckon there's enormous potential in wiring (bits of) the Web and [Linked Data](https://en.wikipedia.org/wiki/Linked_data) to LLMs. I found an insight into a way of doing that in this [Notebook](https://www.siwei.io/en/demos/graph-rag/) from [Wey Gu](https://siwei.io/en/). ([Note](https://github.com/danja/nlp/tree/main/GraphRAG#where-was-i) below about what I was looking at beforehand).
+- **2023-08-22:** local environment set up for experimentation; initial spike plan drawn up
+- **2023-08-24:** some exploration; plan revised (below); started coding, nothing to see yet - rough notes in [devlog_00.md](docs/devlog_00.md)
+
+I reckon there's enormous potential in wiring (bits of) the Web and [Linked Data](https://en.wikipedia.org/wiki/Linked_data) to LLMs. I found a wonderful insight into a way of doing that in this [Notebook](https://www.siwei.io/en/demos/graph-rag/). With this, [Wey Gu](https://siwei.io/en/)
 
 In there he demonstrates and compares augmenting an LLM with different data structures/query engines :
 
@@ -15,20 +18,42 @@ The notebook uses the [NebulaGraph](https://www.nebula-graph.io/) graph database
 
 For a first step towards using Linked Data in a similar fashion would be to use graphs in a [SPARQL](https://en.wikipedia.org/wiki/SPARQL) store.
 
-A snag is that NebulaGraph uses a different paradigm for graphs than SPARQL. [NebulaGraph data model](https://docs.nebula-graph.io/3.6.0/1.introduction/2.data-model/), [RDF data model](https://www.w3.org/TR/rdf11-concepts/) (**TODO** : brief comparison).
+**Old:**
 
-> NebulaGraph stores data in directed property graphs. A directed property graph has a set of vertices connected by directed edges. Both vertices and edges can have properties.
+> A snag is that NebulaGraph uses a different paradigm for graphs than SPARQL. [NebulaGraph data model](https://docs.nebula-graph.io/3.6.0/1.introduction/2.data-model/), [RDF data model](https://www.w3.org/TR/rdf11-concepts/). NebulaGraph stores data in directed property graphs. A directed property graph has a set of vertices connected by directed edges. Both vertices and edges can have properties. (**TODO** : brief comparison).
 
-In so doing I reckon he's also done the groundwork for applying the same approach to Linked Data and the Web. So here's my spike plan to explore :
+**New:**
+
+> A snag is that llama_index uses a different paradigm for graphs than SPARQL. It looks to be a 3-tuple of strings (with a schema?).
+
+> Below I'd written a [spike](http://www.extremeprogramming.org/rules/spike.html) plan - which kinda worked as intended, as about half-way through I got a much clearer idea of what I needed to do. So while it's still exploratory, I think the following should be about the right direction to take :
+
+## Plan
+
+### Phase 1
 
 - [x] set up suitable dev environment locally + GitHub repo (this)
 - [x] run Wey Gu's notebook locally
-- [ ] familiarise myself with NebulaGraph's model (have a play)
-- [ ] get more familiar with RAGs (starting with re-reading the [paper](https://github.com/danja/nlp/blob/main/GraphRAG/docs/RAG-paper.pdf) more thoroughly)
-- [ ] explore notebook code, looking for a way of wrapping/abstracting the graph connections
-- [ ] grab a small chunk of [Wikidata RDF](https://www.wikidata.org/wiki/Wikidata:Database_download), put it in a SPARQL store
-- [ ] write SPARQLy code
+- [x] have a look at NebulaGraph's model (have a play)
+- [ ] write `llama_index/graph_stores/sparql.py` **1.1**
 - [ ] connect & test
+
+#### 1.1
+
+_progress notes in [devlog_00.md](docs/devlog_00.md)_
+
+- [ ] explore the essential interfaces etc under `llama_index/graph_stores/`
+- [ ] make skeleton code for `sparql.py` (half-done already in `llama_index/graph_stores/simple.py`)
+- [ ] 10 write test for function
+- [ ] 20 implement function
+- [ ] 30 test, fix
+- [ ] 40 GOTO 10
+- [ ] tidy, document, look at submitting to llama_index
+
+### Phase 2
+
+- [ ] grab a small chunk of [Wikidata RDF](https://www.wikidata.org/wiki/Wikidata:Database_download), put it in a SPARQL store
+- [ ] modify/add code as necessary for llama_index to be able to consume that
 
 That'll do for now.
 
@@ -40,7 +65,20 @@ I hadn't encountered NebularGraph before. That would have been straightforward t
 
 I'm jotting [rough notes](https://github.com/danja/nlp/tree/main/GraphRAG/docs) as I go along, so far just the install bits. I may get around to tidying those, but now I need a change from admin.
 
-### Useful Links
+#### Later later
+
+I should look at the points has in the notebooks conclusion :
+
+**For those tasks:**
+
+- Potentially cares more relationed knowledge
+- Schema of the KG is sophisticated to be hard for text2cypher to express the task
+- KG quality isn't good enough
+- Multiple "starting entities" are involved
+
+**Graph RAG could be a better approach to start with.**
+
+### Potentially Useful Links
 
 https://github.com/todomd/todo.md
 
@@ -58,8 +96,12 @@ LangChain & LlamaIndex
 
 ### Where was I?
 
-_There's some old personal/dev history over [here](https://github.com/danja/HKMS#the-data-model)_, but since I became aware of LLMs I'm been scratching my head trying to think of how to tie these to the Web. Ok, the visible Web can be seen as mostly a very large document database. There is also a large amount of Linked Data available on it, ie. data with more structure that could potentially be tapped into.
+I'm dropping everything else to crack on with the above, below is just a reminder to myself about what was on my mind previously (and gratuitous self promotion).
 
-I (typically) made the mistake at looking at the problem from the direction of RDF : "I wouldn't start from here". Thinking vaguely aropund URLs inserted at training time as shared tokens between LLMs, something, something... So I was planning to play around with this using _small_ language models, that I could train myself (SLiMs?). This did motivate me to get back to my HKMS project, which mostly involves processing a small store of interlinked short documents, perfect fodder for a _SLiM_. But...
+Since I became aware of LLMs I'm been scratching my head trying to think of how to tie these to the Web. Ok, the visible Web can be seen as mostly a very large document database. There is also a large amount of Linked Data available on it, ie. data with more structure that could potentially be tapped into.
+
+I (typically) made the mistake at looking at the problem from the direction of RDF : "I wouldn't start from here". Thinking vaguely aropund URLs inserted at training time as shared tokens between LLMs, something, something... So I was planning to play around with this using _small_ language models, that I could train myself (SLiMs?). This did motivate me to get back to my [Hyperdata Knowledge Management System](https://hyperdata.it/hkms/) project, which mostly involves processing a SPARQL store of semantically interlinked short documents, perfect fodder for a _SLiM_. But...
 
 While I still think this could have potential, there's still a fair bit of coding for me to get the relevant HKMS bits usable in its present form, plus plenty of research/building from scratch/experimentation on the language model side. Whereas Wey Gu's approach I believe offers a much more immediate way in.
+
+Elsewhere I also have a long duration project intermittently in progress that uses machine learning, but that's much more on the signals side of things ([ELFQuake](https://elfquake.wordpress.com/current-design/), aiming to predict _some_ earthquakes). There's some old personal/dev history over [here](https://github.com/danja/HKMS#the-data-model). [My homepage](https://hyperdata.it/).
