@@ -5,18 +5,16 @@
 - **2023-08-22:** local environment set up for experimentation; initial spike plan drawn up
 - **2023-08-24:** some exploration; plan revised (below); started coding, nothing to see yet - rough notes in [devlog_00.md](docs/devlog_00.md)
 
-I reckon there's enormous potential in wiring (bits of) the Web and [Linked Data](https://en.wikipedia.org/wiki/Linked_data) to LLMs. I found a wonderful insight into a way of doing that in this [Notebook](https://www.siwei.io/en/demos/graph-rag/). With this, [Wey Gu](https://siwei.io/en/)
-
-In there he demonstrates and compares augmenting an LLM with different data structures/query engines :
+I reckon there's enormous potential in wiring (bits of) the Web and [Linked Data](https://en.wikipedia.org/wiki/Linked_data) to LLMs. I found a wonderful insight into a promising way of doing that in this [Notebook](https://www.siwei.io/en/demos/graph-rag/), in which [Wey Gu](https://siwei.io/en/) demonstrates and compares augmenting an LLM with different data structures/query engines :
 
 - Knowledge Graph
 - Graph RAG
 - Vector RAG
 - Graph Vector RAG
 
-The notebook uses the [NebulaGraph](https://www.nebula-graph.io/) graph database - "Open Source, Distributed, Scalable, Lightning Fast" (does look very interesting/useful).
+The notebook uses the [NebulaGraph](https://www.nebula-graph.io/) graph database - "Open Source, Distributed, Scalable, Lightning Fast" (is interesting, looks useful).
 
-For a first step towards using Linked Data in a similar fashion would be to use graphs in a [SPARQL](https://en.wikipedia.org/wiki/SPARQL) store.
+A first step towards using Linked Data in a similar fashion would be to use graphs in a [SPARQL](https://en.wikipedia.org/wiki/SPARQL) store.
 
 **Old:**
 
@@ -24,7 +22,7 @@ For a first step towards using Linked Data in a similar fashion would be to use 
 
 **New:**
 
-> A snag is that llama_index uses a different paradigm for graphs than SPARQL. It looks to be a 3-tuple of strings (with a schema?).
+> A snag is that llama_index uses a different paradigm for graphs than SPARQL. It looks to be a 3-tuple of strings (with a schema?). (**TODO** : brief comparison)
 
 Below I'd written a [spike](http://www.extremeprogramming.org/rules/spike.html) plan - which kinda worked as intended, as about half-way through I got a much clearer idea of what I needed to do. So while it's still exploratory, I think the following should be about the right direction to take :
 
@@ -42,7 +40,7 @@ Below I'd written a [spike](http://www.extremeprogramming.org/rules/spike.html) 
 
 _progress notes in [devlog_00.md](docs/devlog_00.md)_
 
-- [ ] explore the essential interfaces etc under `llama_index/graph_stores/`
+- [x] explore under `llama_index/graph_stores/`
 - [ ] make skeleton code for `sparql.py` (half-done already in `llama_index/graph_stores/simple.py`)
 - [ ] 10 write test for function
 - [ ] 20 implement function
@@ -52,26 +50,26 @@ _progress notes in [devlog_00.md](docs/devlog_00.md)_
 
 ### Phase 2
 
-The RDF data I'll be using in the above will be shaped to replicate with what Wey Gu has in his notebook, with a SPARQL service as graph store. But for `sparql.py` to work with arbitrary Linked Data sources it'll likely need a fair amount of modification/extension. So this a spike to look at that.
+The RDF data I'll be using in the above will be shaped to replicate with what Wey Gu has in his notebook, with a SPARQL service as graph store. But for `sparql.py` to work with arbitrary Linked Data sources it'll likely need a fair amount of modification/extension. So this a spike to look at that:
 
-- [ ] grab a small chunk of [Wikidata RDF](https://www.wikidata.org/wiki/Wikidata:Database_download), put it in a SPARQL store
-- [ ] modify/add code as necessary for llama_index to be able to consume that
+- [ ] grab a tiny subgraph of [Wikidata RDF](https://www.wikidata.org/wiki/Wikidata:Database_download), put it in a SPARQL store
+- [ ] modify/add code as necessary for llama_index to be able to consume it
 
 That'll do for now.
 
 #### Before
 
-I already had [Fuseki](https://jena.apache.org/documentation/fuseki2/) SPARQL stores set up (locally and online) - it's straightforward to install.
+I already had [Fuseki](https://jena.apache.org/documentation/fuseki2/) SPARQL stores set up (locally and online) _it's straightforward to install_
 
 I installed [Jupyter](https://jupyter.org/) ages ago but had started using venv since then, that messed things up initially.
 
 I hadn't encountered NebularGraph before. That would have been straightforward to set up, if I'd remembered to RTFM rather than guessing...
 
-I'm jotting [rough notes](https://github.com/danja/nlp/tree/main/GraphRAG/docs) as I go along, so far just the install bits. I may get around to tidying those, but now I need a change from admin.
+I'm jotting [rough notes](https://github.com/danja/nlp/tree/main/GraphRAG/docs) as I go along. I may get around to tidying those.
 
 #### After
 
-I should look at the points has in the notebooks conclusion :
+I should look at the points Wey Gu makes in the notebooks conclusion :
 
 **For those tasks:**
 
