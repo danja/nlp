@@ -1,9 +1,14 @@
 # GraphRAG with SPARQL
 
-### Status
+#### Status
 
 - **2023-08-22:** local environment set up for experimentation; initial spike plan drawn up
 - **2023-08-24:** some exploration; plan revised (below); started coding, nothing to see yet - rough notes in [devlog_00.md](docs/devlog_00.md)
+- **2023-08-25:** more admin, prep for work inn llama_index tree
+
+_Current activity is in the branch add-sparql of my [llama_index fork](https://github.com/danja/llama_index)_
+
+### Description
 
 I reckon there's enormous potential in wiring (bits of) the Web and [Linked Data](https://en.wikipedia.org/wiki/Linked_data) to LLMs. I found a wonderful insight into a promising way of doing that in this [Notebook](https://www.siwei.io/en/demos/graph-rag/), in which [Wey Gu](https://siwei.io/en/) demonstrates and compares augmenting an LLM with different data structures/query engines :
 

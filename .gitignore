@@ -1,8 +1,10 @@
-# danny
+##################### danny
 _hidden
-llama_index
+# llama_index
 # ------
 .ipynb_checkpoints
+
+############################
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

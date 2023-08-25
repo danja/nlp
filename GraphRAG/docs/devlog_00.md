@@ -105,6 +105,51 @@ So now to :
 
 I will need to deal with things like config for endpoints etc, for now just hardcode
 
-### Later
+#### Admin
+
+**GitHub**
+
+- forked llama_index, sparql-client
+- branches add-sparql,
+
+llama_index dir
+
+git branch add-sparql
+git checkout add-sparql
+
+#### Docs
+
+https://github.com/jerryjliu/llama_index/blob/main/docs/DOCS_README.md
+
+pip install -r docs/requirements.txt
+
+cd docs
+make html
+
+make watch-docs
+
+**TODO**
+
+equiv to :
+
+https://gpt-index.readthedocs.io/en/latest/examples/index_structs/knowledge_graph/Neo4jKGIndexDemo.html
+
+#### Tests
+
+**TODO**
+
+/home/danny/AI/nlp/llama_index/tests/graph_stores/test_sparql.py
+
+equiv to :
+
+/home/danny/AI/nlp/llama_index/tests/vector_stores/test_cassandra.py
+
+/home/danny/AI/nlp/llama_index/tests/vector_stores/test_postgres.py
+
+**Implementation**
+
+#### Later
 
 > the `KnowledgeGraphIndex` from LlamaIndex, when creating it, Triplets will be extracted with LLM and evantually persisted into `NebulaGraphStore`.
+
+note - /home/danny/AI/nlp/llama_index/llama_index/schema.py
