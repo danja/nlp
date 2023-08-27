@@ -101,11 +101,17 @@ So now to :
 - copy `simple.py` to `sparql.py`
 - decide on how to represent the llama_index triplets as RDF triples
 - write the necessary SPARQL queries (check in the Fuseki UI client against a Fuseki store)
-- figure out how to insert `sparql-client` into `sparql.py`
+- figure out how to insert [sparqlwrapper](https://github.com/RDFLib/sparqlwrapper) into `sparql-client`
+  ~~figure out how to insert `sparql-client` into `sparql.py`~~
+
+Hah! I was expecting to have to extend sparql-client. Just by chance saw a post from @AndySeaborne about a new release of RDFLib, which I've not been following.
+Has sparqlwrapper associated, which I think will cover the necessary.
+
+I've no immediate need, but installing RDFLib's SPARQL server goes on the \*_TODO_, if only to have a look.
 
 I will need to deal with things like config for endpoints etc, for now just hardcode
 
-#### Admin
+### Admin
 
 **GitHub**
 
@@ -130,11 +136,19 @@ make watch-docs
 
 **TODO**
 
+llama_index/docs/examples/index_structs/knowledge_graph/NebulaGraphKGIndexDemo.ipynb
+
 equiv to :
 
 https://gpt-index.readthedocs.io/en/latest/examples/index_structs/knowledge_graph/Neo4jKGIndexDemo.html
 
 #### Tests
+
+pip install pytest
+
+_pip install unittest_
+
+> version failed - but looks like pytest covers everything anyway
 
 **TODO**
 
@@ -147,6 +161,8 @@ equiv to :
 /home/danny/AI/nlp/llama_index/tests/vector_stores/test_postgres.py
 
 **Implementation**
+
+pip install sparqlwrapper
 
 #### Later
 

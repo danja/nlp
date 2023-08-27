@@ -1,0 +1,19 @@
+{
+  "folders": [
+    {
+      "path": "../LIBS-under-dev/llama_index"
+    },
+    {
+      "path": "GraphRAG"
+    },
+    {
+      "path": "../../HKMS/hyperdata-static/makesite"
+    }
+  ],
+  "settings": {
+    "[python]": {
+      "editor.defaultFormatter": "ms-python.autopep8"
+    },
+    "python.formatting.provider": "none"
+  }
+}

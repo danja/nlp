@@ -4,7 +4,8 @@
 
 - **2023-08-22:** local environment set up for experimentation; initial spike plan drawn up
 - **2023-08-24:** some exploration; plan revised (below); started coding, nothing to see yet - rough notes in [devlog_00.md](docs/devlog_00.md)
-- **2023-08-25:** more admin, prep for work inn llama_index tree
+- **2023-08-25:** more admin, prep for work in llama_index tree
+- **2023-08-27:** made a start on sparql.py & tests, set up blog style setup for [notes]()
 
 _Current activity is in the branch add-sparql of my [llama_index fork](https://github.com/danja/llama_index)_
 
@@ -32,6 +33,8 @@ A first step towards using Linked Data in a similar fashion would be to use grap
 Below I'd written a [spike](http://www.extremeprogramming.org/rules/spike.html) plan - which kinda worked as intended, as about half-way through I got a much clearer idea of what I needed to do. So while it's still exploratory, I think the following should be about the right direction to take :
 
 ## Plan
+
+I should be able to use [sparqlwrapper](https://github.com/RDFLib/sparqlwrapper) to help with the queries.
 
 ### Milestone 1 : recreate Notebook with SPARQL store graph
 
@@ -91,7 +94,7 @@ https://github.com/todomd/todo.md
 
 https://www.nebula-graph.io/
 
-https://pypi.org/project/sparql-client/
+no! - https://pypi.org/project/sparql-client/
 
 https://www.wikidata.org/wiki/Wikidata:Database_download
 
