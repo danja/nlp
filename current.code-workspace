@@ -8,6 +8,9 @@
     },
     {
       "path": "../../HKMS/hyperdata-static/makesite"
+    },
+    {
+      "path": "."
     }
   ],
   "settings": {
