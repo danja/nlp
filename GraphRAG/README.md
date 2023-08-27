@@ -5,7 +5,7 @@
 - **2023-08-22:** local environment set up for experimentation; initial spike plan drawn up
 - **2023-08-24:** some exploration; plan revised (below); started coding, nothing to see yet - rough notes in [devlog_00.md](docs/devlog_00.md)
 - **2023-08-25:** more admin, prep for work in llama_index tree
-- **2023-08-27:** made a start on sparql.py & tests, set up blog style setup for [notes]()
+- **2023-08-27:** made a start on sparql.py & tests, setup blog for [notes](https://hyperdata.it/blog/)
 
 _Current activity is in the branch add-sparql of my [llama_index fork](https://github.com/danja/llama_index)_
 
