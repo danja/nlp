@@ -2,7 +2,8 @@
 
 **2023-08-26**
 
-#### Cursor Play 
+#### Cursor Play
+
 Last night I started playing with with https://www.cursor.so/
 
 It's a code assistant built on VSCode (the vanilla version of which I'm already using) with calls to OpenAI API. It's free (not open source) and if you give it your API key it'll use that, rather than their billing.
@@ -22,11 +23,4 @@ So back to regular VSCode with ChatGPT 4 on my other monitor. (ChatGPT credit ru
 
 I haven't had a proper look at Code Interpreter yet, so once I've done a little tidying in what Cursor gave me I'll see what that can do here.
 
-#### Cursor Play 
-
-
-
-
-
-
-
+[continues here](https://hyperdata.it/blog/)
