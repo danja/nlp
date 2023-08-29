@@ -1,0 +1,3323 @@
+{
+    "errors": [
+        {
+            "code": 0
+        }
+    ],
+    "results": [
+        {
+            "spaceName": "guardians",
+            "data": [
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "identifier"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "the value of this thing"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "$168.1 million in its opening weekend"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "$168.1 million in its opening weekend"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "$32 million in its third weekend"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "$32 million in its third weekend"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "$359 million in the United States and Canada"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "$359 million in the United States and Canada"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "$48.2 million on its first day"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "$48.2 million on its first day"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "$486.4 million in other territories"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "$486.4 million in other territories"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "$62 million"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "$62 million"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "$79310 million or more"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "$79310 million or more"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "$845.4 million"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "$845.4 million"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "$92 million for a drop of 40% from its opening weekend"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "$92 million for a drop of 40% from its opening weekend"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "1982"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "1982"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "2023"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "2023"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "3D"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "3D"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "4DX"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "4DX"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "91% positive score"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "91% positive score"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "A second trailer for the film"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "A second trailer for the film"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "Adam"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "Adam"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "Adam McKay"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "Adam McKay"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "Adam Warlock"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "Adam Warlock"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "American rock"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "American rock"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "American superhero film"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "American superhero film"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "April"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "April"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "April 2017"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "April 2017"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "April 2023"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "April 2023"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "Asim Chaudhry"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "Asim Chaudhry"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "Assembled: The Making of Guardians of the Galaxy Vol. 3"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "Assembled: The Making of Guardians of the Galaxy Vol. 3"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "Ayesha"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "Ayesha"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "Bakalova"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "Bakalova"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "Barry Allen / The Flash"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "Barry Allen / The Flash"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "Bautista"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "Bautista"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "Berkeley"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "Berkeley"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "Beth Mickle"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "Beth Mickle"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "Blu-ray"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "Blu-ray"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "Bradley Cooper"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "Bradley Cooper"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "Braham"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "Braham"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "CBC"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "CBC"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "Callie Brand"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "Callie Brand"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "Chris Pratt"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "Chris Pratt"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "Chukwudi Iwuji"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "Chukwudi Iwuji"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "CinemaScore"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "CinemaScore"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "Cosmo"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "Cosmo"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "Counter-Earth"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "Counter-Earth"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "DVD"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "DVD"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "Daniela Melchior"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "Daniela Melchior"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "Dave Bautista"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "Dave Bautista"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "Deadline Hollywood"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "Deadline Hollywood"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "Debicki"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "Debicki"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "Disney"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "Disney"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "Disney still intended on making the film with Jamess script"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "Disney still intended on making the film with Jamess script"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "Disney+"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "Disney+"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "Disney+ Star Wars series The Mandalorian"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "Disney+ Star Wars series The Mandalorian"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "Disneyland Paris"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "Disneyland Paris"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "Doctor Moreau"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "Doctor Moreau"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "Dolby Cinema"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "Dolby Cinema"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "Dongdaemun Design Plaza"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "Dongdaemun Design Plaza"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "Drax"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "Drax"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "Drax and Mantis"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "Drax and Mantis"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "Ezra Miller"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "Ezra Miller"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "February 2020"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "February 2020"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "February 2021"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "February 2021"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "Feige and Pratt"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "Feige and Pratt"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "Filming"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "Filming"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "Gamora"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "Gamora"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "Gillan"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "Gillan"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "Green"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "Green"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "Guardians"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "Guardians"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "Guardians of the Galaxy"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "Guardians of the Galaxy"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "Guardians of the Galaxy Vol. 2"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "Guardians of the Galaxy Vol. 2"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "Guardians of the Galaxy Vol. 3"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "Guardians of the Galaxy Vol. 3"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "Gunn"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "Gunn"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "He"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "He"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "High Evolutionary"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "High Evolutionary"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "Horn"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "Horn"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "IMAX"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "IMAX"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "Industrial Light & Magics StageCraft"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "Industrial Light & Magics StageCraft"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "International Space Station"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "International Space Station"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "Iwuji"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "Iwuji"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "James Gunn"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "James Gunn"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "John Murphy"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "John Murphy"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "Judianna Makovsky"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "Judianna Makovsky"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "July 2017"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "July 2017"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "July 2021"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "July 2021"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "Karen Gillan"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "Karen Gillan"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "Kevin Feige"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "Kevin Feige"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "Kingo"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "Kingo"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "Kraglin"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "Kraglin"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "Linda Cardellini"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "Linda Cardellini"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "Mantis"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "Mantis"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "Maria Bakalova"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "Maria Bakalova"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "Markus"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "Markus"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "Marvel"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "Marvel"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "Marvel Studios"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "Marvel Studios"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "Marvel Studios again"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "Marvel Studios again"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "Marvel Studios had  never met with or considered any other director"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "Marvel Studios had  never met with or considered any other director"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "Marvel chose to use Gunns existing script"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "Marvel chose to use Gunns existing script"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "May 2021"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "May 2021"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "Michael Rosenbaum"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "Michael Rosenbaum"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "Microsoft"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "Microsoft"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "Music"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "Music"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "Nanjiani"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "Nanjiani"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "Nathan Fillion"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "Nathan Fillion"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "Nebula"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "Nebula"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "October"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "October"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "Orgocorp"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "Orgocorp"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "Orgocorps headquarters"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "Orgocorps headquarters"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "Peter Quill"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "Peter Quill"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "Philz"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "Philz"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "Pom Klementieff"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "Pom Klementieff"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "PostTrak"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "PostTrak"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "Poulter"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "Poulter"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "Pratt indicated"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "Pratt indicated"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "Pre-production"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "Pre-production"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "Quill"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "Quill"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "Ravagers"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "Ravagers"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "Rocket"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "Rocket"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "Rockets brain"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "Rockets brain"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "Rockets life"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "Rockets life"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "Salda"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "Salda"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "ScreenX"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "ScreenX"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "Sean"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "Sean"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "Sean Gunn"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "Sean Gunn"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "September 2019"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "September 2019"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "Soundtrack"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "Soundtrack"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "Stakar Ogord"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "Stakar Ogord"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "Strong"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "Strong"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "Sylvester Stallone"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "Sylvester Stallone"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "Tara Strong"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "Tara Strong"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "The Guardians"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "The Guardians"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "The Guardians of the Galaxy Holiday Special"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "The Guardians of the Galaxy Holiday Special"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "The High Evolutionary"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "The High Evolutionary"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "The Independent"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "The Independent"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "The Suicide Squad"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "The Suicide Squad"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "The film"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "The film"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "The script"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "The script"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "Tyler Bates"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "Tyler Bates"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "Ultra HD Blu-ray"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "Ultra HD Blu-ray"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "Vin Diesel"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "Vin Diesel"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "Vol.3"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "Vol.3"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "Vox"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "Vox"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "Will Poulter"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "Will Poulter"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "Yondu"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "Yondu"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "Zoe Salda"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "Zoe Salda"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "Zune MP3 player"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "Zune MP3 player"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "a 2023 release date"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "a 2023 release date"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "a group of alien thieves and smugglers"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "a group of alien thieves and smugglers"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "after being abandoned in outer space"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "after being abandoned in outer space"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "after completing that film and series"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "after completing that film and series"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "an ideal society"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "an ideal society"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "animal lifeforms"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "animal lifeforms"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "appear"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "appear"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "appearance"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "appearance"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "appearing"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "appearing"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "arias"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "arias"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "as a child"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "as a child"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "average grade of  A"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "average grade of  A"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "being impressed by Gunns response"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "being impressed by Gunns response"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "being impressed by Gunns response to the situation"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "being impressed by Gunns response to the situation"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "brilliant"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "brilliant"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "by June"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "by June"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "by the High Evolutionary"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "by the High Evolutionary"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "by the end of 2018"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "by the end of 2018"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "cameo appearance"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "cameo appearance"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "cast"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "cast"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "cinematographer"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "cinematographer"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "classical music"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "classical music"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "coffee shop"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "coffee shop"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "costume"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "costume"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "costume designer"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "costume designer"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "cruelest MCU villain"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "cruelest MCU villain"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "did not change Disneys decision to fire Gunn"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "did not change Disneys decision to fire Gunn"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "digital download"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "digital download"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "excitement"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "excitement"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "film would be about Gamora and Nebulas story"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "film would be about Gamora and Nebulas story"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "film would explore characters"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "film would explore characters"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "first two films"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "first two films"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "flashbacks"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "flashbacks"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "following the appearance of a variant of his dead lover Gamora"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "following the appearance of a variant of his dead lover Gamora"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "for the film"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "for the film"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "franchise"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "franchise"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "from male to female"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "from male to female"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "half-Celestial"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "half-Celestial"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "he would appear in the film"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "he would appear in the film"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "his fellow Batch 89 test subjects"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "his fellow Batch 89 test subjects"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "his past"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "his past"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "if he would be involved with a third Guardians film"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "if he would be involved with a third Guardians film"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "in 2021"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "in 2021"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "in April 2022"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "in April 2022"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "in Avengers: Infinity War"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "in Avengers: Infinity War"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "in February 2021"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "in February 2021"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "in January or February 2019"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "in January or February 2019"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "in November"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "in November"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "in November 2021"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "in November 2021"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "in late 2021"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "in late 2021"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "in outer space"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "in outer space"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "member of the Guardians"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "member of the Guardians"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "never met with or considered any other director"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "never met with or considered any other director"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "new group of characters"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "new group of characters"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "now serving as a member of the Ravagers"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "now serving as a member of the Ravagers"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "of film"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "of film"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "operas"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "operas"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "origins"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "origins"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "other major studios were interested in hiring him"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "other major studios were interested in hiring him"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "pop music"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "pop music"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "practical effects"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "practical effects"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "production on Vol.3"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "production on Vol.3"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "psionic abilities"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "psionic abilities"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "reprised his role"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "reprised his role"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "reprising her role"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "reprising her role"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "returning"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "returning"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "role"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "role"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "role of Cosmo"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "role of Cosmo"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "sapient dog"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "sapient dog"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "small role"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "small role"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "storyboarding the film"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "storyboarding the film"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "storyline"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "storyline"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "team-up movie"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "team-up movie"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "that a third film was planned for the franchise"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "that a third film was planned for the franchise"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "that a third film was planned for the franchise as part of the Marvel Cinematic Universe (MCU) in  2020 and beyond"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "that a third film was planned for the franchise as part of the Marvel Cinematic Universe (MCU) in  2020 and beyond"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "that he had a  fairly clear idea of where we were going"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "that he had a  fairly clear idea of where we were going"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "that he had a  fairly clear idea of where we were going and what we were going to do"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "that he had a  fairly clear idea of where we were going and what we were going to do"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "that he had been sad to leave when he was fired"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "that he had been sad to leave when he was fired"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "that he had not decided whether he would be directing the film"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "that he had not decided whether he would be directing the film"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "that he was set to begin work on Vol.3 shortly after completing his work as executive producer and consultant on Infinity War"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "that he was set to begin work on Vol.3 shortly after completing his work as executive producer and consultant on Infinity War"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "that he would return to write and direct Guardians of the Galaxy Vol.3"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "that he would return to write and direct Guardians of the Galaxy Vol.3"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "that in addition to having the  basic story  for Guardians of the Galaxy Vol.2"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "that in addition to having the  basic story  for Guardians of the Galaxy Vol.2"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "that in addition to having the  basic story  for Guardians of the Galaxy Vol.2 (2017) while working on the first film"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "that in addition to having the  basic story  for Guardians of the Galaxy Vol.2 (2017) while working on the first film"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "that the film would be set after Avengers: Infinity War (2018) and Avengers: Endgame (2019)"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "that the film would be set after Avengers: Infinity War (2018) and Avengers: Endgame (2019)"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "that the third film would  tie a lot of stuff together  from the first two"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "that the third film would  tie a lot of stuff together  from the first two"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "that the third film would  tying a lot of stuff together  from the first two"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "that the third film would  tying a lot of stuff together  from the first two"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "that the third film would be set after Avengers: Infinity War"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "that the third film would be set after Avengers: Infinity War"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "that the three Guardians films would  work together as a whole"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "that the three Guardians films would  work together as a whole"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "that there would be a third film  for sure.Were trying to figure it out"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "that there would be a third film  for sure.Were trying to figure it out"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "the High Evolutionary"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "the High Evolutionary"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "the best Marvel movie in years"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "the best Marvel movie in years"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "the film"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "the film"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "the most meaningful to him"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "the most meaningful to him"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "the studio again"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "the studio again"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "the switchs override code"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "the switchs override code"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "the tweets were written years before he signed on to the film"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "the tweets were written years before he signed on to the film"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "the word  fuck  uncensored"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "the word  fuck  uncensored"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "they were keeping Gunns script"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "they were keeping Gunns script"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "third Guardians-centric film"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "third Guardians-centric film"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "to begin work on Vol.3 shortly after completing his work as executive producer and consultant on Infinity War"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "to begin work on Vol.3 shortly after completing his work as executive producer and consultant on Infinity War"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "to the Araate Laboratories complex"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "to the Araate Laboratories complex"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "to work with Marvel on the future of the  Marvel Cosmic Universe"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "to work with Marvel on the future of the  Marvel Cosmic Universe"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "unhappy"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "unhappy"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "visual effects were not complete enough"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "visual effects were not complete enough"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "voice and motion capture role"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "voice and motion capture role"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "voicing Lylla"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "voicing Lylla"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "was finished"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "was finished"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "were revealed to be"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "were revealed to be"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "with a  heavier  story"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "with a  heavier  story"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "writer and director James Gunn envisioned"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "writer and director James Gunn envisioned"
+                        }
+                    ]
+                },
+                {
+                    "meta": [
+                        {
+                            "type": "vertex",
+                            "id": "younger version"
+                        }
+                    ],
+                    "row": [
+                        {
+                            "entity.name": "younger version"
+                        }
+                    ]
+                }
+            ],
+            "columns": [
+                "v"
+            ],
+            "errors": {
+                "code": 0
+            },
+            "latencyInUs": 5591
+        }
+    ]
+}
