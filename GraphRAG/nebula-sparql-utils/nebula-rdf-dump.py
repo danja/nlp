@@ -10,18 +10,30 @@ CREATE TAG entity(name string);
 CREATE EDGE relationship(relationship string);
 :sleep 10;
 CREATE TAG INDEX entity_index ON entity(name(256));
+
+pip install sparqlwrapper
 """
+import re
+import json
+import csv
+import random
+import string
 
 from nebula3.gclient.net import ConnectionPool
 from nebula3.Config import Config
-import json
-import csv
 
+
+# NebulaGraph Config
 IP_ADDRESS = '127.0.0.1'
 PORT = 9669
 USER = 'root'
 PASSWORD = 'password'
 SPACE = 'guardians'
+
+# SPARQL Config
+ENDPOINT = 'https://fuseki.hyperdata.it/llama_index-test/'
+GRAPH = 'http://purl.org/stuff/guardians'
+BASE_URL = "http://purl.org/stuff"
 
 
 # Initialize connection pool
@@ -130,7 +142,6 @@ def extract_relationships(json_rel_str):
 
             # Append the extracted relationship to the list
             extracted_relationships.append({"s": s, "p": p, "o": o})
-
         return extracted_relationships
 
     except json.JSONDecodeError as e:
@@ -161,6 +172,105 @@ def remove_duplicates(json_structure):
     return unique_list
 
 
+def escape_for_rdf(input_str):
+    # Escape control characters
+    input_str = input_str.encode("unicode_escape").decode("utf-8")
+
+    # Escape single and double quotes
+    input_str = re.sub(r'(["\'])', r'\\\1', input_str)
+
+    return input_str
+
+
+def make_id():
+    """
+    Generate a random 4-character string using only numeric characters and capital letters.
+    """
+    characters = string.ascii_uppercase + string.digits  # All available characters
+    return ''.join(random.choice(characters) for _ in range(4))
+
+# Re-defining the function and testing it again
+
+
+def confirm_fragment(name_value_list, new_pair):
+    """
+    Add a new name-value pair to the list only if the value doesn't already exist.
+    Return the name part corresponding to the value of the added or existing pair.
+
+    Parameters:
+    - name_value_list: List of dictionaries containing name-value pairs
+    - new_pair: Dictionary containing a single new name-value pair
+
+    Returns:
+    - Name part corresponding to the value
+    """
+    # print(new_pair)
+    new_value = list(new_pair.values())[0]  # Extract the value from new_pair
+
+    # Check if the value exists in the list
+    for d in name_value_list:
+        if new_value in d.values():
+            return list(d.keys())[0]
+
+    # Add the new pair if the value is unique
+    name_value_list.append(new_pair)
+    return list(new_pair.keys())[0]
+
+# Test the function with a unique value
+# existing_list = [{'name1': 'value1'}, {'name2': 'value2'}]
+# new_pair = {'name3': 'value3'}
+# result_unique = add_or_get_name(existing_list, new_pair)
+
+# Test the function with a non-unique value
+# new_pair_non_unique = {'name4': 'value1'}
+# result_non_unique = add_or_get_name(existing_list, new_pair_non_unique)
+# result_unique, result_non_unique
+
+
+# makes triples from simple json (without prefixes)
+def to_rdf(json_data):
+    rdf_data = ''
+    url_string_pairs = []
+
+    for entry in json_data:
+        triplet_fragment = '#T'+make_id()  # should be unique
+
+        s_string = entry['s']
+        p_string = entry['p']
+        o_string = entry['o']
+
+        # make a new fragment, but the string might have been seen before, if it has been, replace with existing fragment
+        s_fragment = '#E'+make_id()
+        s_fragment = confirm_fragment(url_string_pairs, {s_fragment: s_string})
+        p_fragment = '#R'+make_id()
+        p_fragment = confirm_fragment(url_string_pairs, {p_fragment: p_string})
+        o_fragment = '#E'+make_id()
+        o_fragment = confirm_fragment(url_string_pairs, {o_fragment: o_string})
+
+        # print(f"subject {s}, predicate {p}, object {o}")
+        triple = f"""
+                        <{triplet_fragment}> a er:Triplet ;
+                                er:subject <{s_fragment}> ;
+                                er:property <{p_fragment}> ;
+                                er:object <{o_fragment}> .
+
+                        <{s_fragment}> a er:Entity ;
+                                er:value "{s_string}" .
+
+                        <{p_fragment}> a er:Relationship ;
+                                er:value "{p_string}" .
+
+                        <{o_fragment}> a er:Entity ;
+                                er:value "{o_string}" .
+                """
+        rdf_data = rdf_data + triple
+    return rdf_data
+
+# test_str = 'This is "a" \n test string.'
+# escaped_str = escape_for_rdf(test_str)
+# print(escaped_str)
+
+
 # Entities
 resp = client.execute_json('MATCH (v:entity) RETURN v')
 
@@ -179,10 +289,12 @@ json_rel_str = resp_rel.decode('utf-8')
 # text_to_file(json_rel_str, 'relationships-raw.json')
 
 relationships = extract_relationships(json_rel_str)
-
 relationships = remove_duplicates(relationships)
-
 text_to_file(str(relationships), './relationships.json')
+
+rdf = to_rdf(relationships)
+
+text_to_file(rdf, './guardians.ttl')
 
 # Release resources
 client.release()

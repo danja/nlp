@@ -1,0 +1,3333 @@
+
+                        <#TNX07> a er:Triplet ;
+                                er:subject <#EOOBS> ;
+                                er:property <#RFULG> ;
+                                er:object <#EW4MW> .
+
+                        <#EOOBS> a er:Entity ;
+                                er:value "production on Vol.3" .
+
+                        <#RFULG> a er:Relationship ;
+                                er:value "was put on hold until" .
+
+                        <#EW4MW> a er:Entity ;
+                                er:value "February 2021" .
+                
+                        <#TQTXK> a er:Triplet ;
+                                er:subject <#EDZOU> ;
+                                er:property <#RAVTW> ;
+                                er:object <#EKU3Y> .
+
+                        <#EDZOU> a er:Entity ;
+                                er:value "Will Poulter" .
+
+                        <#RAVTW> a er:Relationship ;
+                                er:value "is in" .
+
+                        <#EKU3Y> a er:Entity ;
+                                er:value "Guardians of the Galaxy Vol. 3" .
+                
+                        <#TM5UL> a er:Triplet ;
+                                er:subject <#EQS6G> ;
+                                er:property <#RAVTW> ;
+                                er:object <#EKU3Y> .
+
+                        <#EQS6G> a er:Entity ;
+                                er:value "Vin Diesel" .
+
+                        <#RAVTW> a er:Relationship ;
+                                er:value "is in" .
+
+                        <#EKU3Y> a er:Entity ;
+                                er:value "Guardians of the Galaxy Vol. 3" .
+                
+                        <#T3E5M> a er:Triplet ;
+                                er:subject <#EIEI3> ;
+                                er:property <#RQ447> ;
+                                er:object <#E5L82> .
+
+                        <#EIEI3> a er:Entity ;
+                                er:value "The Independent" .
+
+                        <#RQ447> a er:Relationship ;
+                                er:value "found" .
+
+                        <#E5L82> a er:Entity ;
+                                er:value "the best Marvel movie in years" .
+                
+                        <#TZKZ2> a er:Triplet ;
+                                er:subject <#E0WNC> ;
+                                er:property <#R992V> ;
+                                er:object <#ERFG6> .
+
+                        <#E0WNC> a er:Entity ;
+                                er:value "The High Evolutionary" .
+
+                        <#R992V> a er:Relationship ;
+                                er:value "sought to anthropomorphize" .
+
+                        <#ERFG6> a er:Entity ;
+                                er:value "animal lifeforms" .
+                
+                        <#TBKQQ> a er:Triplet ;
+                                er:subject <#E0WNC> ;
+                                er:property <#REL13> ;
+                                er:object <#ERDJE> .
+
+                        <#E0WNC> a er:Entity ;
+                                er:value "The High Evolutionary" .
+
+                        <#REL13> a er:Relationship ;
+                                er:value "sought to create" .
+
+                        <#ERDJE> a er:Entity ;
+                                er:value "an ideal society" .
+                
+                        <#TVGEG> a er:Triplet ;
+                                er:subject <#E0WNC> ;
+                                er:property <#RF02R> ;
+                                er:object <#ERFG6> .
+
+                        <#E0WNC> a er:Entity ;
+                                er:value "The High Evolutionary" .
+
+                        <#RF02R> a er:Relationship ;
+                                er:value "sought to enhance" .
+
+                        <#ERFG6> a er:Entity ;
+                                er:value "animal lifeforms" .
+                
+                        <#TA1ED> a er:Triplet ;
+                                er:subject <#E0WNC> ;
+                                er:property <#RO2H3> ;
+                                er:object <#E01L6> .
+
+                        <#E0WNC> a er:Entity ;
+                                er:value "The High Evolutionary" .
+
+                        <#RO2H3> a er:Relationship ;
+                                er:value "planned to harvest" .
+
+                        <#E01L6> a er:Entity ;
+                                er:value "Rocket's brain" .
+                
+                        <#TR2M7> a er:Triplet ;
+                                er:subject <#EGPLI> ;
+                                er:property <#R096U> ;
+                                er:object <#EK8WH> .
+
+                        <#EGPLI> a er:Entity ;
+                                er:value "The Guardians of the Galaxy Holiday Special" .
+
+                        <#R096U> a er:Relationship ;
+                                er:value "was filmed at the same time as" .
+
+                        <#EK8WH> a er:Entity ;
+                                er:value "Vol.3" .
+                
+                        <#TGNL5> a er:Triplet ;
+                                er:subject <#EL8I0> ;
+                                er:property <#RTCTG> ;
+                                er:object <#E7P1N> .
+
+                        <#EL8I0> a er:Entity ;
+                                er:value "The Guardians" .
+
+                        <#RTCTG> a er:Relationship ;
+                                er:value "save" .
+
+                        <#E7P1N> a er:Entity ;
+                                er:value "Rocket's life" .
+                
+                        <#TYV4O> a er:Triplet ;
+                                er:subject <#EL8I0> ;
+                                er:property <#RD7CE> ;
+                                er:object <#EV4O3> .
+
+                        <#EL8I0> a er:Entity ;
+                                er:value "The Guardians" .
+
+                        <#RD7CE> a er:Relationship ;
+                                er:value "find" .
+
+                        <#EV4O3> a er:Entity ;
+                                er:value "the switch's override code" .
+                
+                        <#TWN82> a er:Triplet ;
+                                er:subject <#EL8I0> ;
+                                er:property <#RA05B> ;
+                                er:object <#EOF01> .
+
+                        <#EL8I0> a er:Entity ;
+                                er:value "The Guardians" .
+
+                        <#RA05B> a er:Relationship ;
+                                er:value "travel to" .
+
+                        <#EOF01> a er:Entity ;
+                                er:value "Orgocorp's headquarters" .
+                
+                        <#TYCWD> a er:Triplet ;
+                                er:subject <#EL8I0> ;
+                                er:property <#RT3VG> ;
+                                er:object <#EPZSA> .
+
+                        <#EL8I0> a er:Entity ;
+                                er:value "The Guardians" .
+
+                        <#RT3VG> a er:Relationship ;
+                                er:value "are guided" .
+
+                        <#EPZSA> a er:Entity ;
+                                er:value "to the Arête Laboratories complex" .
+                
+                        <#T8RUW> a er:Triplet ;
+                                er:subject <#EL8I0> ;
+                                er:property <#RK9Y3> ;
+                                er:object <#EGIEP> .
+
+                        <#EL8I0> a er:Entity ;
+                                er:value "The Guardians" .
+
+                        <#RK9Y3> a er:Relationship ;
+                                er:value "reach" .
+
+                        <#EGIEP> a er:Entity ;
+                                er:value "Counter-Earth" .
+                
+                        <#TLAWL> a er:Triplet ;
+                                er:subject <#E7OML> ;
+                                er:property <#REWJF> ;
+                                er:object <#EPZ0C> .
+
+                        <#E7OML> a er:Entity ;
+                                er:value "Tara Strong" .
+
+                        <#REWJF> a er:Relationship ;
+                                er:value "was later revealed to have been" .
+
+                        <#EPZ0C> a er:Entity ;
+                                er:value "cast" .
+                
+                        <#T255S> a er:Triplet ;
+                                er:subject <#EAQCW> ;
+                                er:property <#RAVTW> ;
+                                er:object <#EKU3Y> .
+
+                        <#EAQCW> a er:Entity ;
+                                er:value "Sylvester Stallone" .
+
+                        <#RAVTW> a er:Relationship ;
+                                er:value "is in" .
+
+                        <#EKU3Y> a er:Entity ;
+                                er:value "Guardians of the Galaxy Vol. 3" .
+                
+                        <#TD879> a er:Triplet ;
+                                er:subject <#EAQCW> ;
+                                er:property <#R1301> ;
+                                er:object <#EPTI3> .
+
+                        <#EAQCW> a er:Entity ;
+                                er:value "Sylvester Stallone" .
+
+                        <#R1301> a er:Relationship ;
+                                er:value "would return as" .
+
+                        <#EPTI3> a er:Entity ;
+                                er:value "Stakar Ogord" .
+                
+                        <#TUKBI> a er:Triplet ;
+                                er:subject <#E4PDX> ;
+                                er:property <#RNPXE> ;
+                                er:object <#EW6BE> .
+
+                        <#E4PDX> a er:Entity ;
+                                er:value "Soundtrack" .
+
+                        <#RNPXE> a er:Relationship ;
+                                er:value "selected by" .
+
+                        <#EW6BE> a er:Entity ;
+                                er:value "July 2017" .
+                
+                        <#TS7AH> a er:Triplet ;
+                                er:subject <#E84EC> ;
+                                er:property <#RY3CV> ;
+                                er:object <#E0RK0> .
+
+                        <#E84EC> a er:Entity ;
+                                er:value "Sean Gunn" .
+
+                        <#RY3CV> a er:Relationship ;
+                                er:value "is" .
+
+                        <#E0RK0> a er:Entity ;
+                                er:value "Kraglin" .
+                
+                        <#T5DZ7> a er:Triplet ;
+                                er:subject <#E84EC> ;
+                                er:property <#RAVTW> ;
+                                er:object <#EKU3Y> .
+
+                        <#E84EC> a er:Entity ;
+                                er:value "Sean Gunn" .
+
+                        <#RAVTW> a er:Relationship ;
+                                er:value "is in" .
+
+                        <#EKU3Y> a er:Entity ;
+                                er:value "Guardians of the Galaxy Vol. 3" .
+                
+                        <#TNIE6> a er:Triplet ;
+                                er:subject <#EPPLA> ;
+                                er:property <#RXIGW> ;
+                                er:object <#EMRZQ> .
+
+                        <#EPPLA> a er:Entity ;
+                                er:value "Sean" .
+
+                        <#RXIGW> a er:Relationship ;
+                                er:value "reiterated" .
+
+                        <#EMRZQ> a er:Entity ;
+                                er:value "Disney still intended on making the film with James's script" .
+                
+                        <#TX8LO> a er:Triplet ;
+                                er:subject <#EFIUK> ;
+                                er:property <#R3DWE> ;
+                                er:object <#E2HNW> .
+
+                        <#EFIUK> a er:Entity ;
+                                er:value "Saldaña" .
+
+                        <#R3DWE> a er:Relationship ;
+                                er:value "asked" .
+
+                        <#E2HNW> a er:Entity ;
+                                er:value "role" .
+                
+                        <#TDR7Z> a er:Triplet ;
+                                er:subject <#EFIUK> ;
+                                er:property <#RL7J1> ;
+                                er:object <#EOD9A> .
+
+                        <#EFIUK> a er:Entity ;
+                                er:value "Saldaña" .
+
+                        <#RL7J1> a er:Relationship ;
+                                er:value "returned to play" .
+
+                        <#EOD9A> a er:Entity ;
+                                er:value "younger version" .
+                
+                        <#TF1P7> a er:Triplet ;
+                                er:subject <#EFIUK> ;
+                                er:property <#RM1XK> ;
+                                er:object <#E4BO9> .
+
+                        <#EFIUK> a er:Entity ;
+                                er:value "Saldaña" .
+
+                        <#RM1XK> a er:Relationship ;
+                                er:value "expressed" .
+
+                        <#E4BO9> a er:Entity ;
+                                er:value "excitement" .
+                
+                        <#T86DT> a er:Triplet ;
+                                er:subject <#EFIUK> ;
+                                er:property <#RVNSY> ;
+                                er:object <#EDBLA> .
+
+                        <#EFIUK> a er:Entity ;
+                                er:value "Saldaña" .
+
+                        <#RVNSY> a er:Relationship ;
+                                er:value "reprises the latter role in this film" .
+
+                        <#EDBLA> a er:Entity ;
+                                er:value "now serving as a member of the Ravagers" .
+                
+                        <#TYTJF> a er:Triplet ;
+                                er:subject <#EFIUK> ;
+                                er:property <#REIMN> ;
+                                er:object <#E9537> .
+
+                        <#EFIUK> a er:Entity ;
+                                er:value "Saldaña" .
+
+                        <#REIMN> a er:Relationship ;
+                                er:value "character" .
+
+                        <#E9537> a er:Entity ;
+                                er:value "Gamora" .
+                
+                        <#TCAXJ> a er:Triplet ;
+                                er:subject <#EFIUK> ;
+                                er:property <#RO8JE> ;
+                                er:object <#E2HNW> .
+
+                        <#EFIUK> a er:Entity ;
+                                er:value "Saldaña" .
+
+                        <#RO8JE> a er:Relationship ;
+                                er:value "asked about" .
+
+                        <#E2HNW> a er:Entity ;
+                                er:value "role" .
+                
+                        <#T8XC9> a er:Triplet ;
+                                er:subject <#E94QT> ;
+                                er:property <#R9GZ4> ;
+                                er:object <#EQ4RC> .
+
+                        <#E94QT> a er:Entity ;
+                                er:value "Quill" .
+
+                        <#R9GZ4> a er:Relationship ;
+                                er:value "is half-sister of" .
+
+                        <#EQ4RC> a er:Entity ;
+                                er:value "Mantis" .
+                
+                        <#TVAGJ> a er:Triplet ;
+                                er:subject <#E94QT> ;
+                                er:property <#RB5XQ> ;
+                                er:object <#EWWBY> .
+
+                        <#E94QT> a er:Entity ;
+                                er:value "Quill" .
+
+                        <#RB5XQ> a er:Relationship ;
+                                er:value "is in a state of depression" .
+
+                        <#EWWBY> a er:Entity ;
+                                er:value "following the appearance of a variant of his dead lover Gamora" .
+                
+                        <#TTPBM> a er:Triplet ;
+                                er:subject <#E880Q> ;
+                                er:property <#RG8X1> ;
+                                er:object <#ER1ME> .
+
+                        <#E880Q> a er:Entity ;
+                                er:value "Rocket" .
+
+                        <#RG8X1> a er:Relationship ;
+                                er:value "backstory" .
+
+                        <#ER1ME> a er:Entity ;
+                                er:value "flashbacks" .
+                
+                        <#TKVLC> a er:Triplet ;
+                                er:subject <#E880Q> ;
+                                er:property <#RIDM5> ;
+                                er:object <#EUGIZ> .
+
+                        <#E880Q> a er:Entity ;
+                                er:value "Rocket" .
+
+                        <#RIDM5> a er:Relationship ;
+                                er:value "was experimented on" .
+
+                        <#EUGIZ> a er:Entity ;
+                                er:value "by the High Evolutionary" .
+                
+                        <#TFBV4> a er:Triplet ;
+                                er:subject <#E880Q> ;
+                                er:property <#RI2S3> ;
+                                er:object <#E5LOC> .
+
+                        <#E880Q> a er:Entity ;
+                                er:value "Rocket" .
+
+                        <#RI2S3> a er:Relationship ;
+                                er:value "is member of" .
+
+                        <#E5LOC> a er:Entity ;
+                                er:value "Guardians" .
+                
+                        <#T5V5J> a er:Triplet ;
+                                er:subject <#E880Q> ;
+                                er:property <#RWB1M> ;
+                                er:object <#EKN99> .
+
+                        <#E880Q> a er:Entity ;
+                                er:value "Rocket" .
+
+                        <#RWB1M> a er:Relationship ;
+                                er:value "considered to tell" .
+
+                        <#EKN99> a er:Entity ;
+                                er:value "origins" .
+                
+                        <#T31KC> a er:Triplet ;
+                                er:subject <#E880Q> ;
+                                er:property <#RURP7> ;
+                                er:object <#EVSUT> .
+
+                        <#E880Q> a er:Entity ;
+                                er:value "Rocket" .
+
+                        <#RURP7> a er:Relationship ;
+                                er:value "befriended" .
+
+                        <#EVSUT> a er:Entity ;
+                                er:value "his fellow Batch 89 test subjects" .
+                
+                        <#TYWX5> a er:Triplet ;
+                                er:subject <#E880Q> ;
+                                er:property <#RJ3PS> ;
+                                er:object <#ED8LV> .
+
+                        <#E880Q> a er:Entity ;
+                                er:value "Rocket" .
+
+                        <#RJ3PS> a er:Relationship ;
+                                er:value "mauled" .
+
+                        <#ED8LV> a er:Entity ;
+                                er:value "the High Evolutionary" .
+                
+                        <#TYCW7> a er:Triplet ;
+                                er:subject <#E880Q> ;
+                                er:property <#EKN99> ;
+                                er:object <#E53ZJ> .
+
+                        <#E880Q> a er:Entity ;
+                                er:value "Rocket" .
+
+                        <#EKN99> a er:Relationship ;
+                                er:value "origins" .
+
+                        <#E53ZJ> a er:Entity ;
+                                er:value "team-up movie" .
+                
+                        <#TMOMK> a er:Triplet ;
+                                er:subject <#E880Q> ;
+                                er:property <#R19ZF> ;
+                                er:object <#ERJN5> .
+
+                        <#E880Q> a er:Entity ;
+                                er:value "Rocket" .
+
+                        <#R19ZF> a er:Relationship ;
+                                er:value "recalls" .
+
+                        <#ERJN5> a er:Entity ;
+                                er:value "his past" .
+                
+                        <#T3W5K> a er:Triplet ;
+                                er:subject <#E880Q> ;
+                                er:property <#R47GP> ;
+                                er:object <#ERU2E> .
+
+                        <#E880Q> a er:Entity ;
+                                er:value "Rocket" .
+
+                        <#R47GP> a er:Relationship ;
+                                er:value "is wounded by" .
+
+                        <#ERU2E> a er:Entity ;
+                                er:value "Adam" .
+                
+                        <#TEOLQ> a er:Triplet ;
+                                er:subject <#E880Q> ;
+                                er:property <#RIU73> ;
+                                er:object <#E8NNB> .
+
+                        <#E880Q> a er:Entity ;
+                                er:value "Rocket" .
+
+                        <#RIU73> a er:Relationship ;
+                                er:value "focus on" .
+
+                        <#E8NNB> a er:Entity ;
+                                er:value "third Guardians-centric film" .
+                
+                        <#T9RK5> a er:Triplet ;
+                                er:subject <#EKG85> ;
+                                er:property <#REFNC> ;
+                                er:object <#EUJP5> .
+
+                        <#EKG85> a er:Entity ;
+                                er:value "Pre-production" .
+
+                        <#REFNC> a er:Relationship ;
+                                er:value "was to have begun" .
+
+                        <#EUJP5> a er:Entity ;
+                                er:value "by the end of 2018" .
+                
+                        <#TOYVJ> a er:Triplet ;
+                                er:subject <#EWPHS> ;
+                                er:property <#R86JM> ;
+                                er:object <#EUIB0> .
+
+                        <#EWPHS> a er:Entity ;
+                                er:value "Zune MP3 player" .
+
+                        <#R86JM> a er:Relationship ;
+                                er:value "launched inside" .
+
+                        <#EUIB0> a er:Entity ;
+                                er:value "International Space Station" .
+                
+                        <#T735B> a er:Triplet ;
+                                er:subject <#E7U6M> ;
+                                er:property <#RW6S2> ;
+                                er:object <#EBTOQ> .
+
+                        <#E7U6M> a er:Entity ;
+                                er:value "Pratt indicated" .
+
+                        <#RW6S2> a er:Relationship ;
+                                er:value "willingness to continue playing Peter Quill" .
+
+                        <#EBTOQ> a er:Entity ;
+                                er:value "July 2021" .
+                
+                        <#TU3GH> a er:Triplet ;
+                                er:subject <#EK1ZH> ;
+                                er:property <#RC8AZ> ;
+                                er:object <#E60A9> .
+
+                        <#EK1ZH> a er:Entity ;
+                                er:value "PostTrak" .
+
+                        <#RC8AZ> a er:Relationship ;
+                                er:value "reported" .
+
+                        <#E60A9> a er:Entity ;
+                                er:value "91% positive score" .
+                
+                        <#TR0EB> a er:Triplet ;
+                                er:subject <#E1TMN> ;
+                                er:property <#RY3CV> ;
+                                er:object <#EQ4RC> .
+
+                        <#E1TMN> a er:Entity ;
+                                er:value "Pom Klementieff" .
+
+                        <#RY3CV> a er:Relationship ;
+                                er:value "is" .
+
+                        <#EQ4RC> a er:Entity ;
+                                er:value "Mantis" .
+                
+                        <#T1AAG> a er:Triplet ;
+                                er:subject <#E1TMN> ;
+                                er:property <#RAVTW> ;
+                                er:object <#EKU3Y> .
+
+                        <#E1TMN> a er:Entity ;
+                                er:value "Pom Klementieff" .
+
+                        <#RAVTW> a er:Relationship ;
+                                er:value "is in" .
+
+                        <#EKU3Y> a er:Entity ;
+                                er:value "Guardians of the Galaxy Vol. 3" .
+                
+                        <#TIM5N> a er:Triplet ;
+                                er:subject <#EMEVM> ;
+                                er:property <#R9HMS> ;
+                                er:object <#EFV1U> .
+
+                        <#EMEVM> a er:Entity ;
+                                er:value "Peter Quill" .
+
+                        <#R9HMS> a er:Relationship ;
+                                er:value "was abducted from Earth" .
+
+                        <#EFV1U> a er:Entity ;
+                                er:value "as a child" .
+                
+                        <#TVX4J> a er:Triplet ;
+                                er:subject <#EMEVM> ;
+                                er:property <#RD025> ;
+                                er:object <#EWLIQ> .
+
+                        <#EMEVM> a er:Entity ;
+                                er:value "Peter Quill" .
+
+                        <#RD025> a er:Relationship ;
+                                er:value "is leader of" .
+
+                        <#EWLIQ> a er:Entity ;
+                                er:value "Guardians of the Galaxy" .
+                
+                        <#TD1S3> a er:Triplet ;
+                                er:subject <#EMEVM> ;
+                                er:property <#RJZNM> ;
+                                er:object <#EO4FC> .
+
+                        <#EMEVM> a er:Entity ;
+                                er:value "Peter Quill" .
+
+                        <#RJZNM> a er:Relationship ;
+                                er:value "is half-human" .
+
+                        <#EO4FC> a er:Entity ;
+                                er:value "half-Celestial" .
+                
+                        <#TH8ME> a er:Triplet ;
+                                er:subject <#EMEVM> ;
+                                er:property <#R9GIV> ;
+                                er:object <#E49C6> .
+
+                        <#EMEVM> a er:Entity ;
+                                er:value "Peter Quill" .
+
+                        <#R9GIV> a er:Relationship ;
+                                er:value "would return to the MCU" .
+
+                        <#E49C6> a er:Entity ;
+                                er:value "May 2021" .
+                
+                        <#T2PHJ> a er:Triplet ;
+                                er:subject <#EMEVM> ;
+                                er:property <#RY2V2> ;
+                                er:object <#EPQAP> .
+
+                        <#EMEVM> a er:Entity ;
+                                er:value "Peter Quill" .
+
+                        <#RY2V2> a er:Relationship ;
+                                er:value "was raised by" .
+
+                        <#EPQAP> a er:Entity ;
+                                er:value "a group of alien thieves and smugglers" .
+                
+                        <#TZY58> a er:Triplet ;
+                                er:subject <#E5GVJ> ;
+                                er:property <#RF9VD> ;
+                                er:object <#ED8LV> .
+
+                        <#E5GVJ> a er:Entity ;
+                                er:value "Orgocorp" .
+
+                        <#RF9VD> a er:Relationship ;
+                                er:value "is helmed by" .
+
+                        <#ED8LV> a er:Entity ;
+                                er:value "the High Evolutionary" .
+                
+                        <#TDU2F> a er:Triplet ;
+                                er:subject <#EK8WH> ;
+                                er:property <#RGRQX> ;
+                                er:object <#EJ9C3> .
+
+                        <#EK8WH> a er:Entity ;
+                                er:value "Vol.3" .
+
+                        <#RGRQX> a er:Relationship ;
+                                er:value "fulfills a character arc for the character" .
+
+                        <#EJ9C3> a er:Entity ;
+                                er:value "writer and director James Gunn envisioned" .
+                
+                        <#T3ZR0> a er:Triplet ;
+                                er:subject <#EK8WH> ;
+                                er:property <#R5KOB> ;
+                                er:object <#EI3VI> .
+
+                        <#EK8WH> a er:Entity ;
+                                er:value "Vol.3" .
+
+                        <#R5KOB> a er:Relationship ;
+                                er:value "to begin work on" .
+
+                        <#EI3VI> a er:Entity ;
+                                er:value "after completing that film and series" .
+                
+                        <#TTXOO> a er:Triplet ;
+                                er:subject <#EK8WH> ;
+                                er:property <#R5KOB> ;
+                                er:object <#E8358> .
+
+                        <#EK8WH> a er:Entity ;
+                                er:value "Vol.3" .
+
+                        <#R5KOB> a er:Relationship ;
+                                er:value "to begin work on" .
+
+                        <#E8358> a er:Entity ;
+                                er:value "in 2021" .
+                
+                        <#THKOE> a er:Triplet ;
+                                er:subject <#EK8WH> ;
+                                er:property <#RJSJV> ;
+                                er:object <#ELD8T> .
+
+                        <#EK8WH> a er:Entity ;
+                                er:value "Vol.3" .
+
+                        <#RJSJV> a er:Relationship ;
+                                er:value "is the first MCU film to feature" .
+
+                        <#ELD8T> a er:Entity ;
+                                er:value "the word  fuck  uncensored" .
+                
+                        <#T9HE4> a er:Triplet ;
+                                er:subject <#EOSGW> ;
+                                er:property <#RAVTW> ;
+                                er:object <#EKU3Y> .
+
+                        <#EOSGW> a er:Entity ;
+                                er:value "Nathan Fillion" .
+
+                        <#RAVTW> a er:Relationship ;
+                                er:value "is in" .
+
+                        <#EKU3Y> a er:Entity ;
+                                er:value "Guardians of the Galaxy Vol. 3" .
+                
+                        <#T2WFF> a er:Triplet ;
+                                er:subject <#EUYWE> ;
+                                er:property <#RLWO4> ;
+                                er:object <#EWAPP> .
+
+                        <#EUYWE> a er:Entity ;
+                                er:value "The film" .
+
+                        <#RLWO4> a er:Relationship ;
+                                er:value "to be emotional" .
+
+                        <#EWAPP> a er:Entity ;
+                                er:value "with a  heavier  story" .
+                
+                        <#TSLDU> a er:Triplet ;
+                                er:subject <#EUYWE> ;
+                                er:property <#RFI6S> ;
+                                er:object <#ENXUI> .
+
+                        <#EUYWE> a er:Entity ;
+                                er:value "The film" .
+
+                        <#RFI6S> a er:Relationship ;
+                                er:value "was given" .
+
+                        <#ENXUI> a er:Entity ;
+                                er:value "a 2023 release date" .
+                
+                        <#TUK7S> a er:Triplet ;
+                                er:subject <#EUYWE> ;
+                                er:property <#ROGJB> ;
+                                er:object <#EJK99> .
+
+                        <#EUYWE> a er:Entity ;
+                                er:value "The film" .
+
+                        <#ROGJB> a er:Relationship ;
+                                er:value "set to begin" .
+
+                        <#EJK99> a er:Entity ;
+                                er:value "in November 2021" .
+                
+                        <#TSSOM> a er:Triplet ;
+                                er:subject <#EUYWE> ;
+                                er:property <#R1BJQ> ;
+                                er:object <#E0QAP> .
+
+                        <#EUYWE> a er:Entity ;
+                                er:value "The film" .
+
+                        <#R1BJQ> a er:Relationship ;
+                                er:value "set to end" .
+
+                        <#E0QAP> a er:Entity ;
+                                er:value "in April 2022" .
+                
+                        <#TWUW2> a er:Triplet ;
+                                er:subject <#EPU86> ;
+                                er:property <#R8M0M> ;
+                                er:object <#E3SVB> .
+
+                        <#EPU86> a er:Entity ;
+                                er:value "Nanjiani" .
+
+                        <#R8M0M> a er:Relationship ;
+                                er:value "cast as" .
+
+                        <#E3SVB> a er:Entity ;
+                                er:value "Kingo" .
+                
+                        <#TJGR5> a er:Triplet ;
+                                er:subject <#E0Z9J> ;
+                                er:property <#RCB0K> ;
+                                er:object <#E994X> .
+
+                        <#E0Z9J> a er:Entity ;
+                                er:value "Music" .
+
+                        <#RCB0K> a er:Relationship ;
+                                er:value "different from" .
+
+                        <#E994X> a er:Entity ;
+                                er:value "first two films" .
+                
+                        <#T4I10> a er:Triplet ;
+                                er:subject <#EC3SC> ;
+                                er:property <#RPOD8> ;
+                                er:object <#ERU2E> .
+
+                        <#EC3SC> a er:Entity ;
+                                er:value "Nebula" .
+
+                        <#RPOD8> a er:Relationship ;
+                                er:value "stabs" .
+
+                        <#ERU2E> a er:Entity ;
+                                er:value "Adam" .
+                
+                        <#TEWNF> a er:Triplet ;
+                                er:subject <#EOG2A> ;
+                                er:property <#RJBT8> ;
+                                er:object <#EI7JX> .
+
+                        <#EOG2A> a er:Entity ;
+                                er:value "Maria Bakalova" .
+
+                        <#RJBT8> a er:Relationship ;
+                                er:value "was revealed to be" .
+
+                        <#EI7JX> a er:Entity ;
+                                er:value "appearing" .
+                
+                        <#TC4CR> a er:Triplet ;
+                                er:subject <#EOG2A> ;
+                                er:property <#RJVVR> ;
+                                er:object <#E0TQM> .
+
+                        <#EOG2A> a er:Entity ;
+                                er:value "Maria Bakalova" .
+
+                        <#RJVVR> a er:Relationship ;
+                                er:value "reprises" .
+
+                        <#E0TQM> a er:Entity ;
+                                er:value "voice and motion capture role" .
+                
+                        <#TPKXZ> a er:Triplet ;
+                                er:subject <#EOG2A> ;
+                                er:property <#RJVVR> ;
+                                er:object <#E3Y0T> .
+
+                        <#EOG2A> a er:Entity ;
+                                er:value "Maria Bakalova" .
+
+                        <#RJVVR> a er:Relationship ;
+                                er:value "reprises" .
+
+                        <#E3Y0T> a er:Entity ;
+                                er:value "role of Cosmo" .
+                
+                        <#TVC5S> a er:Triplet ;
+                                er:subject <#EI5MM> ;
+                                er:property <#R8CKQ> ;
+                                er:object <#EXG9P> .
+
+                        <#EI5MM> a er:Entity ;
+                                er:value "The script" .
+
+                        <#R8CKQ> a er:Relationship ;
+                                er:value "for Vol.3" .
+
+                        <#EXG9P> a er:Entity ;
+                                er:value "was finished" .
+                
+                        <#TLFNI> a er:Triplet ;
+                                er:subject <#EQ4RC> ;
+                                er:property <#RI2S3> ;
+                                er:object <#E5LOC> .
+
+                        <#EQ4RC> a er:Entity ;
+                                er:value "Mantis" .
+
+                        <#RI2S3> a er:Relationship ;
+                                er:value "is member of" .
+
+                        <#E5LOC> a er:Entity ;
+                                er:value "Guardians" .
+                
+                        <#T1A5R> a er:Triplet ;
+                                er:subject <#EDD8I> ;
+                                er:property <#RY3CV> ;
+                                er:object <#ERDB7> .
+
+                        <#EDD8I> a er:Entity ;
+                                er:value "Philz" .
+
+                        <#RY3CV> a er:Relationship ;
+                                er:value "is" .
+
+                        <#ERDB7> a er:Entity ;
+                                er:value "coffee shop" .
+                
+                        <#TCI4H> a er:Triplet ;
+                                er:subject <#EDD8I> ;
+                                er:property <#RJTJC> ;
+                                er:object <#E3BZ1> .
+
+                        <#EDD8I> a er:Entity ;
+                                er:value "Philz" .
+
+                        <#RJTJC> a er:Relationship ;
+                                er:value "founded in" .
+
+                        <#E3BZ1> a er:Entity ;
+                                er:value "1982" .
+                
+                        <#T3U2L> a er:Triplet ;
+                                er:subject <#EDD8I> ;
+                                er:property <#RJTJC> ;
+                                er:object <#ET361> .
+
+                        <#EDD8I> a er:Entity ;
+                                er:value "Philz" .
+
+                        <#RJTJC> a er:Relationship ;
+                                er:value "founded in" .
+
+                        <#ET361> a er:Entity ;
+                                er:value "Berkeley" .
+                
+                        <#T4I9P> a er:Triplet ;
+                                er:subject <#EJAQ0> ;
+                                er:property <#RJBT8> ;
+                                er:object <#EI4G7> .
+
+                        <#EJAQ0> a er:Entity ;
+                                er:value "Linda Cardellini" .
+
+                        <#RJBT8> a er:Relationship ;
+                                er:value "was revealed to be" .
+
+                        <#EI4G7> a er:Entity ;
+                                er:value "voicing Lylla" .
+                
+                        <#TNOPI> a er:Triplet ;
+                                er:subject <#EJAQ0> ;
+                                er:property <#RAVTW> ;
+                                er:object <#EKU3Y> .
+
+                        <#EJAQ0> a er:Entity ;
+                                er:value "Linda Cardellini" .
+
+                        <#RAVTW> a er:Relationship ;
+                                er:value "is in" .
+
+                        <#EKU3Y> a er:Entity ;
+                                er:value "Guardians of the Galaxy Vol. 3" .
+                
+                        <#T11M5> a er:Triplet ;
+                                er:subject <#EBFSG> ;
+                                er:property <#RMVI5> ;
+                                er:object <#E1F84> .
+
+                        <#EBFSG> a er:Entity ;
+                                er:value "Kevin Feige" .
+
+                        <#RMVI5> a er:Relationship ;
+                                er:value "said" .
+
+                        <#E1F84> a er:Entity ;
+                                er:value "that a third film was planned for the franchise" .
+                
+                        <#TFMCN> a er:Triplet ;
+                                er:subject <#EBFSG> ;
+                                er:property <#RMVI5> ;
+                                er:object <#ENJD9> .
+
+                        <#EBFSG> a er:Entity ;
+                                er:value "Kevin Feige" .
+
+                        <#RMVI5> a er:Relationship ;
+                                er:value "said" .
+
+                        <#ENJD9> a er:Entity ;
+                                er:value "that a third film was planned for the franchise as part of the Marvel Cinematic Universe (MCU) in  2020 and beyond" .
+                
+                        <#T9DT2> a er:Triplet ;
+                                er:subject <#ECR1U> ;
+                                er:property <#R5B3F> ;
+                                er:object <#EKR4Q> .
+
+                        <#ECR1U> a er:Entity ;
+                                er:value "Judianna Makovsky" .
+
+                        <#R5B3F> a er:Relationship ;
+                                er:value "serves as" .
+
+                        <#EKR4Q> a er:Entity ;
+                                er:value "costume designer" .
+                
+                        <#TZNB9> a er:Triplet ;
+                                er:subject <#EGMJE> ;
+                                er:property <#RMVI5> ;
+                                er:object <#E9537> .
+
+                        <#EGMJE> a er:Entity ;
+                                er:value "Markus" .
+
+                        <#RMVI5> a er:Relationship ;
+                                er:value "said" .
+
+                        <#E9537> a er:Entity ;
+                                er:value "Gamora" .
+                
+                        <#TGTB0> a er:Triplet ;
+                                er:subject <#EY9HR> ;
+                                er:property <#R84ZR> ;
+                                er:object <#EK8WH> .
+
+                        <#EY9HR> a er:Entity ;
+                                er:value "James Gunn" .
+
+                        <#R84ZR> a er:Relationship ;
+                                er:value "could return as director for" .
+
+                        <#EK8WH> a er:Entity ;
+                                er:value "Vol.3" .
+                
+                        <#TRG2O> a er:Triplet ;
+                                er:subject <#EY9HR> ;
+                                er:property <#R17L4> ;
+                                er:object <#EBQLF> .
+
+                        <#EY9HR> a er:Entity ;
+                                er:value "James Gunn" .
+
+                        <#R17L4> a er:Relationship ;
+                                er:value "is writer and director" .
+
+                        <#EBQLF> a er:Entity ;
+                                er:value "of film" .
+                
+                        <#TEZMY> a er:Triplet ;
+                                er:subject <#EY9HR> ;
+                                er:property <#R1FGQ> ;
+                                er:object <#EQ6N5> .
+
+                        <#EY9HR> a er:Entity ;
+                                er:value "James Gunn" .
+
+                        <#R1FGQ> a er:Relationship ;
+                                er:value "was fired from" .
+
+                        <#EQ6N5> a er:Entity ;
+                                er:value "Disney" .
+                
+                        <#TCKAZ> a er:Triplet ;
+                                er:subject <#EY9HR> ;
+                                er:property <#R1FGQ> ;
+                                er:object <#EKU3Y> .
+
+                        <#EY9HR> a er:Entity ;
+                                er:value "James Gunn" .
+
+                        <#R1FGQ> a er:Relationship ;
+                                er:value "was fired from" .
+
+                        <#EKU3Y> a er:Entity ;
+                                er:value "Guardians of the Galaxy Vol. 3" .
+                
+                        <#T9BLK> a er:Triplet ;
+                                er:subject <#EY9HR> ;
+                                er:property <#R1FGQ> ;
+                                er:object <#EHBJ0> .
+
+                        <#EY9HR> a er:Entity ;
+                                er:value "James Gunn" .
+
+                        <#R1FGQ> a er:Relationship ;
+                                er:value "was fired from" .
+
+                        <#EHBJ0> a er:Entity ;
+                                er:value "Marvel" .
+                
+                        <#T1GWF> a er:Triplet ;
+                                er:subject <#EY9HR> ;
+                                er:property <#RP1IS> ;
+                                er:object <#EOLTD> .
+
+                        <#EY9HR> a er:Entity ;
+                                er:value "James Gunn" .
+
+                        <#RP1IS> a er:Relationship ;
+                                er:value "stated" .
+
+                        <#EOLTD> a er:Entity ;
+                                er:value "that in addition to having the  basic story  for Guardians of the Galaxy Vol.2 (2017) while working on the first film" .
+                
+                        <#TD281> a er:Triplet ;
+                                er:subject <#EY9HR> ;
+                                er:property <#R1SZE> ;
+                                er:object <#EP2EN> .
+
+                        <#EY9HR> a er:Entity ;
+                                er:value "James Gunn" .
+
+                        <#R1SZE> a er:Relationship ;
+                                er:value "was unsure" .
+
+                        <#EP2EN> a er:Entity ;
+                                er:value "if he would be involved with a third Guardians film" .
+                
+                        <#TEYH1> a er:Triplet ;
+                                er:subject <#EY9HR> ;
+                                er:property <#RG2LE> ;
+                                er:object <#EU0C4> .
+
+                        <#EY9HR> a er:Entity ;
+                                er:value "James Gunn" .
+
+                        <#RG2LE> a er:Relationship ;
+                                er:value "was privately notified by" .
+
+                        <#EU0C4> a er:Entity ;
+                                er:value "Horn" .
+                
+                        <#TI1B9> a er:Triplet ;
+                                er:subject <#EY9HR> ;
+                                er:property <#RJSLM> ;
+                                er:object <#EKU3Y> .
+
+                        <#EY9HR> a er:Entity ;
+                                er:value "James Gunn" .
+
+                        <#RJSLM> a er:Relationship ;
+                                er:value "wrote and directed" .
+
+                        <#EKU3Y> a er:Entity ;
+                                er:value "Guardians of the Galaxy Vol. 3" .
+                
+                        <#T178X> a er:Triplet ;
+                                er:subject <#EY9HR> ;
+                                er:property <#R1FGQ> ;
+                                er:object <#EWLIQ> .
+
+                        <#EY9HR> a er:Entity ;
+                                er:value "James Gunn" .
+
+                        <#R1FGQ> a er:Relationship ;
+                                er:value "was fired from" .
+
+                        <#EWLIQ> a er:Entity ;
+                                er:value "Guardians of the Galaxy" .
+                
+                        <#T589E> a er:Triplet ;
+                                er:subject <#EY9HR> ;
+                                er:property <#RP1IS> ;
+                                er:object <#EE90T> .
+
+                        <#EY9HR> a er:Entity ;
+                                er:value "James Gunn" .
+
+                        <#RP1IS> a er:Relationship ;
+                                er:value "stated" .
+
+                        <#EE90T> a er:Entity ;
+                                er:value "that in addition to having the  basic story  for Guardians of the Galaxy Vol.2" .
+                
+                        <#T93TN> a er:Triplet ;
+                                er:subject <#EY9HR> ;
+                                er:property <#RR36G> ;
+                                er:object <#E880Q> .
+
+                        <#EY9HR> a er:Entity ;
+                                er:value "James Gunn" .
+
+                        <#RR36G> a er:Relationship ;
+                                er:value "personally identifies with" .
+
+                        <#E880Q> a er:Entity ;
+                                er:value "Rocket" .
+                
+                        <#T4449> a er:Triplet ;
+                                er:subject <#EU0C4> ;
+                                er:property <#RIX6N> ;
+                                er:object <#EP8S2> .
+
+                        <#EU0C4> a er:Entity ;
+                                er:value "Horn" .
+
+                        <#RIX6N> a er:Relationship ;
+                                er:value "had changed his mind after" .
+
+                        <#EP8S2> a er:Entity ;
+                                er:value "being impressed by Gunn's response" .
+                
+                        <#TVANZ> a er:Triplet ;
+                                er:subject <#EU0C4> ;
+                                er:property <#RFFO3> ;
+                                er:object <#EKGMU> .
+
+                        <#EU0C4> a er:Entity ;
+                                er:value "Horn" .
+
+                        <#RFFO3> a er:Relationship ;
+                                er:value "only took it as a courtesy" .
+
+                        <#EKGMU> a er:Entity ;
+                                er:value "did not change Disney's decision to fire Gunn" .
+                
+                        <#TBSM7> a er:Triplet ;
+                                er:subject <#EU0C4> ;
+                                er:property <#RIX6N> ;
+                                er:object <#EJ4QM> .
+
+                        <#EU0C4> a er:Entity ;
+                                er:value "Horn" .
+
+                        <#RIX6N> a er:Relationship ;
+                                er:value "had changed his mind after" .
+
+                        <#EJ4QM> a er:Entity ;
+                                er:value "being impressed by Gunn's response to the situation" .
+                
+                        <#TJ2QY> a er:Triplet ;
+                                er:subject <#EWFW0> ;
+                                er:property <#RS0TD> ;
+                                er:object <#E880Q> .
+
+                        <#EWFW0> a er:Entity ;
+                                er:value "High Evolutionary" .
+
+                        <#RS0TD> a er:Relationship ;
+                                er:value "is creator of" .
+
+                        <#E880Q> a er:Entity ;
+                                er:value "Rocket" .
+                
+                        <#TFKGY> a er:Triplet ;
+                                er:subject <#EZLZG> ;
+                                er:property <#RK33L> ;
+                                er:object <#EM4XV> .
+
+                        <#EZLZG> a er:Entity ;
+                                er:value "He" .
+
+                        <#RK33L> a er:Relationship ;
+                                er:value "confirmed" .
+
+                        <#EM4XV> a er:Entity ;
+                                er:value "in November" .
+                
+                        <#T92FU> a er:Triplet ;
+                                er:subject <#EUM67> ;
+                                er:property <#RDQQZ> ;
+                                er:object <#EP8PB> .
+
+                        <#EUM67> a er:Entity ;
+                                er:value "Gunn" .
+
+                        <#RDQQZ> a er:Relationship ;
+                                er:value "discussed" .
+
+                        <#EP8PB> a er:Entity ;
+                                er:value "storyline" .
+                
+                        <#TCCTH> a er:Triplet ;
+                                er:subject <#EUM67> ;
+                                er:property <#R9NRH> ;
+                                er:object <#EL5UI> .
+
+                        <#EUM67> a er:Entity ;
+                                er:value "Gunn" .
+
+                        <#R9NRH> a er:Relationship ;
+                                er:value "discussed his commitments to" .
+
+                        <#EL5UI> a er:Entity ;
+                                er:value "The Suicide Squad" .
+                
+                        <#T4SKR> a er:Triplet ;
+                                er:subject <#EUM67> ;
+                                er:property <#R4ZT2> ;
+                                er:object <#E7C24> .
+
+                        <#EUM67> a er:Entity ;
+                                er:value "Gunn" .
+
+                        <#R4ZT2> a er:Relationship ;
+                                er:value "stated the footage was not released publicly because the" .
+
+                        <#E7C24> a er:Entity ;
+                                er:value "visual effects were not complete enough" .
+                
+                        <#TDTC9> a er:Triplet ;
+                                er:subject <#EUM67> ;
+                                er:property <#R3DWE> ;
+                                er:object <#ESKNT> .
+
+                        <#EUM67> a er:Entity ;
+                                er:value "Gunn" .
+
+                        <#R3DWE> a er:Relationship ;
+                                er:value "asked" .
+
+                        <#ESKNT> a er:Entity ;
+                                er:value "unhappy" .
+                
+                        <#TV5UO> a er:Triplet ;
+                                er:subject <#EUM67> ;
+                                er:property <#RK1XR> ;
+                                er:object <#EH6EZ> .
+
+                        <#EUM67> a er:Entity ;
+                                er:value "Gunn" .
+
+                        <#RK1XR> a er:Relationship ;
+                                er:value "changed Cosmo's gender" .
+
+                        <#EH6EZ> a er:Entity ;
+                                er:value "from male to female" .
+                
+                        <#TCRWH> a er:Triplet ;
+                                er:subject <#EUM67> ;
+                                er:property <#R0JAK> ;
+                                er:object <#EWFW0> .
+
+                        <#EUM67> a er:Entity ;
+                                er:value "Gunn" .
+
+                        <#R0JAK> a er:Relationship ;
+                                er:value "referred to" .
+
+                        <#EWFW0> a er:Entity ;
+                                er:value "High Evolutionary" .
+                
+                        <#TDDUQ> a er:Triplet ;
+                                er:subject <#EUM67> ;
+                                er:property <#R0JAK> ;
+                                er:object <#E4O65> .
+
+                        <#EUM67> a er:Entity ;
+                                er:value "Gunn" .
+
+                        <#R0JAK> a er:Relationship ;
+                                er:value "referred to" .
+
+                        <#E4O65> a er:Entity ;
+                                er:value "cruelest MCU villain" .
+                
+                        <#T79LS> a er:Triplet ;
+                                er:subject <#EUM67> ;
+                                er:property <#R6TGP> ;
+                                er:object <#EA85B> .
+
+                        <#EUM67> a er:Entity ;
+                                er:value "Gunn" .
+
+                        <#R6TGP> a er:Relationship ;
+                                er:value "announced" .
+
+                        <#EA85B> a er:Entity ;
+                                er:value "that he would return to write and direct Guardians of the Galaxy Vol.3" .
+                
+                        <#TRL5P> a er:Triplet ;
+                                er:subject <#EUM67> ;
+                                er:property <#RCARF> ;
+                                er:object <#ESKNT> .
+
+                        <#EUM67> a er:Entity ;
+                                er:value "Gunn" .
+
+                        <#RCARF> a er:Relationship ;
+                                er:value "asked if" .
+
+                        <#ESKNT> a er:Entity ;
+                                er:value "unhappy" .
+                
+                        <#TARX3> a er:Triplet ;
+                                er:subject <#EUM67> ;
+                                er:property <#RPLJO> ;
+                                er:object <#EOWBX> .
+
+                        <#EUM67> a er:Entity ;
+                                er:value "Gunn" .
+
+                        <#RPLJO> a er:Relationship ;
+                                er:value "wrote" .
+
+                        <#EOWBX> a er:Entity ;
+                                er:value "cameo appearance" .
+                
+                        <#TWCIY> a er:Triplet ;
+                                er:subject <#EUM67> ;
+                                er:property <#RQN0B> ;
+                                er:object <#E5R0X> .
+
+                        <#EUM67> a er:Entity ;
+                                er:value "Gunn" .
+
+                        <#RQN0B> a er:Relationship ;
+                                er:value "would be free to move on to new projects" .
+
+                        <#E5R0X> a er:Entity ;
+                                er:value "other major studios were interested in hiring him" .
+                
+                        <#TYDWA> a er:Triplet ;
+                                er:subject <#EUM67> ;
+                                er:property <#RLDNW> ;
+                                er:object <#E17LF> .
+
+                        <#EUM67> a er:Entity ;
+                                er:value "Gunn" .
+
+                        <#RLDNW> a er:Relationship ;
+                                er:value "removed" .
+
+                        <#E17LF> a er:Entity ;
+                                er:value "appearance" .
+                
+                        <#TMMAA> a er:Triplet ;
+                                er:subject <#EUM67> ;
+                                er:property <#RQTLP> ;
+                                er:object <#EHMNU> .
+
+                        <#EUM67> a er:Entity ;
+                                er:value "Gunn" .
+
+                        <#RQTLP> a er:Relationship ;
+                                er:value "was expected to be paid" .
+
+                        <#EHMNU> a er:Entity ;
+                                er:value "$7–10 million or more" .
+                
+                        <#TLP4D> a er:Triplet ;
+                                er:subject <#EUM67> ;
+                                er:property <#RPALP> ;
+                                er:object <#EUVYB> .
+
+                        <#EUM67> a er:Entity ;
+                                er:value "Gunn" .
+
+                        <#RPALP> a er:Relationship ;
+                                er:value "did not breach his contract" .
+
+                        <#EUVYB> a er:Entity ;
+                                er:value "the tweets were written years before he signed on to the film" .
+                
+                        <#T0EVH> a er:Triplet ;
+                                er:subject <#EUM67> ;
+                                er:property <#R4FNV> ;
+                                er:object <#EFJ4K> .
+
+                        <#EUM67> a er:Entity ;
+                                er:value "Gunn" .
+
+                        <#R4FNV> a er:Relationship ;
+                                er:value "likened" .
+
+                        <#EFJ4K> a er:Entity ;
+                                er:value "Doctor Moreau" .
+                
+                        <#TK8MJ> a er:Triplet ;
+                                er:subject <#EUM67> ;
+                                er:property <#R4FNV> ;
+                                er:object <#EWFW0> .
+
+                        <#EUM67> a er:Entity ;
+                                er:value "Gunn" .
+
+                        <#R4FNV> a er:Relationship ;
+                                er:value "likened" .
+
+                        <#EWFW0> a er:Entity ;
+                                er:value "High Evolutionary" .
+                
+                        <#T1KU1> a er:Triplet ;
+                                er:subject <#EUM67> ;
+                                er:property <#RMVI5> ;
+                                er:object <#ETO86> .
+
+                        <#EUM67> a er:Entity ;
+                                er:value "Gunn" .
+
+                        <#RMVI5> a er:Relationship ;
+                                er:value "said" .
+
+                        <#ETO86> a er:Entity ;
+                                er:value "that he had a  fairly clear idea of where we were going and what we were going to do" .
+                
+                        <#T1ND7> a er:Triplet ;
+                                er:subject <#EUM67> ;
+                                er:property <#RMVI5> ;
+                                er:object <#E3NU9> .
+
+                        <#EUM67> a er:Entity ;
+                                er:value "Gunn" .
+
+                        <#RMVI5> a er:Relationship ;
+                                er:value "said" .
+
+                        <#E3NU9> a er:Entity ;
+                                er:value "that the third film would  tying a lot of stuff together  from the first two" .
+                
+                        <#T80IS> a er:Triplet ;
+                                er:subject <#EUM67> ;
+                                er:property <#RMVI5> ;
+                                er:object <#E59EB> .
+
+                        <#EUM67> a er:Entity ;
+                                er:value "Gunn" .
+
+                        <#RMVI5> a er:Relationship ;
+                                er:value "said" .
+
+                        <#E59EB> a er:Entity ;
+                                er:value "that the third film would be set after Avengers: Infinity War" .
+                
+                        <#TZNGQ> a er:Triplet ;
+                                er:subject <#EUM67> ;
+                                er:property <#RMVI5> ;
+                                er:object <#EEDBT> .
+
+                        <#EUM67> a er:Entity ;
+                                er:value "Gunn" .
+
+                        <#RMVI5> a er:Relationship ;
+                                er:value "said" .
+
+                        <#EEDBT> a er:Entity ;
+                                er:value "that the three Guardians films would  work together as a whole" .
+                
+                        <#TCXG1> a er:Triplet ;
+                                er:subject <#EUM67> ;
+                                er:property <#RMVI5> ;
+                                er:object <#E0D9Z> .
+
+                        <#EUM67> a er:Entity ;
+                                er:value "Gunn" .
+
+                        <#RMVI5> a er:Relationship ;
+                                er:value "said" .
+
+                        <#E0D9Z> a er:Entity ;
+                                er:value "that there would be a third film  for sure.We're trying to figure it out" .
+                
+                        <#T4LTF> a er:Triplet ;
+                                er:subject <#EUM67> ;
+                                er:property <#RBTED> ;
+                                er:object <#E23D7> .
+
+                        <#EUM67> a er:Entity ;
+                                er:value "Gunn" .
+
+                        <#RBTED> a er:Relationship ;
+                                er:value "returned to" .
+
+                        <#E23D7> a er:Entity ;
+                                er:value "franchise" .
+                
+                        <#TI0WQ> a er:Triplet ;
+                                er:subject <#EUM67> ;
+                                er:property <#R5KKZ> ;
+                                er:object <#EXZ6F> .
+
+                        <#EUM67> a er:Entity ;
+                                er:value "Gunn" .
+
+                        <#R5KKZ> a er:Relationship ;
+                                er:value "also planned" .
+
+                        <#EXZ6F> a er:Entity ;
+                                er:value "to work with Marvel on the future of the  Marvel Cosmic Universe" .
+                
+                        <#TRNJ6> a er:Triplet ;
+                                er:subject <#EUM67> ;
+                                er:property <#RR36G> ;
+                                er:object <#E880Q> .
+
+                        <#EUM67> a er:Entity ;
+                                er:value "Gunn" .
+
+                        <#RR36G> a er:Relationship ;
+                                er:value "personally identifies with" .
+
+                        <#E880Q> a er:Entity ;
+                                er:value "Rocket" .
+                
+                        <#T3CGL> a er:Triplet ;
+                                er:subject <#EUM67> ;
+                                er:property <#RUH7Q> ;
+                                er:object <#EXH7V> .
+
+                        <#EUM67> a er:Entity ;
+                                er:value "Gunn" .
+
+                        <#RUH7Q> a er:Relationship ;
+                                er:value "was set" .
+
+                        <#EXH7V> a er:Entity ;
+                                er:value "to begin work on Vol.3 shortly after completing his work as executive producer and consultant on Infinity War" .
+                
+                        <#TIIHC> a er:Triplet ;
+                                er:subject <#EUM67> ;
+                                er:property <#RKR5S> ;
+                                er:object <#E9UJ4> .
+
+                        <#EUM67> a er:Entity ;
+                                er:value "Gunn" .
+
+                        <#RKR5S> a er:Relationship ;
+                                er:value "had begun" .
+
+                        <#E9UJ4> a er:Entity ;
+                                er:value "storyboarding the film" .
+                
+                        <#T6CA3> a er:Triplet ;
+                                er:subject <#EUM67> ;
+                                er:property <#REQ0E> ;
+                                er:object <#EEDBT> .
+
+                        <#EUM67> a er:Entity ;
+                                er:value "Gunn" .
+
+                        <#REQ0E> a er:Relationship ;
+                                er:value "also felt" .
+
+                        <#EEDBT> a er:Entity ;
+                                er:value "that the three Guardians films would  work together as a whole" .
+                
+                        <#TW5HW> a er:Triplet ;
+                                er:subject <#EUM67> ;
+                                er:property <#R0CKB> ;
+                                er:object <#EZWNV> .
+
+                        <#EUM67> a er:Entity ;
+                                er:value "Gunn" .
+
+                        <#R0CKB> a er:Relationship ;
+                                er:value "had begun storyboarding" .
+
+                        <#EZWNV> a er:Entity ;
+                                er:value "by June" .
+                
+                        <#TR34T> a er:Triplet ;
+                                er:subject <#EUM67> ;
+                                er:property <#RKT2E> ;
+                                er:object <#EYR5H> .
+
+                        <#EUM67> a er:Entity ;
+                                er:value "Gunn" .
+
+                        <#RKT2E> a er:Relationship ;
+                                er:value "asked in" .
+
+                        <#EYR5H> a er:Entity ;
+                                er:value "October" .
+                
+                        <#T2U96> a er:Triplet ;
+                                er:subject <#EUM67> ;
+                                er:property <#R4ZWB> ;
+                                er:object <#EWZ7S> .
+
+                        <#EUM67> a er:Entity ;
+                                er:value "Gunn" .
+
+                        <#R4ZWB> a er:Relationship ;
+                                er:value "also reiterated" .
+
+                        <#EWZ7S> a er:Entity ;
+                                er:value "that he had not decided whether he would be directing the film" .
+                
+                        <#T4ZCL> a er:Triplet ;
+                                er:subject <#EUM67> ;
+                                er:property <#RMVI5> ;
+                                er:object <#EM6UP> .
+
+                        <#EUM67> a er:Entity ;
+                                er:value "Gunn" .
+
+                        <#RMVI5> a er:Relationship ;
+                                er:value "said" .
+
+                        <#EM6UP> a er:Entity ;
+                                er:value "Yondu" .
+                
+                        <#TDIAK> a er:Triplet ;
+                                er:subject <#EUM67> ;
+                                er:property <#RMVI5> ;
+                                er:object <#E6OJ5> .
+
+                        <#EUM67> a er:Entity ;
+                                er:value "Gunn" .
+
+                        <#RMVI5> a er:Relationship ;
+                                er:value "said" .
+
+                        <#E6OJ5> a er:Entity ;
+                                er:value "that the film would be set after Avengers: Infinity War (2018) and Avengers: Endgame (2019)" .
+                
+                        <#T89FM> a er:Triplet ;
+                                er:subject <#EUM67> ;
+                                er:property <#R1GLZ> ;
+                                er:object <#EL5JM> .
+
+                        <#EUM67> a er:Entity ;
+                                er:value "Gunn" .
+
+                        <#R1GLZ> a er:Relationship ;
+                                er:value "said in" .
+
+                        <#EL5JM> a er:Entity ;
+                                er:value "April" .
+                
+                        <#TDC1B> a er:Triplet ;
+                                er:subject <#EUM67> ;
+                                er:property <#R1GLZ> ;
+                                er:object <#E6DEH> .
+
+                        <#EUM67> a er:Entity ;
+                                er:value "Gunn" .
+
+                        <#R1GLZ> a er:Relationship ;
+                                er:value "said in" .
+
+                        <#E6DEH> a er:Entity ;
+                                er:value "February 2020" .
+                
+                        <#TISXP> a er:Triplet ;
+                                er:subject <#EUM67> ;
+                                er:property <#RMVI5> ;
+                                er:object <#EWZ7S> .
+
+                        <#EUM67> a er:Entity ;
+                                er:value "Gunn" .
+
+                        <#RMVI5> a er:Relationship ;
+                                er:value "said" .
+
+                        <#EWZ7S> a er:Entity ;
+                                er:value "that he had not decided whether he would be directing the film" .
+                
+                        <#T5ZWW> a er:Triplet ;
+                                er:subject <#EUM67> ;
+                                er:property <#RMVI5> ;
+                                er:object <#E52FP> .
+
+                        <#EUM67> a er:Entity ;
+                                er:value "Gunn" .
+
+                        <#RMVI5> a er:Relationship ;
+                                er:value "said" .
+
+                        <#E52FP> a er:Entity ;
+                                er:value "that he was set to begin work on Vol.3 shortly after completing his work as executive producer and consultant on Infinity War" .
+                
+                        <#TMWZS> a er:Triplet ;
+                                er:subject <#EUM67> ;
+                                er:property <#R0TJ6> ;
+                                er:object <#ELXC6> .
+
+                        <#EUM67> a er:Entity ;
+                                er:value "Gunn" .
+
+                        <#R0TJ6> a er:Relationship ;
+                                er:value "said that of all the elements of the film" .
+
+                        <#ELXC6> a er:Entity ;
+                                er:value "that he had been sad to leave when he was fired" .
+                
+                        <#T33RQ> a er:Triplet ;
+                                er:subject <#EUM67> ;
+                                er:property <#RMVI5> ;
+                                er:object <#EL7XW> .
+
+                        <#EUM67> a er:Entity ;
+                                er:value "Gunn" .
+
+                        <#RMVI5> a er:Relationship ;
+                                er:value "said" .
+
+                        <#EL7XW> a er:Entity ;
+                                er:value "that he had a  fairly clear idea of where we were going" .
+                
+                        <#TB912> a er:Triplet ;
+                                er:subject <#EUM67> ;
+                                er:property <#RMVI5> ;
+                                er:object <#E00WJ> .
+
+                        <#EUM67> a er:Entity ;
+                                er:value "Gunn" .
+
+                        <#RMVI5> a er:Relationship ;
+                                er:value "said" .
+
+                        <#E00WJ> a er:Entity ;
+                                er:value "that the third film would  tie a lot of stuff together  from the first two" .
+                
+                        <#TCOCF> a er:Triplet ;
+                                er:subject <#EKU3Y> ;
+                                er:property <#RX1E3> ;
+                                er:object <#EMKQL> .
+
+                        <#EKU3Y> a er:Entity ;
+                                er:value "Guardians of the Galaxy Vol. 3" .
+
+                        <#RX1E3> a er:Relationship ;
+                                er:value "would likely center on" .
+
+                        <#EMKQL> a er:Entity ;
+                                er:value "new group of characters" .
+                
+                        <#T4PFK> a er:Triplet ;
+                                er:subject <#EKU3Y> ;
+                                er:property <#RY3CV> ;
+                                er:object <#EGX3E> .
+
+                        <#EKU3Y> a er:Entity ;
+                                er:value "Guardians of the Galaxy Vol. 3" .
+
+                        <#RY3CV> a er:Relationship ;
+                                er:value "is" .
+
+                        <#EGX3E> a er:Entity ;
+                                er:value "American superhero film" .
+                
+                        <#TVZII> a er:Triplet ;
+                                er:subject <#EKU3Y> ;
+                                er:property <#R1T8L> ;
+                                er:object <#EJUWC> .
+
+                        <#EKU3Y> a er:Entity ;
+                                er:value "Guardians of the Galaxy Vol. 3" .
+
+                        <#R1T8L> a er:Relationship ;
+                                er:value "premiered at" .
+
+                        <#EJUWC> a er:Entity ;
+                                er:value "Disneyland Paris" .
+                
+                        <#TXSLW> a er:Triplet ;
+                                er:subject <#EKU3Y> ;
+                                er:property <#RFJTS> ;
+                                er:object <#E3T46> .
+
+                        <#EKU3Y> a er:Entity ;
+                                er:value "Guardians of the Galaxy Vol. 3" .
+
+                        <#RFJTS> a er:Relationship ;
+                                er:value "made" .
+
+                        <#E3T46> a er:Entity ;
+                                er:value "$32 million in its third weekend" .
+                
+                        <#TZTYQ> a er:Triplet ;
+                                er:subject <#EKU3Y> ;
+                                er:property <#RFJTS> ;
+                                er:object <#ET96C> .
+
+                        <#EKU3Y> a er:Entity ;
+                                er:value "Guardians of the Galaxy Vol. 3" .
+
+                        <#RFJTS> a er:Relationship ;
+                                er:value "made" .
+
+                        <#ET96C> a er:Entity ;
+                                er:value "$48.2 million on its first day" .
+                
+                        <#TJVF5> a er:Triplet ;
+                                er:subject <#EKU3Y> ;
+                                er:property <#RQ24I> ;
+                                er:object <#EWC9H> .
+
+                        <#EKU3Y> a er:Entity ;
+                                er:value "Guardians of the Galaxy Vol. 3" .
+
+                        <#RQ24I> a er:Relationship ;
+                                er:value "screened at" .
+
+                        <#EWC9H> a er:Entity ;
+                                er:value "Dongdaemun Design Plaza" .
+                
+                        <#TUQH4> a er:Triplet ;
+                                er:subject <#EKU3Y> ;
+                                er:property <#RVSYG> ;
+                                er:object <#ECO9V> .
+
+                        <#EKU3Y> a er:Entity ;
+                                er:value "Guardians of the Galaxy Vol. 3" .
+
+                        <#RVSYG> a er:Relationship ;
+                                er:value "released on" .
+
+                        <#ECO9V> a er:Entity ;
+                                er:value "Blu-ray" .
+                
+                        <#T2JPE> a er:Triplet ;
+                                er:subject <#EKU3Y> ;
+                                er:property <#RVSYG> ;
+                                er:object <#EK1NW> .
+
+                        <#EKU3Y> a er:Entity ;
+                                er:value "Guardians of the Galaxy Vol. 3" .
+
+                        <#RVSYG> a er:Relationship ;
+                                er:value "released on" .
+
+                        <#EK1NW> a er:Entity ;
+                                er:value "DVD" .
+                
+                        <#TOM7J> a er:Triplet ;
+                                er:subject <#EKU3Y> ;
+                                er:property <#RVSYG> ;
+                                er:object <#ESGQT> .
+
+                        <#EKU3Y> a er:Entity ;
+                                er:value "Guardians of the Galaxy Vol. 3" .
+
+                        <#RVSYG> a er:Relationship ;
+                                er:value "released on" .
+
+                        <#ESGQT> a er:Entity ;
+                                er:value "Disney+" .
+                
+                        <#TMGPJ> a er:Triplet ;
+                                er:subject <#EKU3Y> ;
+                                er:property <#RVSYG> ;
+                                er:object <#E842D> .
+
+                        <#EKU3Y> a er:Entity ;
+                                er:value "Guardians of the Galaxy Vol. 3" .
+
+                        <#RVSYG> a er:Relationship ;
+                                er:value "released on" .
+
+                        <#E842D> a er:Entity ;
+                                er:value "Ultra HD Blu-ray" .
+                
+                        <#T2RPU> a er:Triplet ;
+                                er:subject <#EKU3Y> ;
+                                er:property <#RVSYG> ;
+                                er:object <#EM4QK> .
+
+                        <#EKU3Y> a er:Entity ;
+                                er:value "Guardians of the Galaxy Vol. 3" .
+
+                        <#RVSYG> a er:Relationship ;
+                                er:value "released on" .
+
+                        <#EM4QK> a er:Entity ;
+                                er:value "digital download" .
+                
+                        <#T9O1R> a er:Triplet ;
+                                er:subject <#EKU3Y> ;
+                                er:property <#R0QCD> ;
+                                er:object <#EFB9G> .
+
+                        <#EKU3Y> a er:Entity ;
+                                er:value "Guardians of the Galaxy Vol. 3" .
+
+                        <#R0QCD> a er:Relationship ;
+                                er:value "debuted with" .
+
+                        <#EFB9G> a er:Entity ;
+                                er:value "$118.4 million" .
+                
+                        <#T1IRN> a er:Triplet ;
+                                er:subject <#EKU3Y> ;
+                                er:property <#RR1AV> ;
+                                er:object <#ESDZH> .
+
+                        <#EKU3Y> a er:Entity ;
+                                er:value "Guardians of the Galaxy Vol. 3" .
+
+                        <#RR1AV> a er:Relationship ;
+                                er:value "be his last Guardians film" .
+
+                        <#ESDZH> a er:Entity ;
+                                er:value "September 2019" .
+                
+                        <#TFB5E> a er:Triplet ;
+                                er:subject <#EKU3Y> ;
+                                er:property <#RUJ9K> ;
+                                er:object <#EHQKF> .
+
+                        <#EKU3Y> a er:Entity ;
+                                er:value "Guardians of the Galaxy Vol. 3" .
+
+                        <#RUJ9K> a er:Relationship ;
+                                er:value "could happen" .
+
+                        <#EHQKF> a er:Entity ;
+                                er:value "April 2017" .
+                
+                        <#TSKNI> a er:Triplet ;
+                                er:subject <#EKU3Y> ;
+                                er:property <#R3L17> ;
+                                er:object <#EWLIQ> .
+
+                        <#EKU3Y> a er:Entity ;
+                                er:value "Guardians of the Galaxy Vol. 3" .
+
+                        <#R3L17> a er:Relationship ;
+                                er:value "is sequel to" .
+
+                        <#EWLIQ> a er:Entity ;
+                                er:value "Guardians of the Galaxy" .
+                
+                        <#TD3HW> a er:Triplet ;
+                                er:subject <#EKU3Y> ;
+                                er:property <#R3L17> ;
+                                er:object <#E2VL6> .
+
+                        <#EKU3Y> a er:Entity ;
+                                er:value "Guardians of the Galaxy Vol. 3" .
+
+                        <#R3L17> a er:Relationship ;
+                                er:value "is sequel to" .
+
+                        <#E2VL6> a er:Entity ;
+                                er:value "Guardians of the Galaxy Vol. 2" .
+                
+                        <#TXY8T> a er:Triplet ;
+                                er:subject <#EKU3Y> ;
+                                er:property <#R0U68> ;
+                                er:object <#E8P73> .
+
+                        <#EKU3Y> a er:Entity ;
+                                er:value "Guardians of the Galaxy Vol. 3" .
+
+                        <#R0U68> a er:Relationship ;
+                                er:value "released in" .
+
+                        <#E8P73> a er:Entity ;
+                                er:value "3D" .
+                
+                        <#TTNCK> a er:Triplet ;
+                                er:subject <#EKU3Y> ;
+                                er:property <#R0U68> ;
+                                er:object <#E29EI> .
+
+                        <#EKU3Y> a er:Entity ;
+                                er:value "Guardians of the Galaxy Vol. 3" .
+
+                        <#R0U68> a er:Relationship ;
+                                er:value "released in" .
+
+                        <#E29EI> a er:Entity ;
+                                er:value "4DX" .
+                
+                        <#T69DO> a er:Triplet ;
+                                er:subject <#EKU3Y> ;
+                                er:property <#R0U68> ;
+                                er:object <#EUGRU> .
+
+                        <#EKU3Y> a er:Entity ;
+                                er:value "Guardians of the Galaxy Vol. 3" .
+
+                        <#R0U68> a er:Relationship ;
+                                er:value "released in" .
+
+                        <#EUGRU> a er:Entity ;
+                                er:value "Dolby Cinema" .
+                
+                        <#T31AW> a er:Triplet ;
+                                er:subject <#EKU3Y> ;
+                                er:property <#R0U68> ;
+                                er:object <#EWT8Z> .
+
+                        <#EKU3Y> a er:Entity ;
+                                er:value "Guardians of the Galaxy Vol. 3" .
+
+                        <#R0U68> a er:Relationship ;
+                                er:value "released in" .
+
+                        <#EWT8Z> a er:Entity ;
+                                er:value "IMAX" .
+                
+                        <#TMZJG> a er:Triplet ;
+                                er:subject <#EKU3Y> ;
+                                er:property <#R0U68> ;
+                                er:object <#EXDLV> .
+
+                        <#EKU3Y> a er:Entity ;
+                                er:value "Guardians of the Galaxy Vol. 3" .
+
+                        <#R0U68> a er:Relationship ;
+                                er:value "released in" .
+
+                        <#EXDLV> a er:Entity ;
+                                er:value "ScreenX" .
+                
+                        <#TP79M> a er:Triplet ;
+                                er:subject <#EKU3Y> ;
+                                er:property <#R8WZ5> ;
+                                er:object <#EINIP> .
+
+                        <#EKU3Y> a er:Entity ;
+                                er:value "Guardians of the Galaxy Vol. 3" .
+
+                        <#R8WZ5> a er:Relationship ;
+                                er:value "retained the top spot at the box office with" .
+
+                        <#EINIP> a er:Entity ;
+                                er:value "$62 million" .
+                
+                        <#TVD12> a er:Triplet ;
+                                er:subject <#EKU3Y> ;
+                                er:property <#RBS69> ;
+                                er:object <#EESNO> .
+
+                        <#EKU3Y> a er:Entity ;
+                                er:value "Guardians of the Galaxy Vol. 3" .
+
+                        <#RBS69> a er:Relationship ;
+                                er:value "grossed" .
+
+                        <#EESNO> a er:Entity ;
+                                er:value "$168.1 million in its opening weekend" .
+                
+                        <#TW2KB> a er:Triplet ;
+                                er:subject <#EKU3Y> ;
+                                er:property <#RBS69> ;
+                                er:object <#E3T46> .
+
+                        <#EKU3Y> a er:Entity ;
+                                er:value "Guardians of the Galaxy Vol. 3" .
+
+                        <#RBS69> a er:Relationship ;
+                                er:value "grossed" .
+
+                        <#E3T46> a er:Entity ;
+                                er:value "$32 million in its third weekend" .
+                
+                        <#TGA8T> a er:Triplet ;
+                                er:subject <#EKU3Y> ;
+                                er:property <#RBS69> ;
+                                er:object <#EE710> .
+
+                        <#EKU3Y> a er:Entity ;
+                                er:value "Guardians of the Galaxy Vol. 3" .
+
+                        <#RBS69> a er:Relationship ;
+                                er:value "grossed" .
+
+                        <#EE710> a er:Entity ;
+                                er:value "$359 million in the United States and Canada" .
+                
+                        <#TLKIO> a er:Triplet ;
+                                er:subject <#EKU3Y> ;
+                                er:property <#RBS69> ;
+                                er:object <#EWJRI> .
+
+                        <#EKU3Y> a er:Entity ;
+                                er:value "Guardians of the Galaxy Vol. 3" .
+
+                        <#RBS69> a er:Relationship ;
+                                er:value "grossed" .
+
+                        <#EWJRI> a er:Entity ;
+                                er:value "$486.4 million in other territories" .
+                
+                        <#TC0YH> a er:Triplet ;
+                                er:subject <#EKU3Y> ;
+                                er:property <#RBS69> ;
+                                er:object <#EJB0S> .
+
+                        <#EKU3Y> a er:Entity ;
+                                er:value "Guardians of the Galaxy Vol. 3" .
+
+                        <#RBS69> a er:Relationship ;
+                                er:value "grossed" .
+
+                        <#EJB0S> a er:Entity ;
+                                er:value "$845.4 million" .
+                
+                        <#T1J7Z> a er:Triplet ;
+                                er:subject <#EKU3Y> ;
+                                er:property <#RBS69> ;
+                                er:object <#EYDYC> .
+
+                        <#EKU3Y> a er:Entity ;
+                                er:value "Guardians of the Galaxy Vol. 3" .
+
+                        <#RBS69> a er:Relationship ;
+                                er:value "grossed" .
+
+                        <#EYDYC> a er:Entity ;
+                                er:value "$92 million for a drop of 40% from its opening weekend" .
+                
+                        <#TX7DS> a er:Triplet ;
+                                er:subject <#EKU3Y> ;
+                                er:property <#R2Z30> ;
+                                er:object <#E49C6> .
+
+                        <#EKU3Y> a er:Entity ;
+                                er:value "Guardians of the Galaxy Vol. 3" .
+
+                        <#R2Z30> a er:Relationship ;
+                                er:value "Gunn reaffirmed" .
+
+                        <#E49C6> a er:Entity ;
+                                er:value "May 2021" .
+                
+                        <#T0NQM> a er:Triplet ;
+                                er:subject <#EKU3Y> ;
+                                er:property <#RY4BS> ;
+                                er:object <#ESDZH> .
+
+                        <#EKU3Y> a er:Entity ;
+                                er:value "Guardians of the Galaxy Vol. 3" .
+
+                        <#RY4BS> a er:Relationship ;
+                                er:value "Gunn confirmed" .
+
+                        <#ESDZH> a er:Entity ;
+                                er:value "September 2019" .
+                
+                        <#TLZUM> a er:Triplet ;
+                                er:subject <#EKU3Y> ;
+                                er:property <#RBQRC> ;
+                                er:object <#E6BJG> .
+
+                        <#EKU3Y> a er:Entity ;
+                                er:value "Guardians of the Galaxy Vol. 3" .
+
+                        <#RBQRC> a er:Relationship ;
+                                er:value "Saldaña confirmed" .
+
+                        <#E6BJG> a er:Entity ;
+                                er:value "April 2023" .
+                
+                        <#TK421> a er:Triplet ;
+                                er:subject <#E34UZ> ;
+                                er:property <#RQDM7> ;
+                                er:object <#E880Q> .
+
+                        <#E34UZ> a er:Entity ;
+                                er:value "the most meaningful to him" .
+
+                        <#RQDM7> a er:Relationship ;
+                                er:value "was the character of" .
+
+                        <#E880Q> a er:Entity ;
+                                er:value "Rocket" .
+                
+                        <#T67ZD> a er:Triplet ;
+                                er:subject <#ER507> ;
+                                er:property <#R8M0M> ;
+                                er:object <#E02KS> .
+
+                        <#ER507> a er:Entity ;
+                                er:value "Poulter" .
+
+                        <#R8M0M> a er:Relationship ;
+                                er:value "cast as" .
+
+                        <#E02KS> a er:Entity ;
+                                er:value "Adam Warlock" .
+                
+                        <#TBLFU> a er:Triplet ;
+                                er:subject <#ER507> ;
+                                er:property <#RUS05> ;
+                                er:object <#E2HNW> .
+
+                        <#ER507> a er:Entity ;
+                                er:value "Poulter" .
+
+                        <#RUS05> a er:Relationship ;
+                                er:value "auditioned for" .
+
+                        <#E2HNW> a er:Entity ;
+                                er:value "role" .
+                
+                        <#THITD> a er:Triplet ;
+                                er:subject <#EBBGL> ;
+                                er:property <#RMVI5> ;
+                                er:object <#E1AXQ> .
+
+                        <#EBBGL> a er:Entity ;
+                                er:value "Green" .
+
+                        <#RMVI5> a er:Relationship ;
+                                er:value "said" .
+
+                        <#E1AXQ> a er:Entity ;
+                                er:value "film would be about Gamora and Nebula's story" .
+                
+                        <#TB457> a er:Triplet ;
+                                er:subject <#EKO3B> ;
+                                er:property <#RK33L> ;
+                                er:object <#EWFXQ> .
+
+                        <#EKO3B> a er:Entity ;
+                                er:value "Gillan" .
+
+                        <#RK33L> a er:Relationship ;
+                                er:value "confirmed" .
+
+                        <#EWFXQ> a er:Entity ;
+                                er:value "returning" .
+                
+                        <#TSNAQ> a er:Triplet ;
+                                er:subject <#EKO3B> ;
+                                er:property <#RMVI5> ;
+                                er:object <#EM42U> .
+
+                        <#EKO3B> a er:Entity ;
+                                er:value "Gillan" .
+
+                        <#RMVI5> a er:Relationship ;
+                                er:value "said" .
+
+                        <#EM42U> a er:Entity ;
+                                er:value "film would explore characters" .
+                
+                        <#TJ6VJ> a er:Triplet ;
+                                er:subject <#EESYJ> ;
+                                er:property <#ROGJB> ;
+                                er:object <#E6W86> .
+
+                        <#EESYJ> a er:Entity ;
+                                er:value "Filming" .
+
+                        <#ROGJB> a er:Relationship ;
+                                er:value "set to begin" .
+
+                        <#E6W86> a er:Entity ;
+                                er:value "in late 2021" .
+                
+                        <#T0HIN> a er:Triplet ;
+                                er:subject <#EESYJ> ;
+                                er:property <#RSB70> ;
+                                er:object <#EZONA> .
+
+                        <#EESYJ> a er:Entity ;
+                                er:value "Filming" .
+
+                        <#RSB70> a er:Relationship ;
+                                er:value "was previously scheduled to begin" .
+
+                        <#EZONA> a er:Entity ;
+                                er:value "in February 2021" .
+                
+                        <#TXRDN> a er:Triplet ;
+                                er:subject <#EESYJ> ;
+                                er:property <#RSB70> ;
+                                er:object <#E1FUK> .
+
+                        <#EESYJ> a er:Entity ;
+                                er:value "Filming" .
+
+                        <#RSB70> a er:Relationship ;
+                                er:value "was previously scheduled to begin" .
+
+                        <#E1FUK> a er:Entity ;
+                                er:value "in January or February 2019" .
+                
+                        <#TJE9L> a er:Triplet ;
+                                er:subject <#EA1E3> ;
+                                er:property <#REWJF> ;
+                                er:object <#EPZ0C> .
+
+                        <#EA1E3> a er:Entity ;
+                                er:value "Strong" .
+
+                        <#REWJF> a er:Relationship ;
+                                er:value "was later revealed to have been" .
+
+                        <#EPZ0C> a er:Entity ;
+                                er:value "cast" .
+                
+                        <#TTCLF> a er:Triplet ;
+                                er:subject <#EO9OR> ;
+                                er:property <#R4GIN> ;
+                                er:object <#EK8WH> .
+
+                        <#EO9OR> a er:Entity ;
+                                er:value "Feige and Pratt" .
+
+                        <#R4GIN> a er:Relationship ;
+                                er:value "reiterated that Marvel would still make" .
+
+                        <#EK8WH> a er:Entity ;
+                                er:value "Vol.3" .
+                
+                        <#TAKIL> a er:Triplet ;
+                                er:subject <#E2H09> ;
+                                er:property <#RV4UH> ;
+                                er:object <#ESDZH> .
+
+                        <#E2H09> a er:Entity ;
+                                er:value "Drax and Mantis" .
+
+                        <#RV4UH> a er:Relationship ;
+                                er:value "would be a film centered on" .
+
+                        <#ESDZH> a er:Entity ;
+                                er:value "September 2019" .
+                
+                        <#TBAYU> a er:Triplet ;
+                                er:subject <#E4EMW> ;
+                                er:property <#EQ4RC> ;
+                                er:object <#EKFMI> .
+
+                        <#E4EMW> a er:Entity ;
+                                er:value "Drax" .
+
+                        <#EQ4RC> a er:Relationship ;
+                                er:value "Mantis" .
+
+                        <#EKFMI> a er:Entity ;
+                                er:value "brilliant" .
+                
+                        <#TE9UX> a er:Triplet ;
+                                er:subject <#ECFWL> ;
+                                er:property <#RRYT2> ;
+                                er:object <#EZU9M> .
+
+                        <#ECFWL> a er:Entity ;
+                                er:value "Microsoft" .
+
+                        <#RRYT2> a er:Relationship ;
+                                er:value "partnered with" .
+
+                        <#EZU9M> a er:Entity ;
+                                er:value "Marvel Studios" .
+                
+                        <#T5ZG4> a er:Triplet ;
+                                er:subject <#EWLIQ> ;
+                                er:property <#R5LD2> ;
+                                er:object <#ERU2E> .
+
+                        <#EWLIQ> a er:Entity ;
+                                er:value "Guardians of the Galaxy" .
+
+                        <#R5LD2> a er:Relationship ;
+                                er:value "are attacked by" .
+
+                        <#ERU2E> a er:Entity ;
+                                er:value "Adam" .
+                
+                        <#TAQ09> a er:Triplet ;
+                                er:subject <#EWLIQ> ;
+                                er:property <#R5THT> ;
+                                er:object <#E880Q> .
+
+                        <#EWLIQ> a er:Entity ;
+                                er:value "Guardians of the Galaxy" .
+
+                        <#R5THT> a er:Relationship ;
+                                er:value "cannot heal" .
+
+                        <#E880Q> a er:Entity ;
+                                er:value "Rocket" .
+                
+                        <#TMF26> a er:Triplet ;
+                                er:subject <#EDOFS> ;
+                                er:property <#RAVTW> ;
+                                er:object <#EKU3Y> .
+
+                        <#EDOFS> a er:Entity ;
+                                er:value "Zoe Saldaña" .
+
+                        <#RAVTW> a er:Relationship ;
+                                er:value "is in" .
+
+                        <#EKU3Y> a er:Entity ;
+                                er:value "Guardians of the Galaxy Vol. 3" .
+                
+                        <#TN6PQ> a er:Triplet ;
+                                er:subject <#EQ6N5> ;
+                                er:property <#RK33L> ;
+                                er:object <#ECXMO> .
+
+                        <#EQ6N5> a er:Entity ;
+                                er:value "Disney" .
+
+                        <#RK33L> a er:Relationship ;
+                                er:value "confirmed" .
+
+                        <#ECXMO> a er:Entity ;
+                                er:value "they were keeping Gunn's script" .
+                
+                        <#TGPH4> a er:Triplet ;
+                                er:subject <#ECDIQ> ;
+                                er:property <#RSRM4> ;
+                                er:object <#EMUGZ> .
+
+                        <#ECDIQ> a er:Entity ;
+                                er:value "Debicki" .
+
+                        <#RSRM4> a er:Relationship ;
+                                er:value "was confirmed to be" .
+
+                        <#EMUGZ> a er:Entity ;
+                                er:value "reprising her role" .
+                
+                        <#TYVLN> a er:Triplet ;
+                                er:subject <#E73EY> ;
+                                er:property <#RL4X5> ;
+                                er:object <#E40P4> .
+
+                        <#E73EY> a er:Entity ;
+                                er:value "Iwuji" .
+
+                        <#RL4X5> a er:Relationship ;
+                                er:value "appearing at panel in" .
+
+                        <#E40P4> a er:Entity ;
+                                er:value "costume" .
+                
+                        <#T5ETT> a er:Triplet ;
+                                er:subject <#E73EY> ;
+                                er:property <#RJW5R> ;
+                                er:object <#EWFW0> .
+
+                        <#E73EY> a er:Entity ;
+                                er:value "Iwuji" .
+
+                        <#RJW5R> a er:Relationship ;
+                                er:value "announced as playing" .
+
+                        <#EWFW0> a er:Entity ;
+                                er:value "High Evolutionary" .
+                
+                        <#TUUO4> a er:Triplet ;
+                                er:subject <#E73EY> ;
+                                er:property <#RTSJN> ;
+                                er:object <#EKF9B> .
+
+                        <#E73EY> a er:Entity ;
+                                er:value "Iwuji" .
+
+                        <#RTSJN> a er:Relationship ;
+                                er:value "went back to" .
+
+                        <#EKF9B> a er:Entity ;
+                                er:value "arias" .
+                
+                        <#T1C3D> a er:Triplet ;
+                                er:subject <#E73EY> ;
+                                er:property <#RTSJN> ;
+                                er:object <#EZT5Q> .
+
+                        <#E73EY> a er:Entity ;
+                                er:value "Iwuji" .
+
+                        <#RTSJN> a er:Relationship ;
+                                er:value "went back to" .
+
+                        <#EZT5Q> a er:Entity ;
+                                er:value "operas" .
+                
+                        <#TYDFZ> a er:Triplet ;
+                                er:subject <#E73EY> ;
+                                er:property <#R5698> ;
+                                er:object <#ENFEJ> .
+
+                        <#E73EY> a er:Entity ;
+                                er:value "Iwuji" .
+
+                        <#R5698> a er:Relationship ;
+                                er:value "listened to" .
+
+                        <#ENFEJ> a er:Entity ;
+                                er:value "American rock" .
+                
+                        <#TJ4TB> a er:Triplet ;
+                                er:subject <#E73EY> ;
+                                er:property <#R5698> ;
+                                er:object <#EB90J> .
+
+                        <#E73EY> a er:Entity ;
+                                er:value "Iwuji" .
+
+                        <#R5698> a er:Relationship ;
+                                er:value "listened to" .
+
+                        <#EB90J> a er:Entity ;
+                                er:value "classical music" .
+                
+                        <#TUA8F> a er:Triplet ;
+                                er:subject <#E73EY> ;
+                                er:property <#R5698> ;
+                                er:object <#EE38H> .
+
+                        <#E73EY> a er:Entity ;
+                                er:value "Iwuji" .
+
+                        <#R5698> a er:Relationship ;
+                                er:value "listened to" .
+
+                        <#EE38H> a er:Entity ;
+                                er:value "pop music" .
+                
+                        <#T13SQ> a er:Triplet ;
+                                er:subject <#E73EY> ;
+                                er:property <#RZD17> ;
+                                er:object <#EABQR> .
+
+                        <#E73EY> a er:Entity ;
+                                er:value "Iwuji" .
+
+                        <#RZD17> a er:Relationship ;
+                                er:value "Bakalova" .
+
+                        <#EABQR> a er:Entity ;
+                                er:value "were revealed to be" .
+                
+                        <#TRSQS> a er:Triplet ;
+                                er:subject <#EFDWJ> ;
+                                er:property <#RYJWW> ;
+                                er:object <#EIBXN> .
+
+                        <#EFDWJ> a er:Entity ;
+                                er:value "Daniela Melchior" .
+
+                        <#RYJWW> a er:Relationship ;
+                                er:value "was revealed to have" .
+
+                        <#EIBXN> a er:Entity ;
+                                er:value "small role" .
+                
+                        <#T5LGO> a er:Triplet ;
+                                er:subject <#EJQ1O> ;
+                                er:property <#RI2S3> ;
+                                er:object <#E5LOC> .
+
+                        <#EJQ1O> a er:Entity ;
+                                er:value "Cosmo" .
+
+                        <#RI2S3> a er:Relationship ;
+                                er:value "is member of" .
+
+                        <#E5LOC> a er:Entity ;
+                                er:value "Guardians" .
+                
+                        <#T0PVV> a er:Triplet ;
+                                er:subject <#EJQ1O> ;
+                                er:property <#RE62E> ;
+                                er:object <#ETI33> .
+
+                        <#EJQ1O> a er:Entity ;
+                                er:value "Cosmo" .
+
+                        <#RE62E> a er:Relationship ;
+                                er:value "developed psionic abilities" .
+
+                        <#ETI33> a er:Entity ;
+                                er:value "after being abandoned in outer space" .
+                
+                        <#TXJXX> a er:Triplet ;
+                                er:subject <#EJQ1O> ;
+                                er:property <#RNM4V> ;
+                                er:object <#EZYXO> .
+
+                        <#EJQ1O> a er:Entity ;
+                                er:value "Cosmo" .
+
+                        <#RNM4V> a er:Relationship ;
+                                er:value "was abandoned" .
+
+                        <#EZYXO> a er:Entity ;
+                                er:value "in outer space" .
+                
+                        <#TW463> a er:Triplet ;
+                                er:subject <#EJQ1O> ;
+                                er:property <#RY3CV> ;
+                                er:object <#EU3H4> .
+
+                        <#EJQ1O> a er:Entity ;
+                                er:value "Cosmo" .
+
+                        <#RY3CV> a er:Relationship ;
+                                er:value "is" .
+
+                        <#EU3H4> a er:Entity ;
+                                er:value "member of the Guardians" .
+                
+                        <#TITCT> a er:Triplet ;
+                                er:subject <#EJQ1O> ;
+                                er:property <#RY3CV> ;
+                                er:object <#E0MK2> .
+
+                        <#EJQ1O> a er:Entity ;
+                                er:value "Cosmo" .
+
+                        <#RY3CV> a er:Relationship ;
+                                er:value "is" .
+
+                        <#E0MK2> a er:Entity ;
+                                er:value "sapient dog" .
+                
+                        <#TDYYV> a er:Triplet ;
+                                er:subject <#EJQ1O> ;
+                                er:property <#R1LNM> ;
+                                er:object <#EH7W4> .
+
+                        <#EJQ1O> a er:Entity ;
+                                er:value "Cosmo" .
+
+                        <#R1LNM> a er:Relationship ;
+                                er:value "developed" .
+
+                        <#EH7W4> a er:Entity ;
+                                er:value "psionic abilities" .
+                
+                        <#TAMJJ> a er:Triplet ;
+                                er:subject <#EPXN4> ;
+                                er:property <#RS6GD> ;
+                                er:object <#ES36P> .
+
+                        <#EPXN4> a er:Entity ;
+                                er:value "Michael Rosenbaum" .
+
+                        <#RS6GD> a er:Relationship ;
+                                er:value "revealed that he had" .
+
+                        <#ES36P> a er:Entity ;
+                                er:value "reprised his role" .
+                
+                        <#TOPHT> a er:Triplet ;
+                                er:subject <#ENCD9> ;
+                                er:property <#R34BO> ;
+                                er:object <#E307O> .
+
+                        <#ENCD9> a er:Entity ;
+                                er:value "John Murphy" .
+
+                        <#R34BO> a er:Relationship ;
+                                er:value "replaces" .
+
+                        <#E307O> a er:Entity ;
+                                er:value "Tyler Bates" .
+                
+                        <#T14AY> a er:Triplet ;
+                                er:subject <#EXXE7> ;
+                                er:property <#RY3CV> ;
+                                er:object <#EWFW0> .
+
+                        <#EXXE7> a er:Entity ;
+                                er:value "Chukwudi Iwuji" .
+
+                        <#RY3CV> a er:Relationship ;
+                                er:value "is" .
+
+                        <#EWFW0> a er:Entity ;
+                                er:value "High Evolutionary" .
+                
+                        <#TXEAT> a er:Triplet ;
+                                er:subject <#EXXE7> ;
+                                er:property <#RTKYH> ;
+                                er:object <#EEWLK> .
+
+                        <#EXXE7> a er:Entity ;
+                                er:value "Chukwudi Iwuji" .
+
+                        <#RTKYH> a er:Relationship ;
+                                er:value "was part of" .
+
+                        <#EEWLK> a er:Entity ;
+                                er:value "the film" .
+                
+                        <#TQZ1A> a er:Triplet ;
+                                er:subject <#EXXE7> ;
+                                er:property <#RAVTW> ;
+                                er:object <#EKU3Y> .
+
+                        <#EXXE7> a er:Entity ;
+                                er:value "Chukwudi Iwuji" .
+
+                        <#RAVTW> a er:Relationship ;
+                                er:value "is in" .
+
+                        <#EKU3Y> a er:Entity ;
+                                er:value "Guardians of the Galaxy Vol. 3" .
+                
+                        <#T3E40> a er:Triplet ;
+                                er:subject <#ESZRK> ;
+                                er:property <#RFC1T> ;
+                                er:object <#E8S2H> .
+
+                        <#ESZRK> a er:Entity ;
+                                er:value "Ezra Miller" .
+
+                        <#RFC1T> a er:Relationship ;
+                                er:value "cameo appearance as" .
+
+                        <#E8S2H> a er:Entity ;
+                                er:value "Barry Allen / The Flash" .
+                
+                        <#TWI6W> a er:Triplet ;
+                                er:subject <#E8TKV> ;
+                                er:property <#RAVTW> ;
+                                er:object <#EKU3Y> .
+
+                        <#E8TKV> a er:Entity ;
+                                er:value "Chris Pratt" .
+
+                        <#RAVTW> a er:Relationship ;
+                                er:value "is in" .
+
+                        <#EKU3Y> a er:Entity ;
+                                er:value "Guardians of the Galaxy Vol. 3" .
+                
+                        <#T8KMB> a er:Triplet ;
+                                er:subject <#EOLFT> ;
+                                er:property <#RT0QB> ;
+                                er:object <#EEWLK> .
+
+                        <#EOLFT> a er:Entity ;
+                                er:value "Callie Brand" .
+
+                        <#RT0QB> a er:Relationship ;
+                                er:value "was revealed to appear in" .
+
+                        <#EEWLK> a er:Entity ;
+                                er:value "the film" .
+                
+                        <#T3XZL> a er:Triplet ;
+                                er:subject <#EJP4C> ;
+                                er:property <#RAVTW> ;
+                                er:object <#EKU3Y> .
+
+                        <#EJP4C> a er:Entity ;
+                                er:value "Karen Gillan" .
+
+                        <#RAVTW> a er:Relationship ;
+                                er:value "is in" .
+
+                        <#EKU3Y> a er:Entity ;
+                                er:value "Guardians of the Galaxy Vol. 3" .
+                
+                        <#TAW6R> a er:Triplet ;
+                                er:subject <#EGBAH> ;
+                                er:property <#RQ447> ;
+                                er:object <#E5L82> .
+
+                        <#EGBAH> a er:Entity ;
+                                er:value "CBC" .
+
+                        <#RQ447> a er:Relationship ;
+                                er:value "found" .
+
+                        <#E5L82> a er:Entity ;
+                                er:value "the best Marvel movie in years" .
+                
+                        <#TLHEE> a er:Triplet ;
+                                er:subject <#EC5GB> ;
+                                er:property <#R5B3F> ;
+                                er:object <#EW4AI> .
+
+                        <#EC5GB> a er:Entity ;
+                                er:value "Braham" .
+
+                        <#R5B3F> a er:Relationship ;
+                                er:value "serves as" .
+
+                        <#EW4AI> a er:Entity ;
+                                er:value "cinematographer" .
+                
+                        <#TDJPB> a er:Triplet ;
+                                er:subject <#EMB30> ;
+                                er:property <#RY3CV> ;
+                                er:object <#E880Q> .
+
+                        <#EMB30> a er:Entity ;
+                                er:value "Bradley Cooper" .
+
+                        <#RY3CV> a er:Relationship ;
+                                er:value "is" .
+
+                        <#E880Q> a er:Entity ;
+                                er:value "Rocket" .
+                
+                        <#T1AKA> a er:Triplet ;
+                                er:subject <#EMB30> ;
+                                er:property <#RAVTW> ;
+                                er:object <#EKU3Y> .
+
+                        <#EMB30> a er:Entity ;
+                                er:value "Bradley Cooper" .
+
+                        <#RAVTW> a er:Relationship ;
+                                er:value "is in" .
+
+                        <#EKU3Y> a er:Entity ;
+                                er:value "Guardians of the Galaxy Vol. 3" .
+                
+                        <#TQTZN> a er:Triplet ;
+                                er:subject <#E661G> ;
+                                er:property <#RMVI5> ;
+                                er:object <#EK1AT> .
+
+                        <#E661G> a er:Entity ;
+                                er:value "Bautista" .
+
+                        <#RMVI5> a er:Relationship ;
+                                er:value "said" .
+
+                        <#EK1AT> a er:Entity ;
+                                er:value "Marvel chose to use Gunn's existing script" .
+                
+                        <#TXZQ9> a er:Triplet ;
+                                er:subject <#E661G> ;
+                                er:property <#RMVI5> ;
+                                er:object <#EA0YP> .
+
+                        <#E661G> a er:Entity ;
+                                er:value "Bautista" .
+
+                        <#RMVI5> a er:Relationship ;
+                                er:value "said" .
+
+                        <#EA0YP> a er:Entity ;
+                                er:value "he would appear in the film" .
+                
+                        <#T3CRK> a er:Triplet ;
+                                er:subject <#E5DML> ;
+                                er:property <#R2KY1> ;
+                                er:object <#EZZN0> .
+
+                        <#E5DML> a er:Entity ;
+                                er:value "CinemaScore" .
+
+                        <#R2KY1> a er:Relationship ;
+                                er:value "gave" .
+
+                        <#EZZN0> a er:Entity ;
+                                er:value "average grade of  A" .
+                
+                        <#T7FHJ> a er:Triplet ;
+                                er:subject <#RZD17> ;
+                                er:property <#R9QOD> ;
+                                er:object <#EJQ1O> .
+
+                        <#RZD17> a er:Entity ;
+                                er:value "Bakalova" .
+
+                        <#R9QOD> a er:Relationship ;
+                                er:value "would portray" .
+
+                        <#EJQ1O> a er:Entity ;
+                                er:value "Cosmo" .
+                
+                        <#TWQ22> a er:Triplet ;
+                                er:subject <#ELM74> ;
+                                er:property <#RATX4> ;
+                                er:object <#E5LOC> .
+
+                        <#ELM74> a er:Entity ;
+                                er:value "Ayesha" .
+
+                        <#RATX4> a er:Relationship ;
+                                er:value "seeks to destroy" .
+
+                        <#E5LOC> a er:Entity ;
+                                er:value "Guardians" .
+                
+                        <#T2VDA> a er:Triplet ;
+                                er:subject <#EI6W8> ;
+                                er:property <#RIXP0> ;
+                                er:object <#ESGQT> .
+
+                        <#EI6W8> a er:Entity ;
+                                er:value "Assembled: The Making of Guardians of the Galaxy Vol. 3" .
+
+                        <#RIXP0> a er:Relationship ;
+                                er:value "is scheduled to be released on" .
+
+                        <#ESGQT> a er:Entity ;
+                                er:value "Disney+" .
+                
+                        <#TQRI9> a er:Triplet ;
+                                er:subject <#EI6W8> ;
+                                er:property <#RHG95> ;
+                                er:object <#EEWLK> .
+
+                        <#EI6W8> a er:Entity ;
+                                er:value "Assembled: The Making of Guardians of the Galaxy Vol. 3" .
+
+                        <#RHG95> a er:Relationship ;
+                                er:value "is a documentary special about" .
+
+                        <#EEWLK> a er:Entity ;
+                                er:value "the film" .
+                
+                        <#T6710> a er:Triplet ;
+                                er:subject <#EI6W8> ;
+                                er:property <#RHG95> ;
+                                er:object <#EKU3Y> .
+
+                        <#EI6W8> a er:Entity ;
+                                er:value "Assembled: The Making of Guardians of the Galaxy Vol. 3" .
+
+                        <#RHG95> a er:Relationship ;
+                                er:value "is a documentary special about" .
+
+                        <#EKU3Y> a er:Entity ;
+                                er:value "Guardians of the Galaxy Vol. 3" .
+                
+                        <#TZEVM> a er:Triplet ;
+                                er:subject <#E3A8C> ;
+                                er:property <#RLWNY> ;
+                                er:object <#EBA22> .
+
+                        <#E3A8C> a er:Entity ;
+                                er:value "Asim Chaudhry" .
+
+                        <#RLWNY> a er:Relationship ;
+                                er:value "revealed he would" .
+
+                        <#EBA22> a er:Entity ;
+                                er:value "appear" .
+                
+                        <#TK6H7> a er:Triplet ;
+                                er:subject <#E0RK0> ;
+                                er:property <#RI2S3> ;
+                                er:object <#E5LOC> .
+
+                        <#E0RK0> a er:Entity ;
+                                er:value "Kraglin" .
+
+                        <#RI2S3> a er:Relationship ;
+                                er:value "is member of" .
+
+                        <#E5LOC> a er:Entity ;
+                                er:value "Guardians" .
+                
+                        <#T5SR3> a er:Triplet ;
+                                er:subject <#E0RK0> ;
+                                er:property <#ROJHR> ;
+                                er:object <#E34SG> .
+
+                        <#E0RK0> a er:Entity ;
+                                er:value "Kraglin" .
+
+                        <#ROJHR> a er:Relationship ;
+                                er:value "is former second-in-command of" .
+
+                        <#E34SG> a er:Entity ;
+                                er:value "Ravagers" .
+                
+                        <#TR7E1> a er:Triplet ;
+                                er:subject <#EH78U> ;
+                                er:property <#R3FDJ> ;
+                                er:object <#EBUDC> .
+
+                        <#EH78U> a er:Entity ;
+                                er:value "Beth Mickle" .
+
+                        <#R3FDJ> a er:Relationship ;
+                                er:value "chose to mainly use" .
+
+                        <#EBUDC> a er:Entity ;
+                                er:value "practical effects" .
+                
+                        <#TWWM6> a er:Triplet ;
+                                er:subject <#E31LL> ;
+                                er:property <#R1TY8> ;
+                                er:object <#EVU4M> .
+
+                        <#E31LL> a er:Entity ;
+                                er:value "Adam McKay" .
+
+                        <#R1TY8> a er:Relationship ;
+                                er:value "said he was willing to work with" .
+
+                        <#EVU4M> a er:Entity ;
+                                er:value "the studio again" .
+                
+                        <#TDRJ8> a er:Triplet ;
+                                er:subject <#E31LL> ;
+                                er:property <#RBS7O> ;
+                                er:object <#EVU4M> .
+
+                        <#E31LL> a er:Entity ;
+                                er:value "Adam McKay" .
+
+                        <#RBS7O> a er:Relationship ;
+                                er:value "was willing to work with" .
+
+                        <#EVU4M> a er:Entity ;
+                                er:value "the studio again" .
+                
+                        <#THR2B> a er:Triplet ;
+                                er:subject <#E31LL> ;
+                                er:property <#R75MH> ;
+                                er:object <#EK8WH> .
+
+                        <#E31LL> a er:Entity ;
+                                er:value "Adam McKay" .
+
+                        <#R75MH> a er:Relationship ;
+                                er:value "stated that he had discussed taking over as director for" .
+
+                        <#EK8WH> a er:Entity ;
+                                er:value "Vol.3" .
+                
+                        <#TWI06> a er:Triplet ;
+                                er:subject <#E31LL> ;
+                                er:property <#RBS7O> ;
+                                er:object <#EPDC3> .
+
+                        <#E31LL> a er:Entity ;
+                                er:value "Adam McKay" .
+
+                        <#RBS7O> a er:Relationship ;
+                                er:value "was willing to work with" .
+
+                        <#EPDC3> a er:Entity ;
+                                er:value "Marvel Studios again" .
+                
+                        <#TC2TY> a er:Triplet ;
+                                er:subject <#ERU2E> ;
+                                er:property <#RFVJ8> ;
+                                er:object <#ELM74> .
+
+                        <#ERU2E> a er:Entity ;
+                                er:value "Adam" .
+
+                        <#RFVJ8> a er:Relationship ;
+                                er:value "is created by" .
+
+                        <#ELM74> a er:Entity ;
+                                er:value "Ayesha" .
+                
+                        <#T2NR3> a er:Triplet ;
+                                er:subject <#E6ATD> ;
+                                er:property <#R5J0N> ;
+                                er:object <#EJV5X> .
+
+                        <#E6ATD> a er:Entity ;
+                                er:value "A second trailer for the film" .
+
+                        <#R5J0N> a er:Relationship ;
+                                er:value "released during Super Bowl LVII on February 12" .
+
+                        <#EJV5X> a er:Entity ;
+                                er:value "2023" .
+                
+                        <#T0B7B> a er:Triplet ;
+                                er:subject <#E5PAE> ;
+                                er:property <#RAVTW> ;
+                                er:object <#EKU3Y> .
+
+                        <#E5PAE> a er:Entity ;
+                                er:value "Dave Bautista" .
+
+                        <#RAVTW> a er:Relationship ;
+                                er:value "is in" .
+
+                        <#EKU3Y> a er:Entity ;
+                                er:value "Guardians of the Galaxy Vol. 3" .
+                
+                        <#TH2KT> a er:Triplet ;
+                                er:subject <#E384M> ;
+                                er:property <#RJHSH> ;
+                                er:object <#E43V8> .
+
+                        <#E384M> a er:Entity ;
+                                er:value "Deadline Hollywood" .
+
+                        <#RJHSH> a er:Relationship ;
+                                er:value "stated that Marvel Studios had" .
+
+                        <#E43V8> a er:Entity ;
+                                er:value "never met with or considered any other director" .
+                
+                        <#TEZ4G> a er:Triplet ;
+                                er:subject <#E384M> ;
+                                er:property <#RE41C> ;
+                                er:object <#EHKF3> .
+
+                        <#E384M> a er:Entity ;
+                                er:value "Deadline Hollywood" .
+
+                        <#RE41C> a er:Relationship ;
+                                er:value "stated that" .
+
+                        <#EHKF3> a er:Entity ;
+                                er:value "Marvel Studios had  never met with or considered any other director" .
+                
+                        <#TJ8PK> a er:Triplet ;
+                                er:subject <#E384M> ;
+                                er:property <#RRHXT> ;
+                                er:object <#EEWLK> .
+
+                        <#E384M> a er:Entity ;
+                                er:value "Deadline Hollywood" .
+
+                        <#RRHXT> a er:Relationship ;
+                                er:value "stated that Marvel Studios had  never met with or considered any other director  for" .
+
+                        <#EEWLK> a er:Entity ;
+                                er:value "the film" .
+                
+                        <#T937Z> a er:Triplet ;
+                                er:subject <#E384M> ;
+                                er:property <#RHYHO> ;
+                                er:object <#E9VBU> .
+
+                        <#E384M> a er:Entity ;
+                                er:value "Deadline Hollywood" .
+
+                        <#RHYHO> a er:Relationship ;
+                                er:value "stated that Marvel Studios had  never met with or considered any other director" .
+
+                        <#E9VBU> a er:Entity ;
+                                er:value "for the film" .
+                
+                        <#T0JN6> a er:Triplet ;
+                                er:subject <#E18NX> ;
+                                er:property <#RQ447> ;
+                                er:object <#E5L82> .
+
+                        <#E18NX> a er:Entity ;
+                                er:value "Vox" .
+
+                        <#RQ447> a er:Relationship ;
+                                er:value "found" .
+
+                        <#E5L82> a er:Entity ;
+                                er:value "the best Marvel movie in years" .
+                
+                        <#TQ8IG> a er:Triplet ;
+                                er:subject <#E9537> ;
+                                er:property <#RF8V6> ;
+                                er:object <#E6BJG> .
+
+                        <#E9537> a er:Entity ;
+                                er:value "Gamora" .
+
+                        <#RF8V6> a er:Relationship ;
+                                er:value "would be the last time she portrays" .
+
+                        <#E6BJG> a er:Entity ;
+                                er:value "April 2023" .
+                
+                        <#TRJDU> a er:Triplet ;
+                                er:subject <#E9537> ;
+                                er:property <#R1OKF> ;
+                                er:object <#EGKVC> .
+
+                        <#E9537> a er:Entity ;
+                                er:value "Gamora" .
+
+                        <#R1OKF> a er:Relationship ;
+                                er:value "was killed by Thanos" .
+
+                        <#EGKVC> a er:Entity ;
+                                er:value "in Avengers: Infinity War" .
+                
+                        <#TYA88> a er:Triplet ;
+                                er:subject <#EOLY6> ;
+                                er:property <#RZIVH> ;
+                                er:object <#E1HSH> .
+
+                        <#EOLY6> a er:Entity ;
+                                er:value "Industrial Light & Magic's StageCraft" .
+
+                        <#RZIVH> a er:Relationship ;
+                                er:value "was developed for" .
+
+                        <#E1HSH> a er:Entity ;
+                                er:value "Disney+ Star Wars series The Mandalorian" .
+                
