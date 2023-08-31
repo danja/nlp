@@ -94,10 +94,10 @@ def extract_entities(json_data):
     except Exception as e:
         return f"An error occurred: {e}", None
 
-# Modifying the extract_relationships function again to correctly capture the 'dst' field
+
+# Importing the required modules for demonstration
 
 
-# Finalizing the extract_relationships function to produce output in the format [{"s": ..., "p": ..., "o": ...}]
 def extract_relationships(json_rel_str):
     """
     Extracts the significant parts of the relationships from the given JSON string,
@@ -107,7 +107,7 @@ def extract_relationships(json_rel_str):
         json_rel_str (str): The JSON string to extract information from.
 
     Returns:
-        list: A list of dictionaries containing 's', 'p', and 'o' fields.
+        list: A list of dictionaries containing 'src', 'relationship', and 'dst' fields.
     """
     try:
         # Parse the JSON string into a dictionary
@@ -118,18 +118,14 @@ def extract_relationships(json_rel_str):
 
         # Loop through the "data" to extract the required information
         for entry in json_data.get('results', [{}])[0].get('data', []):
-            row_list = entry.get('row', [{}])
-
-            # Extracting source vertex, relationship, and destination vertex
-            s = next((row.get('entity.name', 'N/A')
-                     for row in row_list if 'entity.name' in row), 'N/A')
-            p = next((row.get('relationship', 'N/A')
-                     for row in row_list if 'relationship' in row), 'N/A')
-            o = next((row.get('entity.name', 'N/A')
-                     for row in row_list if 'entity.name' in row and row.get('entity.name') != s), 'N/A')
+            src = entry.get('row', [{}])[0].get('src.name', 'N/A')
+            relationship = entry.get('row', [{}])[0].get(
+                'relationship.relationship', 'N/A')
+            dst = entry.get('row', [{}])[0].get('dst.name', 'N/A')
 
             # Append the extracted relationship to the list
-            extracted_relationships.append({"s": s, "p": p, "o": o})
+            extracted_relationships.append(
+                {"src": src, "relationship": relationship, "dst": dst})
 
         return extracted_relationships
 
@@ -137,28 +133,6 @@ def extract_relationships(json_rel_str):
         return f"Failed to parse string as JSON: {e}"
     except Exception as e:
         return f"An error occurred: {e}"
-
-
-def remove_duplicates(json_structure):
-    # Use a set to keep track of unique dictionaries
-    unique_set = set()
-
-    # List to store unique dictionaries
-    unique_list = []
-
-    for entry in json_structure:
-        # Convert dictionary to a tuple of its items (key-value pairs) for hashing
-        tuple_entry = tuple(sorted(entry.items()))
-
-        # Check if tuple is unique
-        if tuple_entry not in unique_set:
-            # Add tuple to the set
-            unique_set.add(tuple_entry)
-
-            # Add the original dictionary to the list
-            unique_list.append(entry)
-
-    return unique_list
 
 
 # Entities
@@ -172,16 +146,12 @@ text_to_file(str(entities), './entities.json')
 
 # Relationships
 resp_rel = client.execute_json(
-    'MATCH (src:entity)-[e:relationship]->(dst:entity) RETURN src, e, dst')  # LIMIT 10
-
+    'MATCH (src:entity)-[e:relationship]->(dst:entity) RETURN src, e, dst LIMIT 3')
 json_rel_str = resp_rel.decode('utf-8')
 
-# text_to_file(json_rel_str, 'relationships-raw.json')
+text_to_file(json_rel_str, 'relationships-raw.json')
 
 relationships = extract_relationships(json_rel_str)
-
-relationships = remove_duplicates(relationships)
-
 text_to_file(str(relationships), './relationships.json')
 
 # Release resources
