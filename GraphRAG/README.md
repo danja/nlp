@@ -6,6 +6,7 @@
 - **2023-08-24:** some exploration; plan revised (below); started coding, nothing to see yet - rough notes in [devlog_00.md](docs/devlog_00.md)
 - **2023-08-25:** more admin, prep for work in llama_index tree
 - **2023-08-27:** made a start on sparql.py & tests, setup [blog for notes etc](https://hyperdata.it/blog/)
+- **2023-08-31:** parts where I don't need ChatGPT API credit - RDF/SPARQL mostly shaped [nebula-sparql-utils](https://github.com/danja/nlp/tree/main/GraphRAG/nebula-sparql-utils), [notes](https://hyperdata.it/blog/)
 
 _Current activity is in the branch add-sparql of my [llama_index fork](https://github.com/danja/llama_index)_
 
