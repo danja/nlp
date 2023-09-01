@@ -13,6 +13,7 @@ CREATE TAG INDEX entity_index ON entity(name(256));
 
 pip install sparqlwrapper
 """
+from SPARQLWrapper import SPARQLWrapper, POST, DIGEST
 import re
 import json
 import csv
@@ -33,7 +34,7 @@ SPACE = 'guardians'
 # SPARQL Config
 ENDPOINT = 'https://fuseki.hyperdata.it/llama_index-test/'
 GRAPH = 'http://purl.org/stuff/guardians'
-BASE_URL = "http://purl.org/stuff"
+BASE_URL = 'http://purl.org/stuff/data'
 
 
 # Initialize connection pool
@@ -189,8 +190,6 @@ def make_id():
     characters = string.ascii_uppercase + string.digits  # All available characters
     return ''.join(random.choice(characters) for _ in range(4))
 
-# Re-defining the function and testing it again
-
 
 def confirm_fragment(name_value_list, new_pair):
     """
@@ -240,11 +239,11 @@ def to_rdf(json_data):
         o_string = entry['o']
 
         # make a new fragment, but the string might have been seen before, if it has been, replace with existing fragment
-        s_fragment = '#E'+make_id()
+        s_fragment = '#E_'+make_id()
         s_fragment = confirm_fragment(url_string_pairs, {s_fragment: s_string})
-        p_fragment = '#R'+make_id()
+        p_fragment = '#R_'+make_id()
         p_fragment = confirm_fragment(url_string_pairs, {p_fragment: p_string})
-        o_fragment = '#E'+make_id()
+        o_fragment = '#E_'+make_id()
         o_fragment = confirm_fragment(url_string_pairs, {o_fragment: o_string})
 
         # print(f"subject {s}, predicate {p}, object {o}")
@@ -284,17 +283,67 @@ text_to_file(str(entities), './entities.json')
 resp_rel = client.execute_json(
     'MATCH (src:entity)-[e:relationship]->(dst:entity) RETURN src, e, dst')  # LIMIT 10
 
+# Release NebulaGraph resources
+client.release()
+
 json_rel_str = resp_rel.decode('utf-8')
 
+# intermediate check
 # text_to_file(json_rel_str, 'relationships-raw.json')
 
 relationships = extract_relationships(json_rel_str)
 relationships = remove_duplicates(relationships)
-text_to_file(str(relationships), './relationships.json')
 
-rdf = to_rdf(relationships)
+# intermediate check
+# text_to_file(str(relationships), './relationships.json')
 
-text_to_file(rdf, './guardians.ttl')
+rdf_body = to_rdf(relationships)
 
-# Release resources
-client.release()
+rdf = f"""
+@prefix er: <http://purl.org/stuff/er#> .
+@base <{BASE_URL}> .
+
+{rdf_body}
+"""
+
+sparql_prefixes = f"""
+PREFIX er:  <http://purl.org/stuff/er#>
+BASE <{BASE_URL}>
+
+"""
+
+# create_graph(CREATE GRAPH <http://purl.org/stuff/guardians>)
+
+create_graph_query = 'CREATE GRAPH <'+GRAPH+'>'
+
+
+sparql_client = SPARQLWrapper(ENDPOINT)
+# sparql_client.setHTTPAuth(DIGEST)
+# sparql_client.setCredentials("some-login", "some-password")
+sparql_client.setMethod(POST)
+sparql_client.setQuery(create_graph_query)
+
+results = sparql_client.query()
+status = results.response.read().decode('utf-8')
+
+print(status)
+
+sparql_client = SPARQLWrapper(ENDPOINT)
+# sparql_client.setHTTPAuth(DIGEST)
+# sparql_client.setCredentials("some-login", "some-password")
+sparql_client.setMethod(POST)
+sparql_client.setQuery(create_graph_query)
+
+# INSERT DATA { GRAPH <http://example/bookStore> { <http://example/book1>  ns:price  42 } }
+
+sparql_upload_data_query = sparql_prefixes + \
+    'INSERT DATA { GRAPH <'+GRAPH+'> { '+rdf_body+'}}'
+
+text_to_file(sparql_upload_data_query, './guardians-insert.sparql')
+
+sparql_client.setQuery(sparql_upload_data_query)
+
+results = sparql_client.query()
+status = results.response.read().decode('utf-8')
+
+print(status)
