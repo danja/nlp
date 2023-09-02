@@ -1,0 +1,18 @@
+
+@base <http://purl.org/stuff/data> .
+@prefix er: <http://purl.org/stuff/er> .
+
+
+<#TC46Y> a er:Triplet ;
+    er:subject <#E_Q7O6> ;
+    er:property <#R_QIUD> ;
+    er:object <#E_AGEX> .
+
+<#E_Q7O6> a er:Entity ;
+    er:value "production on Vol.3" .
+
+<#R_QIUD> a er:Relationship ;
+    er:value "was put on hold until" .
+
+<#E_AGEX> a er:Entity ;
+    er:value "February 2021" .

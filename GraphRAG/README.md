@@ -7,7 +7,7 @@
 - **2023-08-25:** more admin, prep for work in llama_index tree
 - **2023-08-27:** made a start on `sparql.py` & tests, setup [blog for notes etc](https://hyperdata.it/blog/)
 - **2023-08-31:** parts where I don't need ChatGPT API credit - RDF/SPARQL mostly shaped [nebula-sparql-utils](https://github.com/danja/nlp/tree/main/GraphRAG/src/nebula-sparql-utils)
-- **2023-09-01:** Initial RDF model designed. [Rough code](https://github.com/danja/nlp/tree/main/GraphRAG/src/nebula-sparql-utils/) created to retrieve data from a NebulaGraph store, translate this to RDF, insert into a SPARQL store
+- **2023-09-01:** [Initial RDF model](https://github.com/danja/nlp/tree/main/GraphRAG/src/examples/rdf-sample.ttl) designed. [Rough code](https://github.com/danja/nlp/tree/main/GraphRAG/src/nebula-sparql-utils/nebula-rdf-dump.py) created to retrieve data from a NebulaGraph store, translate this to RDF, insert into a SPARQL store
 
 _Rough notes on activity are [blogged](https://hyperdata.it/blog/), `sparql.py` will go in the branch add-sparql of my [llama_index fork](https://github.com/danja/llama_index)_
 
