@@ -1,6 +1,6 @@
 # SPARQL for LlamaIndex : The Goal
 
-**TL;DR** : allow LLMs to use information from the Web in a structured and efficent fashion.
+**TL;DR** : allow LLM-based systems to use information from the Web in a structured and efficent fashion.
 
 ### LlamaIndex
 
