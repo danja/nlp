@@ -2,7 +2,7 @@
 # sudo /usr/local/nebula/scripts/nebula.service start all
 # export PYTHONPATH=$PYTHONPATH:/home/danny/AI/LIBS-under-dev/llama_index
 
-
+# from 1.1 Prepare for LLM & Azure
 from llama_index.query_engine import KnowledgeGraphQueryEngine
 import os
 import logging

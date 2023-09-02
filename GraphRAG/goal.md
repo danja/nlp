@@ -35,8 +35,27 @@ The [Resource Description Framework](https://www.w3.org/TR/rdf11-primer/) provid
 SPARQL Stores act as graph databases, storing RDF as URI-named graphs. The SPARQL language uses queries comparable to other query languages (SELECT, INSERT etc).
 The standard protocols are built on HTTP (GET, POST, PUT etc). There are numerous [store implementations](https://github.com/RDFLib/sparqlwrapper#sparql-endpoint-implementations), client tools & libraries.
 
-cache
+**TODO**
+SPARQL store as Webcache
+
+CONSTRUCT for transformations
 
 ### Implementation
 
 ![Goal Block Diagram](images/goal.png)
+
+In a simple case, the preprocessing could be a crawler which does a HTTP GET on the document (at URL A), extract links (at B, C) and normalize the content to plain text, yielding RDF something like :
+
+```
+base : <http://example.org/a-site/>
+prefix x: <http://example.org/whatever>
+
+<A> a x:Document ;
+    x:content "...text of the page..." ;
+    x:related <B> ;
+    x:related <C> .
+```
+
+Going one step further, a similarity measure could put a numeric value on how strongly related A and B are, A and C are, etc. There are plenty of low-cost algorithms that might be suitable. If processor cycles weren't an issue, an LLM could be used to discover _how_ A and B are related.
+
+The [HTTP definition of resources and representations](https://www.rfc-editor.org/rfc/rfc9110.html#resources) is quite open ended, it effectively says a resource is anything that can be identified (with a URI) and a representation is some manifestation of the thing identified that can be transferred over HTTP. HTML documents are typical on the Web, but also images, audio files etc. follow the same pattern. The same crawler mechanism as above could be used to initially discover such media and then machine vision etc. used to determine relationships between them and other resources.
