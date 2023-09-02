@@ -35,14 +35,19 @@ The [Resource Description Framework](https://www.w3.org/TR/rdf11-primer/) provid
 SPARQL Stores act as graph databases, storing RDF as URI-named graphs. The SPARQL language uses queries comparable to other query languages (SELECT, INSERT etc).
 The standard protocols are built on HTTP (GET, POST, PUT etc). There are numerous [store implementations](https://github.com/RDFLib/sparqlwrapper#sparql-endpoint-implementations), client tools & libraries.
 
-**TODO**
-SPARQL store as Webcache
+### Implementation
+
+A SPARQL store connector for
+
+LlamaIndex in itself should have immediate, but limited, utility.
 
 CONSTRUCT for transformations
 
-### Implementation
+SPARQL store as Webcache
 
 ![Goal Block Diagram](images/goal.png)
+
+**TODO** diagram of node-arc-node link between two pages
 
 In a simple case, the preprocessing could be a crawler which does a HTTP GET on the document (at URL A), extract links (at B, C) and normalize the content to plain text, yielding RDF something like :
 
