@@ -1,3 +1,5 @@
+# in progress
+
 from IPython.display import Markdown, display
 from llama_index.llms import OpenAI
 from llama_index.graph_stores import SparqlStore
