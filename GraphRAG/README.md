@@ -5,7 +5,7 @@
 - `sparql.py` is now updating store with data from LlamaIndex.
 - [Initial RDF model](https://github.com/danja/nlp/tree/main/GraphRAG/src/examples/rdf-sample.ttl)
 - [Demo code](https://github.com/danja/nlp/blob/main/GraphRAG/src/graph-rag-sparql-minimal.py)
-- llamaindex/graph*stores/[sparql.py](https://github.com/danja/llama_index/blob/add-sparql/llama_index/graph_stores/sparql.py) *(my fork/branch)\_
+- llamaindex/graphstores/[sparql.py](https://github.com/danja/llama_index/blob/add-sparql/llama_index/graph_stores/sparql.py) _(my fork/branch)_
 - [SPARQL endpoint](https://fuseki.hyperdata.it/#/dataset/llama_index_sparql-test/query)
 
 ```
