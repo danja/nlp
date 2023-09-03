@@ -9,11 +9,17 @@
 - **2023-08-31:** parts where I don't need ChatGPT API credit - RDF/SPARQL mostly shaped [nebula-sparql-utils](https://github.com/danja/nlp/tree/main/GraphRAG/src/nebula-sparql-utils)
 - **2023-09-01:** [Initial RDF model](https://github.com/danja/nlp/tree/main/GraphRAG/src/examples/rdf-sample.ttl) designed. [Rough code](https://github.com/danja/nlp/tree/main/GraphRAG/src/nebula-sparql-utils/nebula-rdf-dump.py) created to retrieve data from a NebulaGraph store, translate this to RDF, insert into a SPARQL store
 
-_Rough notes on activity are [blogged](https://hyperdata.it/blog/), `sparql.py` will go in the branch add-sparql of my [llama_index fork](https://github.com/danja/llama_index)_
+- **2023-09-03:** graph_stores/[sparql.py](https://github.com/danja/llama_index/blob/add-sparql/llama_index/graph_stores/sparql.py) _(my fork, branch)_ is now updating store with data from LlamaIndex.
+
+_Rough notes on activity are [blogged](https://hyperdata.it/blog/)_
+
+\*SPARQL endpoint I'm using is
 
 ### Description
 
-I reckon there's enormous potential in wiring (bits of) the Web and [Linked Data](https://en.wikipedia.org/wiki/Linked_data) to LLMs. I found a wonderful insight into a promising way of doing that in this [Notebook](https://www.siwei.io/en/demos/graph-rag/), in which [Wey Gu](https://siwei.io/en/) demonstrates and compares augmenting an LLM with different data structures/query engines :
+I reckon there's enormous potential in wiring (bits of) the Web and [Linked Data](https://en.wikipedia.org/wiki/Linked_data) to LLMs. (I've started a write-up of a [grand plan](),
+
+I found a wonderful insight into a promising way of doing that in this [Notebook](https://www.siwei.io/en/demos/graph-rag/), in which [Wey Gu](https://siwei.io/en/) demonstrates and compares augmenting an LLM with different data structures/query engines :
 
 - Knowledge Graph
 - Graph RAG
