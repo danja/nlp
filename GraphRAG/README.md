@@ -1,23 +1,26 @@
 # GraphRAG with SPARQL
 
-#### Status
+#### Status : 2023-09-03
 
-- **2023-08-22:** local environment set up for experimentation; initial spike plan drawn up
-- **2023-08-24:** some exploration; plan revised (below); started coding, nothing to see yet - rough notes in [devlog_00.md](docs/devlog_00.md)
-- **2023-08-25:** more admin, prep for work in llama_index tree
-- **2023-08-27:** made a start on `sparql.py` & tests, setup [blog for notes etc](https://hyperdata.it/blog/)
-- **2023-08-31:** parts where I don't need ChatGPT API credit - RDF/SPARQL mostly shaped [nebula-sparql-utils](https://github.com/danja/nlp/tree/main/GraphRAG/src/nebula-sparql-utils)
-- **2023-09-01:** [Initial RDF model](https://github.com/danja/nlp/tree/main/GraphRAG/src/examples/rdf-sample.ttl) designed. [Rough code](https://github.com/danja/nlp/tree/main/GraphRAG/src/nebula-sparql-utils/nebula-rdf-dump.py) created to retrieve data from a NebulaGraph store, translate this to RDF, insert into a SPARQL store
+- `sparql.py` is now updating store with data from LlamaIndex. Started a write-up of the [grand plan](goal.md) (not really so grand, but I reckon has potential)
+- [Initial RDF model](https://github.com/danja/nlp/tree/main/GraphRAG/src/examples/rdf-sample.ttl)
+- [Demo code](https://github.com/danja/nlp/blob/main/GraphRAG/src/nebula-sparql-utils/nebula-rdf-dump.py)
+- llamaindex/graph_stores/[sparql.py](https://github.com/danja/llama_index/blob/add-sparql/llama_index/graph_stores/sparql.py) _(my fork/branch)_
+- [SPARQL endpoint](https://fuseki.hyperdata.it/#/dataset/llama_index_sparql-test/query)
 
-- **2023-09-03:** graph_stores/[sparql.py](https://github.com/danja/llama_index/blob/add-sparql/llama_index/graph_stores/sparql.py) _(my fork, branch)_ is now updating store with data from LlamaIndex.
+```
+SELECT ?s ?p ?o WHERE {
+    GRAPH <http://purl.org/stuff/guardians> {
+            ?s ?p ?o
+        }
+}
+```
 
-_Rough notes on activity are [blogged](https://hyperdata.it/blog/)_
-
-\*SPARQL endpoint I'm using is
+_Rough progress notes [blogged](https://hyperdata.it/blog/)_
 
 ### Description
 
-I reckon there's enormous potential in wiring (bits of) the Web and [Linked Data](https://en.wikipedia.org/wiki/Linked_data) to LLMs. (I've started a write-up of a [grand plan](),
+I reckon there's enormous potential in wiring the Web and [Linked Data](https://en.wikipedia.org/wiki/Linked_data) to LLMs.
 
 I found a wonderful insight into a promising way of doing that in this [Notebook](https://www.siwei.io/en/demos/graph-rag/), in which [Wey Gu](https://siwei.io/en/) demonstrates and compares augmenting an LLM with different data structures/query engines :
 
@@ -30,19 +33,9 @@ The notebook uses the [NebulaGraph](https://www.nebula-graph.io/) graph database
 
 A first step towards using Linked Data in a similar fashion would be to use graphs in a [SPARQL](https://en.wikipedia.org/wiki/SPARQL) store.
 
-**Old:**
-
-> A snag is that NebulaGraph uses a different paradigm for graphs than SPARQL. [NebulaGraph data model](https://docs.nebula-graph.io/3.6.0/1.introduction/2.data-model/), [RDF data model](https://www.w3.org/TR/rdf11-concepts/). NebulaGraph stores data in directed property graphs. A directed property graph has a set of vertices connected by directed edges. Both vertices and edges can have properties. (**TODO** : brief comparison).
-
-**New:**
-
-> A snag is that llama_index uses a different paradigm for graphs than SPARQL. It looks to be a 3-tuple of strings (with a schema?). (**TODO** : brief comparison)
-
-Below I'd written a [spike](http://www.extremeprogramming.org/rules/spike.html) plan - which kinda worked as intended, as about half-way through I got a much clearer idea of what I needed to do. So while it's still exploratory, I think the following should be about the right direction to take :
-
 ## Plan
 
-I should be able to use [sparqlwrapper](https://github.com/RDFLib/sparqlwrapper) to help with the queries.
+_This needs tweaking a bit - later_
 
 ### Milestone 1 : recreate Notebook with SPARQL store graph
 
@@ -50,14 +43,14 @@ I should be able to use [sparqlwrapper](https://github.com/RDFLib/sparqlwrapper)
 - [x] run Wey Gu's notebook locally
 - [x] have a look at NebulaGraph's model (have a play)
 - [ ] write `llama_index/graph_stores/sparql.py` **1.1**
-- [ ] connect & test
+- [ ] connect & test _(is connecting for update)_
 
 #### 1.1
 
-_progress notes in [devlog_00.md](docs/devlog_00.md)_
+_rough progress notes [blogged](https://hyperdata.it/blog/)_
 
 - [x] explore under `llama_index/graph_stores/`
-- [ ] make skeleton code for `sparql.py` (half-done already in `llama_index/graph_stores/simple.py`)
+- [x] make skeleton code for `sparql.py` (half-done already in `llama_index/graph_stores/simple.py`)
 - [ ] 10 write test for function
 - [ ] 20 implement function
 - [ ] 30 test, fix
@@ -80,8 +73,6 @@ I already had [Fuseki](https://jena.apache.org/documentation/fuseki2/) SPARQL st
 I installed [Jupyter](https://jupyter.org/) ages ago but had started using venv since then, that messed things up initially.
 
 I hadn't encountered NebularGraph before. That would have been straightforward to set up, if I'd remembered to RTFM rather than guessing...
-
-I'm jotting [rough notes](https://github.com/danja/nlp/tree/main/GraphRAG/docs) as I go along. I may get around to tidying those.
 
 #### After
 
@@ -111,15 +102,3 @@ https://gpt-index.readthedocs.io/en/latest/
 LangChain & LlamaIndex
 "LlamaIndex provides a simple interface between LLMs and external data sources, while LangChain provides a framework for building and managing LLM-powered applications."
 ([source](https://www.analyticsvidhya.com/blog/2023/06/revamp-data-analysis-openai-langchain-llamaindex-for-easy-extraction/))
-
-### Where was I?
-
-I'm dropping everything else to crack on with the above, below is just a reminder to myself about what was on my mind previously (and gratuitous self promotion).
-
-Since I became aware of LLMs I'm been scratching my head trying to think of how to tie these to the Web. Ok, the visible Web can be seen as mostly a very large document database. There is also a large amount of Linked Data available on it, ie. data with more structure that could potentially be tapped into.
-
-I (typically) made the mistake at looking at the problem from the direction of RDF : "I wouldn't start from here". Thinking vaguely aropund URLs inserted at training time as shared tokens between LLMs, something, something... So I was planning to play around with this using _small_ language models, that I could train myself (SLiMs?). This did motivate me to get back to my [Hyperdata Knowledge Management System](https://hyperdata.it/hkms/) project, which mostly involves processing a SPARQL store of semantically interlinked short documents, perfect fodder for a _SLiM_. But...
-
-While I still think this could have potential, there's still a fair bit of coding for me to get the relevant HKMS bits usable in its present form, plus plenty of research/building from scratch/experimentation on the language model side. Whereas Wey Gu's approach I believe offers a much more immediate way in.
-
-Elsewhere I also have a long duration project intermittently in progress that uses machine learning, but that's much more on the signals side of things ([ELFQuake](https://elfquake.wordpress.com/current-design/), aiming to predict _some_ earthquakes). There's some old personal/dev history over [here](https://github.com/danja/HKMS#the-data-model). [My homepage](https://hyperdata.it/).

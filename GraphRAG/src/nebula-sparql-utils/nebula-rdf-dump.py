@@ -187,7 +187,7 @@ def make_id():
     """
     Generate a random 4-character string using only numeric characters and capital letters.
     """
-    characters = string.ascii_uppercase + string.digits  # All available characters
+    characters = string.ascii_uppercase + string.digits  # available characters
     return ''.join(random.choice(characters) for _ in range(4))
 
 

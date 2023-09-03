@@ -75,6 +75,7 @@ logger.info('#### skip 2')
 llm = OpenAI(temperature=0, model="text-davinci-002")
 service_context = ServiceContext.from_defaults(llm=llm, chunk_size=512)
 
+
 # ----
 # from 4. Persist and Load from disk Llama Indexes(Optional)
 
@@ -97,29 +98,29 @@ kg_index = load_index_from_storage(
 # FileNotFoundError: [Errno 2] No such file or directory: '/home/danny/AI/nlp/GraphRAG/src/storage_graph/docstore.json'
 # copied files I found in a storage_vector/docstore.json into /home/danny/AI/nlp/GraphRAG/src/storage_graph/
 
-storage_context_vector = StorageContext.from_defaults(
-    persist_dir='./storage_vector')
-vector_index = load_index_from_storage(
-    service_context=service_context,
-    storage_context=storage_context_vector
-)
+# storage_context_vector = StorageContext.from_defaults(
+#    persist_dir='./storage_vector')
+# vector_index = load_index_from_storage(
+#    service_context=service_context,
+#    storage_context=storage_context_vector
+# )
 
 # FileNotFoundError: [Errno 2] No such file or directory: '/home/danny/AI/nlp/GraphRAG/src/storage_vector/docstore.json'
 # copied storage_graph/* to vector_graph
 
 # ----
 # from 5.1 text-to-NebulaGraphCypher
-logger.info('#### 5.1')
-nl2kg_query_engine = KnowledgeGraphQueryEngine(
-    storage_context=storage_context,
-    service_context=service_context,
-    llm=llm,
-    verbose=True,
-)
+# logger.info('#### 5.1')
+# nl2kg_query_engine = KnowledgeGraphQueryEngine(
+#    storage_context=storage_context,
+#    service_context=service_context,
+#    llm=llm,
+#    verbose=True,
+# )
 
 # ----
 # from 5.2 Graph RAG query engine
-logger.info('#### 5.2')
+# logger.info('#### 5.2')
 kg_rag_query_engine = kg_index.as_query_engine(
     include_text=False,
     retriever_mode="keyword",
@@ -127,16 +128,16 @@ kg_rag_query_engine = kg_index.as_query_engine(
 )
 
 # ----
-logger.info('#### 5.3')
+# logger.info('#### 5.3')
 # 5.3 Vector RAG query engine
-vector_rag_query_engine = vector_index.as_query_engine()
+# vector_rag_query_engine = vector_index.as_query_engine()
 
 # ----
 # 6.1 Text-to-GraphQuery
-logger.info('#### 6.1')
-response_nl2kg = nl2kg_query_engine.query("Tell me about Peter Quill.")
+# logger.info('#### 6.1')
+# response_nl2kg = nl2kg_query_engine.query("Tell me about Peter Quill.")
 # calls OpenAI
-display(Markdown(f"<b>{response_nl2kg}</b>"))
+# display(Markdown(f"<b>{response_nl2kg}</b>"))
 
 # Cypher:
 
