@@ -2,10 +2,10 @@
 
 #### Status : 2023-09-03
 
-- `sparql.py` is now updating store with data from LlamaIndex. Started a write-up of the [grand plan](goal.md) (not really so grand, but I reckon has potential)
+- `sparql.py` is now updating store with data from LlamaIndex.
 - [Initial RDF model](https://github.com/danja/nlp/tree/main/GraphRAG/src/examples/rdf-sample.ttl)
-- [Demo code](https://github.com/danja/nlp/blob/main/GraphRAG/src/nebula-sparql-utils/nebula-rdf-dump.py)
-- llamaindex/graph_stores/[sparql.py](https://github.com/danja/llama_index/blob/add-sparql/llama_index/graph_stores/sparql.py) _(my fork/branch)_
+- [Demo code](https://github.com/danja/nlp/blob/main/GraphRAG/src/graph-rag-sparql-minimal.py)
+- llamaindex/graph*stores/[sparql.py](https://github.com/danja/llama_index/blob/add-sparql/llama_index/graph_stores/sparql.py) *(my fork/branch)\_
 - [SPARQL endpoint](https://fuseki.hyperdata.it/#/dataset/llama_index_sparql-test/query)
 
 ```
@@ -16,7 +16,7 @@ SELECT ?s ?p ?o WHERE {
 }
 ```
 
-_Rough progress notes [blogged](https://hyperdata.it/blog/)_
+_Rough progress notes [blogged](https://hyperdata.it/blog/). I've also started a write-up of the [grand plan](goal.md) (not really so grand, but I reckon has potential)_
 
 ### Description
 
