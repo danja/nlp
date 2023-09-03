@@ -21,18 +21,25 @@ from IPython.display import Markdown, display
 from llama_index import load_index_from_storage
 import os
 import sys
-
-# is safe, revoked
-os.environ["OPENAI_API_KEY"] = "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"
+import openai
 
 
-logging.basicConfig(
-    stream=sys.stdout, level=logging.INFO
-)  # logging.DEBUG for more verbose output
+os.environ["OPENAI_API_KEY"] = ""
+
+openai.api_key = ""
+
+# logging.basicConfig(
+#    stream=sys.stdout, level=logging.INFO
+# )  # logging.DEBUG for more verbose output
+
+
+logging.basicConfig(filename='loggy.log', filemode='w', level=logging.INFO)
+logger = logging.getLogger(__name__)
+logger.info('graph-rag-nebulagraph-minimal HERE')
 
 # ----
 # from 1.2. Prepare for NebulaGraph as Graph Store
-
+logger.info('#### 1.2')
 
 os.environ['NEBULA_USER'] = "root"
 os.environ['NEBULA_PASSWORD'] = "nebula"  # default password
@@ -63,6 +70,7 @@ storage_context = StorageContext.from_defaults(graph_store=graph_store)
 # )
 
 # ----
+logger.info('#### skip 2')
 # this bit appeared earlier, service_context is asked for, hopefully not need below
 llm = OpenAI(temperature=0, model="text-davinci-002")
 service_context = ServiceContext.from_defaults(llm=llm, chunk_size=512)
@@ -71,6 +79,7 @@ service_context = ServiceContext.from_defaults(llm=llm, chunk_size=512)
 # from 4. Persist and Load from disk Llama Indexes(Optional)
 
 # vector_index.storage_context.persist(persist_dir='./storage_vector')
+logger.info('#### 4')
 
 storage_context = StorageContext.from_defaults(
     persist_dir='./storage_graph', graph_store=graph_store)
@@ -100,7 +109,7 @@ vector_index = load_index_from_storage(
 
 # ----
 # from 5.1 text-to-NebulaGraphCypher
-
+logger.info('#### 5.1')
 nl2kg_query_engine = KnowledgeGraphQueryEngine(
     storage_context=storage_context,
     service_context=service_context,
@@ -110,6 +119,7 @@ nl2kg_query_engine = KnowledgeGraphQueryEngine(
 
 # ----
 # from 5.2 Graph RAG query engine
+logger.info('#### 5.2')
 kg_rag_query_engine = kg_index.as_query_engine(
     include_text=False,
     retriever_mode="keyword",
@@ -117,16 +127,16 @@ kg_rag_query_engine = kg_index.as_query_engine(
 )
 
 # ----
+logger.info('#### 5.3')
 # 5.3 Vector RAG query engine
 vector_rag_query_engine = vector_index.as_query_engine()
 
 # ----
 # 6.1 Text-to-GraphQuery
-
-# response_nl2kg = nl2kg_query_engine.query("Tell me about Peter Quill.")
+logger.info('#### 6.1')
+response_nl2kg = nl2kg_query_engine.query("Tell me about Peter Quill.")
 # calls OpenAI
-
-# display(Markdown(f"<b>{response_nl2kg}</b>"))
+display(Markdown(f"<b>{response_nl2kg}</b>"))
 
 # Cypher:
 
@@ -152,7 +162,6 @@ vector_rag_query_engine = vector_index.as_query_engine()
 
 # ----
 # 6.2 Graph RAG
-
-# response_graph_rag = kg_rag_query_engine.query("Tell me about Peter Quill.")
-
-# display(Markdown(f"<b>{response_graph_rag}</b>"))
+logger.info('#### 6.2')
+response_graph_rag = kg_rag_query_engine.query("Tell me about Peter Quill.")
+display(Markdown(f"<b>{response_graph_rag}</b>"))
