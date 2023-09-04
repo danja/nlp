@@ -39,15 +39,17 @@ The standard protocols are built on HTTP (GET, POST, PUT etc). There are numerou
 
 ### Implementation
 
-A SPARQL store connector for
-
-LlamaIndex in itself should have immediate, but limited, utility.
-
-CONSTRUCT for transformations
-
-SPARQL store as Webcache
-
 ![Goal Block Diagram](images/goal.png)
+
+TODO but I'd better put a placeholder
+
+diagram needs tweaking.
+
+**The main purpose of the SPARQL store is to act as a cache**
+
+You ask about a URL, it may already have data in the store so doesn't need to go visiting. If the representation is a HTML doc online, then a tweak may be desirable (see below).
+
+There are plenty of SPARQL endpoints available, but the data available can be of arbitrary shapes. The [CONSTRUCT](https://www.w3.org/TR/2013/REC-sparql11-query-20130321/#construct) form of SPARQL queries should be very useful here. It can, pretty much arbitrarily, declaratively transform the shape of _this_ shape of graph data into _that_ shape of graph data. Recognition of relevant text data (literals) is totally doable, but as an intermediate step, for say Wikidata endpoints or whatever, a CONSTRUCT can be hardcoded to make the necessary flip.
 
 **TODO** diagram of node-arc-node link between two pages
 
@@ -66,3 +68,5 @@ prefix x: <http://example.org/whatever>
 Going one step further, a similarity measure could put a numeric value on how strongly related A and B are, A and C are, etc. There are plenty of low-cost algorithms that might be suitable. If processor cycles weren't an issue, an LLM could be used to discover _how_ A and B are related.
 
 The [HTTP definition of resources and representations](https://www.rfc-editor.org/rfc/rfc9110.html#resources) is quite open ended, it effectively says a resource is anything that can be identified (with a URI) and a representation is some manifestation of the thing identified that can be transferred over HTTP. HTML documents are typical on the Web, but also images, audio files etc. follow the same pattern. The same crawler mechanism as above could be used to initially discover such media and then machine vision etc. used to determine relationships between them and other resources.
+
+sites have small models encapsulating the information contained on their site, easily pluggable into anyone's local system by the addition of the link
