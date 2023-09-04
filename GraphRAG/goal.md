@@ -41,7 +41,7 @@ The standard protocols are built on HTTP (GET, POST, PUT etc). There are numerou
 
 ![Goal Block Diagram](images/goal.png)
 
-TODO but I'd better put a placeholder
+TODO write this properly, I'd better put a placeholder
 
 diagram needs tweaking.
 
