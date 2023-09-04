@@ -47,7 +47,7 @@ diagram needs tweaking.
 
 **The main purpose of the SPARQL store is to act as a cache**
 
-You ask about a URL, it may already have data in the store so doesn't need to go visiting. If the representation is a HTML doc online, then a tweak may be desirable (see below).
+You ask about a URL, it may already have data in the store so doesn't need to go visiting. If the representation is a HTML doc online, then a tweak may be desirable (see below). But it can still be near-real-time.
 
 There are plenty of SPARQL endpoints available, but the data available can be of arbitrary shapes. The [CONSTRUCT](https://www.w3.org/TR/2013/REC-sparql11-query-20130321/#construct) form of SPARQL queries should be very useful here. It can, pretty much arbitrarily, declaratively transform the shape of _this_ shape of graph data into _that_ shape of graph data. Recognition of relevant text data (literals) is totally doable, but as an intermediate step, for say Wikidata endpoints or whatever, a CONSTRUCT can be hardcoded to make the necessary flip.
 
