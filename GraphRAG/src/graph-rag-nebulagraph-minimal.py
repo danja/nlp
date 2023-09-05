@@ -3,6 +3,7 @@
 # export PYTHONPATH=$PYTHONPATH:/home/danny/AI/LIBS-under-dev/llama_index
 
 # from 1.1 Prepare for LLM & Azure
+from llama_index import download_loader
 from llama_index.query_engine import KnowledgeGraphQueryEngine
 import os
 import logging
@@ -33,7 +34,7 @@ openai.api_key = ""
 # )  # logging.DEBUG for more verbose output
 
 
-logging.basicConfig(filename='loggy.log', filemode='w', level=logging.INFO)
+logging.basicConfig(filename='loggy.log', filemode='w', level=logging.DEBUG)
 logger = logging.getLogger(__name__)
 logger.info('graph-rag-nebulagraph-minimal HERE')
 
@@ -57,8 +58,10 @@ graph_store = NebulaGraphStore(
     rel_prop_names=rel_prop_names,
     tags=tags,
 )
+print('A')
 storage_context = StorageContext.from_defaults(graph_store=graph_store)
 
+print('B')
 # ----
 # skip 2...
 # ----
@@ -70,18 +73,41 @@ storage_context = StorageContext.from_defaults(graph_store=graph_store)
 # )
 
 # ----
-logger.info('#### skip 2')
+
 # this bit appeared earlier, service_context is asked for, hopefully not need below
 llm = OpenAI(temperature=0, model="text-davinci-002")
 service_context = ServiceContext.from_defaults(llm=llm, chunk_size=512)
 
+logger.info('#### 2')
 
+
+WikipediaReader = download_loader("WikipediaReader")
+
+loader = WikipediaReader()
+
+documents = loader.load_data(
+    pages=['Guardians of the Galaxy Vol. 3'], auto_suggest=False)
+print('C')
+
+kg_index = KnowledgeGraphIndex.from_documents(
+    documents,
+    storage_context=storage_context,
+    service_context=service_context,
+    max_triplets_per_chunk=10,
+    space_name=space_name,
+    edge_types=edge_types,
+    rel_prop_names=rel_prop_names,
+    tags=tags,
+    include_embeddings=True,
+)
+print('CA')
 # ----
 # from 4. Persist and Load from disk Llama Indexes(Optional)
 
 # vector_index.storage_context.persist(persist_dir='./storage_vector')
 logger.info('#### 4')
 
+"""
 storage_context = StorageContext.from_defaults(
     persist_dir='./storage_graph', graph_store=graph_store)
 kg_index = load_index_from_storage(
@@ -94,7 +120,9 @@ kg_index = load_index_from_storage(
     tags=tags,
     include_embeddings=True,
 )
+"""
 
+print('D')
 # FileNotFoundError: [Errno 2] No such file or directory: '/home/danny/AI/nlp/GraphRAG/src/storage_graph/docstore.json'
 # copied files I found in a storage_vector/docstore.json into /home/danny/AI/nlp/GraphRAG/src/storage_graph/
 
@@ -127,6 +155,7 @@ kg_rag_query_engine = kg_index.as_query_engine(
     response_mode="tree_summarize",
 )
 
+print('E')
 # ----
 # logger.info('#### 5.3')
 # 5.3 Vector RAG query engine
@@ -165,4 +194,11 @@ kg_rag_query_engine = kg_index.as_query_engine(
 # 6.2 Graph RAG
 logger.info('#### 6.2')
 response_graph_rag = kg_rag_query_engine.query("Tell me about Peter Quill.")
-display(Markdown(f"<b>{response_graph_rag}</b>"))
+
+# print(Markdown(f"<b>{response_graph_rag}</b>"))
+# logger.info(Markdown(f"<b>{response_graph_rag}</b>"))
+
+print(f"{response_graph_rag}")
+logger.info(f"{response_graph_rag}")
+
+print('F')
