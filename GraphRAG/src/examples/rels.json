@@ -1,0 +1,34 @@
+{'head': {'vars': ['rel1', 'obj1', 'rel2', 'obj2'
+        ]
+    }, 'results': {'bindings': [
+            {'rel1': {'type': 'literal', 'value': 'was abducted from Earth'
+                }, 'obj1': {'type': 'literal', 'value': 'as a child'
+                }
+            },
+            {'rel1': {'type': 'literal', 'value': 'is leader of'}, 
+                        'obj1': {'type': 'literal', 'value': 'Guardians of the Galaxy'
+                }, 'rel2': {'type': 'literal', 'value': 'are attacked by'
+                }, 'obj2': {'type': 'literal', 'value': 'Adam'
+                }
+            },
+            {'rel1': {'type': 'literal', 'value': 'is leader of'
+                }, 'obj1': {'type': 'literal', 'value': 'Guardians of the Galaxy'
+                }, 'rel2': {'type': 'literal', 'value': 'cannot heal'
+                }, 'obj2': {'type': 'literal', 'value': 'Rocket'
+                }
+            },
+            {'rel1': {'type': 'literal', 'value': 'is half-human'
+                }, 'obj1': {'type': 'literal', 'value': 'half-Celestial'
+                }
+            },
+            {'rel1': {'type': 'literal', 'value': 'would return to the MCU'
+                }, 'obj1': {'type': 'literal', 'value': 'May 2021'
+                }
+            },
+            {'rel1': {'type': 'literal', 'value': 'was raised by'
+                }, 'obj1': {'type': 'literal', 'value': 'a group of alien thieves and smugglers'
+                }
+            }
+        ]
+    }
+}

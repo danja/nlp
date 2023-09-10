@@ -1,22 +1,18 @@
-
-#
 # Preparation :
 #
 # * pip install sparqlwrapper
 # * Make a SPARQL endpoint available, add URL below
-# * Add OpenAI API key below
+# * (make sure endpoint supports UPDATE, /llama_index_sparql-test/)
+# * For clean start DROP GRAPH <http://purl.org/stuff/guardians>
 #
+# * Add OpenAI API key below
 
 from llama_index import download_loader
-from llama_index.query_engine import KnowledgeGraphQueryEngine
 import os
 import logging
-import sys
 from llama_index import (
-    VectorStoreIndex,
     KnowledgeGraphIndex,
     ServiceContext,
-    SimpleDirectoryReader,
 )
 
 from llama_index.storage.storage_context import StorageContext
@@ -25,24 +21,24 @@ from llama_index.llms import OpenAI
 from IPython.display import Markdown, display
 from llama_index import load_index_from_storage
 import os
-import sys
 import openai
 
-
-os.environ["OPENAI_API_KEY"] = ""
-
-openai.api_key = ""
-
-# logging.basicConfig(
-#    stream=sys.stdout, level=logging.INFO
-# )  # logging.DEBUG for more verbose output
-
-logging.basicConfig(filename='loggy.log', filemode='w', level=logging.INFO)
+logging.basicConfig(filename='loggy.log', filemode='w', level=logging.DEBUG)
 logger = logging.getLogger(__name__)
-logger.info('graph-rag-sparql-minimal HERE')
 
-####
+############
+# LLM Config
+############
+os.environ["OPENAI_API_KEY"] = "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"
+
+openai.api_key = "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"
+
+llm = OpenAI(temperature=0, model="text-davinci-002")
+service_context = ServiceContext.from_defaults(llm=llm, chunk_size=512)
+
+###############
 # SPARQL Config
+###############
 ENDPOINT = 'https://fuseki.hyperdata.it/llama_index_sparql-test/'
 GRAPH = 'http://purl.org/stuff/guardians'
 BASE_URI = 'http://purl.org/stuff/data'
@@ -54,14 +50,9 @@ graph_store = SparqlGraphStore(
 )
 storage_context = StorageContext.from_defaults(graph_store=graph_store)
 
-llm = OpenAI(temperature=0, model="text-davinci-002")
-service_context = ServiceContext.from_defaults(llm=llm, chunk_size=512)
-
 
 WikipediaReader = download_loader("WikipediaReader")
-
 loader = WikipediaReader()
-
 documents = loader.load_data(
     pages=['Guardians of the Galaxy Vol. 3'], auto_suggest=False)
 
@@ -70,59 +61,46 @@ kg_index = KnowledgeGraphIndex.from_documents(
     storage_context=storage_context,
     service_context=service_context,
     max_triplets_per_chunk=10,
-    # space_name=space_name,
-    # edge_types=edge_types,
-    # rel_prop_names=rel_prop_names,
-    # tags=tags,
     sparql_endpoint=ENDPOINT,
     sparql_graph=GRAPH,
     sparql_base_uri=BASE_URI,
     include_embeddings=True,
 )
 
-# ----
-# from 4. Persist and Load from disk Llama Indexes(Optional)
 
-# vector_index.storage_context.persist(persist_dir='./storage_vector')
-logger.info('#### 4')
+print('*** Persist to/Load from local disk ***')
 
-# storage_context = StorageContext.from_defaults(
-#    persist_dir='./storage_graph', graph_store=graph_store)
-# kg_index = load_index_from_storage(
-#    storage_context=storage_context,
-#    service_context=service_context,
-#    include_embeddings=True,
-#    sparql_endpoint=ENDPOINT,
-#    sparql_graph=GRAPH,
-#    sparql_base_uri=BASE_URI,
-# )
-
-# exit(0)
+"""
+storage_context = StorageContext.from_defaults(
+    persist_dir='./storage_graph', graph_store=graph_store)
+kg_index = load_index_from_storage(
+    storage_context=storage_context,
+    service_context=service_context,
+    include_embeddings=True,
+    sparql_endpoint=ENDPOINT,  # shouldn't be needed
+    sparql_graph=GRAPH,
+    sparql_base_uri=BASE_URI,
+)
+"""
 
 # FileNotFoundError: [Errno 2] No such file or directory: '/home/danny/AI/nlp/GraphRAG/src/storage_graph/docstore.json'
 # copied files I found in a storage_vector/docstore.json into /home/danny/AI/nlp/GraphRAG/src/storage_graph/
 
-storage_context_vector = StorageContext.from_defaults(
-    persist_dir='./storage_vector')
-vector_index = load_index_from_storage(
-    service_context=service_context,
-    storage_context=storage_context_vector
-)
-
-# FileNotFoundError: [Errno 2] No such file or directory: '/home/danny/AI/nlp/GraphRAG/src/storage_vector/docstore.json'
-# copied storage_graph/* to vector_graph
-
-# ----
-# from 5.2 Graph RAG query engine
-logger.info('#### 5.2')
+print('*** Prepare Graph RAG query engine***')
 kg_rag_query_engine = kg_index.as_query_engine(
     include_text=False,
     retriever_mode="keyword",
+    # RecursionError: maximum recursion depth exceeded in comparison
     response_mode="tree_summarize",
 )
 
-# 6.2 Graph RAG
-logger.info('#### 6.2')
-response_graph_rag = kg_rag_query_engine.query("Tell me about Peter Quill.")
-print({response_graph_rag})
-display(Markdown(f"<b>{response_graph_rag}</b>"))
+print('*** Do query ***')
+# response_graph_rag = kg_rag_query_engine.query(
+#    "What do cats eat?")
+# print(str(response_graph_rag))
+
+response_graph_rag = kg_rag_query_engine.query(
+    "Who is Quill?")
+print(str(response_graph_rag))
+
+# display(Markdown(f"<b>{response_graph_rag}</b>"))
