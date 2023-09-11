@@ -68,7 +68,7 @@ kg_index = KnowledgeGraphIndex.from_documents(
 )
 
 
-print('*** Persist to/Load from local disk ***')
+# print('*** Persist to/Load from local disk ***')
 
 """
 storage_context = StorageContext.from_defaults(
@@ -86,7 +86,7 @@ kg_index = load_index_from_storage(
 # FileNotFoundError: [Errno 2] No such file or directory: '/home/danny/AI/nlp/GraphRAG/src/storage_graph/docstore.json'
 # copied files I found in a storage_vector/docstore.json into /home/danny/AI/nlp/GraphRAG/src/storage_graph/
 
-print('*** Prepare Graph RAG query engine***')
+# print('*** Prepare Graph RAG query engine***')
 kg_rag_query_engine = kg_index.as_query_engine(
     include_text=False,
     retriever_mode="keyword",
@@ -94,13 +94,13 @@ kg_rag_query_engine = kg_index.as_query_engine(
     response_mode="tree_summarize",
 )
 
-print('*** Do query ***')
+# print('*** Do query ***')
 # response_graph_rag = kg_rag_query_engine.query(
 #    "What do cats eat?")
 # print(str(response_graph_rag))
 
 response_graph_rag = kg_rag_query_engine.query(
     "Who is Quill?")
-print(str(response_graph_rag))
+# print(str(response_graph_rag))
 
 # display(Markdown(f"<b>{response_graph_rag}</b>"))
