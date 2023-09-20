@@ -1,0 +1,18 @@
+# RDF/Turtle
+
+@base <http://purl.org/stuff/data/> .
+@prefix er: <http://purl.org/stuff/er> .
+
+<T123> a er:Triplet ;
+        er:subject <E123> ;
+        er:property <R456> ;
+        er:object <E567> .
+
+<E123> a er:Entity ;
+        er:value "the cat" .
+
+<R456> a er:Relationship ;
+        er:value "sat on" .
+
+<E567> a er:Entity ;
+        er:value "the mat" .
