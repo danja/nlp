@@ -1,0 +1,84 @@
+@prefix bibo:   <http://purl.org/ontology/bibo/> .
+@prefix dc:     <http://purl.org/dc/terms/> .
+@prefix dcat:   <http://www.w3.org/ns/dcat#> .
+@prefix dctype: <http://purl.org/dc/dcmitype/> .
+@prefix foaf:   <http://xmlns.com/foaf/0.1/> .
+@prefix owl:    <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix sem:    <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix sioc:   <http://rdfs.org/sioc/ns#> .
+@prefix skos:   <http://www.w3.org/2004/02/skos/core#> .
+@prefix stuff:  <http://purl.org/stuff#> .
+@prefix vann:   <http://purl.org/vocab/vann/> .
+@prefix void:   <http://rdfs.org/ns/void#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+
+<http://purl.org/stuff/er/value>
+        rdf:type          rdf:Property ;
+        rdfs:comment      "The value of a component of a Triplet"@en ;
+        rdfs:isDefinedBy  <http://purl.org/stuff/er/> ;
+        rdfs:label        "value"@en ;
+        skos:definition   "The value of a component of a Triplet"@en ;
+        skos:prefLabel    "value"@en .
+
+<http://purl.org/stuff/er/object>
+        rdf:type          rdf:Property ;
+        rdfs:comment      "Indicates the object of a Triplet."@en ;
+        rdfs:domain       <http://purl.org/stuff/er/Triplet> ;
+        rdfs:isDefinedBy  <http://purl.org/stuff/er/> ;
+        rdfs:label        "object"@en ;
+        rdfs:range        <http://purl.org/stuff/er/Entity> ;
+        skos:definition   "Indicates the object of a Triplet."@en ;
+        skos:prefLabel    "object"@en .
+
+<http://purl.org/stuff/er/Relationship>
+        rdf:type          rdfs:Class ;
+        rdfs:comment      "The predicate of a Triplet."@en ;
+        rdfs:isDefinedBy  <http://purl.org/stuff/er/> ;
+        rdfs:label        "Relationship"@en ;
+        skos:definition   "The predicate of a Triplet."@en ;
+        skos:prefLabel    "Relationship"@en .
+
+<http://purl.org/stuff/er/Triplet>
+        rdf:type          rdfs:Class ;
+        rdfs:comment      "A set of three resources which may express a statement of the form subject-predicate-object.   "@en ;
+        rdfs:isDefinedBy  <http://purl.org/stuff/er/> ;
+        rdfs:label        "Triplet"@en ;
+        skos:definition   "A set of three resources which may express a statement of the form subject-predicate-object.   "@en ;
+        skos:prefLabel    "Triplet"@en .
+
+<http://purl.org/stuff/er/>
+        rdf:type          owl:Ontology ;
+        rdfs:label        "Entity-Relationship Schema" ;
+        stuff:prefPrefix  "er" ;
+        skos:prefLabel    "Entity-Relationship Schema" .
+
+<http://purl.org/stuff/er/Entity>
+        rdf:type          rdfs:Class ;
+        rdfs:comment      "The subject or object node of a Triplet. "@en ;
+        rdfs:isDefinedBy  <http://purl.org/stuff/er/> ;
+        rdfs:label        "Entity"@en ;
+        skos:definition   "The subject or object node of a Triplet. "@en ;
+        skos:prefLabel    "Entity"@en .
+
+<http://purl.org/stuff/er/subject>
+        rdf:type          rdf:Property ;
+        rdfs:comment      "Indicates the subject of a Triplet."@en ;
+        rdfs:domain       <http://purl.org/stuff/er/Triplet> ;
+        rdfs:isDefinedBy  <http://purl.org/stuff/er/> ;
+        rdfs:label        "subject"@en ;
+        rdfs:range        <http://purl.org/stuff/er/Entity> ;
+        skos:definition   "Indicates the subject of a Triplet."@en ;
+        skos:prefLabel    "subject"@en .
+
+<http://purl.org/stuff/er/property>
+        rdf:type          rdf:Property ;
+        rdfs:comment      "Indicates the predicate of a Triplet."@en ;
+        rdfs:domain       <http://purl.org/stuff/er/Triplet> ;
+        rdfs:isDefinedBy  <http://purl.org/stuff/er/> ;
+        rdfs:label        "property"@en ;
+        rdfs:range        <http://purl.org/stuff/er/Relationship> ;
+        skos:definition   "Indicates the predicate of a Triplet."@en ;
+        skos:prefLabel    "property"@en .

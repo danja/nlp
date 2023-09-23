@@ -1,7 +1,7 @@
 # RDF/Turtle
 
 @base <http://purl.org/stuff/data/> .
-@prefix er: <http://purl.org/stuff/er> .
+@prefix er: <http://purl.org/stuff/er/> .
 
 <T123> a er:Triplet ;
         er:subject <E123> ;
